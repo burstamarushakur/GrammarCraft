@@ -1,0 +1,892 @@
+{
+  "year": 6,
+  "levelLabel": "Step by step",
+  "missions": [
+    {
+      "id": "market",
+      "title": "Village Market",
+      "topic": "am · is · are · have · has",
+      "type": "rune",
+      "color": "#ffbd64",
+      "icon": "shop",
+      "x": 18,
+      "y": 72,
+      "guide": "Tap the correct word block. Help the villagers open their shops!",
+      "taskLabel": "Shop opened",
+      "tasks": [
+        {
+          "prompt": "I ___ happy.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "am",
+          "full": "I am happy.",
+          "hint": "Use am with I. Use is with he, she or it. Use are with you, we or they.",
+          "explain": "I am happy. Use am after I.",
+          "scene": "boy",
+          "dskpTopic": "Recycled Years 1–5 be and have foundations; Year 6 syllabus sections 9–10 permit earlier grammar review",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        },
+        {
+          "prompt": "She ___ a teacher.",
+          "options": [
+            "are",
+            "is",
+            "am"
+          ],
+          "answer": "is",
+          "full": "She is a teacher.",
+          "hint": "She is one person. Use is with she.",
+          "explain": "She is a teacher. Use is after she.",
+          "scene": "girl",
+          "dskpTopic": "Recycled Years 1–5 be and have foundations; Year 6 syllabus sections 9–10 permit earlier grammar review",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        },
+        {
+          "prompt": "They ___ my friends.",
+          "options": [
+            "is",
+            "am",
+            "are"
+          ],
+          "answer": "are",
+          "full": "They are my friends.",
+          "hint": "Use are with they.",
+          "explain": "They are my friends. Use are after they.",
+          "scene": "friends",
+          "dskpTopic": "Recycled Years 1–5 be and have foundations; Year 6 syllabus sections 9–10 permit earlier grammar review",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        },
+        {
+          "prompt": "He ___ a red bag.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "answer": "has",
+          "full": "He has a red bag.",
+          "hint": "Use has with he, she or it. Use have with I, you, we or they.",
+          "explain": "He has a red bag. Use has after he.",
+          "scene": "boy",
+          "dskpTopic": "Recycled Years 1–5 be and have foundations; Year 6 syllabus sections 9–10 permit earlier grammar review",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        },
+        {
+          "prompt": "We ___ two books.",
+          "options": [
+            "has",
+            "have"
+          ],
+          "answer": "have",
+          "full": "We have two books.",
+          "hint": "Use have with we.",
+          "explain": "We have two books. Use have after we.",
+          "scene": "friends",
+          "dskpTopic": "Recycled Years 1–5 be and have foundations; Year 6 syllabus sections 9–10 permit earlier grammar review",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        }
+      ],
+      "subtitle": "Help the village"
+    },
+    {
+      "id": "bridge",
+      "title": "Pronoun Bridge",
+      "topic": "he · she · they · his · her",
+      "type": "bridge",
+      "color": "#80d4ea",
+      "icon": "bridge",
+      "x": 38,
+      "y": 56,
+      "guide": "Tap the correct pronoun block to build the bridge. Help your friends cross!",
+      "taskLabel": "Bridge block added",
+      "tasks": [
+        {
+          "prompt": "Ali is a boy. ___ is kind.",
+          "options": [
+            "He",
+            "She",
+            "They"
+          ],
+          "answer": "He",
+          "full": "Ali is a boy. He is kind.",
+          "hint": "Use he for one boy.",
+          "explain": "He takes the place of Ali, a boy.",
+          "scene": "boy",
+          "dskpTopic": "Recycled subject pronouns and possessive adjectives; Year 6 syllabus sections 9–10 and Appendix 1",
+          "learningStandard": "4.2.1 / 4.2.5 (preparatory language support)"
+        },
+        {
+          "prompt": "Sara is a girl. ___ is reading.",
+          "options": [
+            "He",
+            "She",
+            "They"
+          ],
+          "answer": "She",
+          "full": "Sara is a girl. She is reading.",
+          "hint": "Use she for one girl.",
+          "explain": "She takes the place of Sara, a girl.",
+          "scene": "girl",
+          "dskpTopic": "Recycled subject pronouns and possessive adjectives; Year 6 syllabus sections 9–10 and Appendix 1",
+          "learningStandard": "4.2.1 / 4.2.5 (preparatory language support)"
+        },
+        {
+          "prompt": "Ali and Sara are friends. ___ play together.",
+          "options": [
+            "He",
+            "She",
+            "They"
+          ],
+          "answer": "They",
+          "full": "Ali and Sara are friends. They play together.",
+          "hint": "Use they for two or more people.",
+          "explain": "Use They for Ali and Sara. There are two people.",
+          "scene": "friends",
+          "dskpTopic": "Recycled subject pronouns and possessive adjectives; Year 6 syllabus sections 9–10 and Appendix 1",
+          "learningStandard": "4.2.1 / 4.2.5 (preparatory language support)"
+        },
+        {
+          "prompt": "This bag belongs to Ali. It is ___ bag.",
+          "options": [
+            "his",
+            "her",
+            "their"
+          ],
+          "answer": "his",
+          "full": "This bag belongs to Ali. It is his bag.",
+          "hint": "The bag belongs to Ali. Use his before bag.",
+          "explain": "His bag means the bag belongs to Ali.",
+          "scene": "boy",
+          "dskpTopic": "Recycled subject pronouns and possessive adjectives; Year 6 syllabus sections 9–10 and Appendix 1",
+          "learningStandard": "4.2.1 / 4.2.5 (preparatory language support)"
+        },
+        {
+          "prompt": "This book belongs to Sara. It is ___ book.",
+          "options": [
+            "his",
+            "her",
+            "their"
+          ],
+          "answer": "her",
+          "full": "This book belongs to Sara. It is her book.",
+          "hint": "The book belongs to Sara. Use her before book.",
+          "explain": "Her book means the book belongs to Sara.",
+          "scene": "girl",
+          "dskpTopic": "Recycled subject pronouns and possessive adjectives; Year 6 syllabus sections 9–10 and Appendix 1",
+          "learningStandard": "4.2.1 / 4.2.5 (preparatory language support)"
+        }
+      ],
+      "subtitle": "Help your friends cross"
+    },
+    {
+      "id": "train",
+      "title": "Word Train",
+      "topic": "Simple Present",
+      "type": "train",
+      "color": "#a8d884",
+      "icon": "train",
+      "x": 17,
+      "y": 34,
+      "guide": "Tap the word carriages in order. Build a sentence to move the train!",
+      "taskLabel": "Train journey completed",
+      "tasks": [
+        {
+          "prompt": "Talk about playing football every day. Start with I.",
+          "words": [
+            "I",
+            "play",
+            "football",
+            "every",
+            "day."
+          ],
+          "answer": "I play football every day.",
+          "full": "I play football every day.",
+          "hint": "Start with I. Put play next. Finish with every day.",
+          "explain": "I play football every day. Every day tells us this is a routine.",
+          "scene": "ball",
+          "dskpTopic": "Recycled present simple for routines; Year 4 routine-versus-current-action function in Year 6 Appendix 1",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        },
+        {
+          "prompt": "Talk about her trip to school. Start with She.",
+          "words": [
+            "She",
+            "walks",
+            "to",
+            "school."
+          ],
+          "answer": "She walks to school.",
+          "full": "She walks to school.",
+          "hint": "Start with She. For a routine, use walks after she.",
+          "explain": "She walks to school. Add s to walk after she.",
+          "scene": "girl",
+          "dskpTopic": "Recycled present simple for routines; Year 4 routine-versus-current-action function in Year 6 Appendix 1",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        },
+        {
+          "prompt": "Talk about eating rice every day. Start with They.",
+          "words": [
+            "They",
+            "eat",
+            "rice",
+            "every",
+            "day."
+          ],
+          "answer": "They eat rice every day.",
+          "full": "They eat rice every day.",
+          "hint": "Start with They. Put eat next. Finish with every day.",
+          "explain": "They eat rice every day. Use eat after they.",
+          "scene": "friends",
+          "dskpTopic": "Recycled present simple for routines; Year 4 routine-versus-current-action function in Year 6 Appendix 1",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        },
+        {
+          "prompt": "Talk about the fruit he likes. Start with He.",
+          "words": [
+            "He",
+            "likes",
+            "apples."
+          ],
+          "answer": "He likes apples.",
+          "full": "He likes apples.",
+          "hint": "Start with He. Put likes next.",
+          "explain": "He likes apples. Add s to like after he.",
+          "scene": "boy",
+          "dskpTopic": "Recycled present simple for routines; Year 4 routine-versus-current-action function in Year 6 Appendix 1",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        },
+        {
+          "prompt": "Talk about going to school on Mondays. Start with We.",
+          "words": [
+            "We",
+            "go",
+            "to",
+            "school",
+            "on",
+            "Mondays."
+          ],
+          "answer": "We go to school on Mondays.",
+          "full": "We go to school on Mondays.",
+          "hint": "Start with We go. Finish with on Mondays.",
+          "explain": "We go to school on Mondays. Use go after we.",
+          "scene": "friends",
+          "dskpTopic": "Recycled present simple for routines; Year 4 routine-versus-current-action function in Year 6 Appendix 1",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        }
+      ],
+      "subtitle": "Build your daily routine"
+    },
+    {
+      "id": "river",
+      "title": "Action River",
+      "topic": "Present Continuous",
+      "type": "build",
+      "color": "#69c8e8",
+      "icon": "boat",
+      "x": 56,
+      "y": 74,
+      "guide": "Put the word blocks in order to build a boat. These actions are happening now!",
+      "taskLabel": "Boat launched",
+      "tasks": [
+        {
+          "prompt": "The boy is running now. Build the sentence. Start with He.",
+          "words": [
+            "He",
+            "is",
+            "running."
+          ],
+          "answer": "He is running.",
+          "full": "He is running.",
+          "hint": "Start with He is. Then add running.",
+          "explain": "He is running. Use is + running for an action happening now.",
+          "scene": "boy",
+          "dskpTopic": "Recycled present continuous; Year 4 routine-versus-current-action function in Year 6 Appendix 1",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        },
+        {
+          "prompt": "The girl is reading now. Build the sentence. Start with She.",
+          "words": [
+            "She",
+            "is",
+            "reading",
+            "a",
+            "book."
+          ],
+          "answer": "She is reading a book.",
+          "full": "She is reading a book.",
+          "hint": "Start with She is. Put reading next.",
+          "explain": "She is reading a book. Use is + reading after she.",
+          "scene": "girl",
+          "dskpTopic": "Recycled present continuous; Year 4 routine-versus-current-action function in Year 6 Appendix 1",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        },
+        {
+          "prompt": "Your friends are playing now. Build the sentence. Start with They.",
+          "words": [
+            "They",
+            "are",
+            "playing",
+            "football."
+          ],
+          "answer": "They are playing football.",
+          "full": "They are playing football.",
+          "hint": "Start with They are. Put playing next.",
+          "explain": "They are playing football. Use are + playing after they.",
+          "scene": "ball",
+          "dskpTopic": "Recycled present continuous; Year 4 routine-versus-current-action function in Year 6 Appendix 1",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        },
+        {
+          "prompt": "You are eating an apple now. Build the sentence. Start with I.",
+          "words": [
+            "I",
+            "am",
+            "eating",
+            "an",
+            "apple."
+          ],
+          "answer": "I am eating an apple.",
+          "full": "I am eating an apple.",
+          "hint": "Start with I am. Put eating next.",
+          "explain": "I am eating an apple. Use am + eating after I.",
+          "scene": "apple",
+          "dskpTopic": "Recycled present continuous; Year 4 routine-versus-current-action function in Year 6 Appendix 1",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        },
+        {
+          "prompt": "You and your friends are watching TV now. Start with We.",
+          "words": [
+            "We",
+            "are",
+            "watching",
+            "TV."
+          ],
+          "answer": "We are watching TV.",
+          "full": "We are watching TV.",
+          "hint": "Start with We are. Put watching next.",
+          "explain": "We are watching TV. Use are + watching after we.",
+          "scene": "friends",
+          "dskpTopic": "Recycled present continuous; Year 4 routine-versus-current-action function in Year 6 Appendix 1",
+          "learningStandard": "4.2.1 (preparatory language support)"
+        }
+      ],
+      "subtitle": "Build actions happening now"
+    },
+    {
+      "id": "mine",
+      "title": "Yesterday Mine",
+      "topic": "Simple Past",
+      "type": "mine",
+      "color": "#acbcdf",
+      "icon": "pickaxe",
+      "x": 68,
+      "y": 51,
+      "guide": "Mine the correct past-tense word block. Each correct answer gives you a gem!",
+      "taskLabel": "Gem found",
+      "tasks": [
+        {
+          "prompt": "Yesterday, I ___ football.",
+          "options": [
+            "play",
+            "played",
+            "playing"
+          ],
+          "answer": "played",
+          "full": "Yesterday, I played football.",
+          "hint": "Yesterday is in the past. Play becomes played.",
+          "explain": "Played is the past form of play.",
+          "scene": "ball",
+          "dskpTopic": "Recycled past simple, regular and irregular; Year 4 grammar in Year 6 Appendix 1",
+          "learningStandard": "4.2.3 (preparatory language support)"
+        },
+        {
+          "prompt": "Last night, she ___ TV.",
+          "options": [
+            "watch",
+            "watches",
+            "watched"
+          ],
+          "answer": "watched",
+          "full": "Last night, she watched TV.",
+          "hint": "Last night is in the past. Watch becomes watched.",
+          "explain": "Watched tells us the action happened last night.",
+          "scene": "girl",
+          "dskpTopic": "Recycled past simple, regular and irregular; Year 4 grammar in Year 6 Appendix 1",
+          "learningStandard": "4.2.3 (preparatory language support)"
+        },
+        {
+          "prompt": "Yesterday, he ___ to school.",
+          "options": [
+            "go",
+            "went",
+            "goes"
+          ],
+          "answer": "went",
+          "full": "Yesterday, he went to school.",
+          "hint": "Yesterday is in the past. Go becomes went.",
+          "explain": "Went is the past form of go.",
+          "scene": "boy",
+          "dskpTopic": "Recycled past simple, regular and irregular; Year 4 grammar in Year 6 Appendix 1",
+          "learningStandard": "4.2.3 (preparatory language support)"
+        },
+        {
+          "prompt": "Yesterday, we ___ rice.",
+          "options": [
+            "eat",
+            "ate",
+            "eating"
+          ],
+          "answer": "ate",
+          "full": "Yesterday, we ate rice.",
+          "hint": "Yesterday is in the past. Eat becomes ate.",
+          "explain": "Ate is the past form of eat.",
+          "scene": "friends",
+          "dskpTopic": "Recycled past simple, regular and irregular; Year 4 grammar in Year 6 Appendix 1",
+          "learningStandard": "4.2.3 (preparatory language support)"
+        },
+        {
+          "prompt": "Last Sunday, they ___ their grandma.",
+          "options": [
+            "visit",
+            "visited",
+            "visits"
+          ],
+          "answer": "visited",
+          "full": "Last Sunday, they visited their grandma.",
+          "hint": "Last Sunday is in the past. Add ed to visit.",
+          "explain": "Visited tells us the visit happened in the past.",
+          "scene": "friends",
+          "dskpTopic": "Recycled past simple, regular and irregular; Year 4 grammar in Year 6 Appendix 1",
+          "learningStandard": "4.2.3 (preparatory language support)"
+        }
+      ],
+      "subtitle": "Find words from the past"
+    },
+    {
+      "id": "portal",
+      "title": "Tomorrow Portal",
+      "topic": "will · going to",
+      "type": "portal",
+      "color": "#bea1fa",
+      "icon": "portal",
+      "x": 80,
+      "y": 27,
+      "guide": "Tap the correct word to open the portal. Help your explorer travel to tomorrow!",
+      "taskLabel": "Portal opened",
+      "tasks": [
+        {
+          "prompt": "Tomorrow, I ___ help my mum.",
+          "options": [
+            "will",
+            "was",
+            "did"
+          ],
+          "answer": "will",
+          "full": "Tomorrow, I will help my mum.",
+          "hint": "Tomorrow is in the future. Use will before help.",
+          "explain": "Will help tells us about an action in the future.",
+          "scene": "boy",
+          "dskpTopic": "Year 6 future forms: will and going to; also recycled Year 4–5 grammar",
+          "learningStandard": "4.2.2 (preparatory language support)"
+        },
+        {
+          "prompt": "Next week, she will ___ her grandma.",
+          "options": [
+            "visits",
+            "visit",
+            "visited"
+          ],
+          "answer": "visit",
+          "full": "Next week, she will visit her grandma.",
+          "hint": "After will, use the base form of the verb: visit.",
+          "explain": "Use visit after will. This action will happen next week.",
+          "scene": "girl",
+          "dskpTopic": "Year 6 future forms: will and going to; also recycled Year 4–5 grammar",
+          "learningStandard": "4.2.2 (preparatory language support)"
+        },
+        {
+          "prompt": "I ___ going to read a book tonight.",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ],
+          "answer": "am",
+          "full": "I am going to read a book tonight.",
+          "hint": "Use I + am + going to + a verb.",
+          "explain": "I am going to read a book tonight. This is a plan for tonight.",
+          "scene": "boy",
+          "dskpTopic": "Year 6 future forms: will and going to; also recycled Year 4–5 grammar",
+          "learningStandard": "4.2.2 (preparatory language support)"
+        },
+        {
+          "prompt": "They are going to ___ football tomorrow.",
+          "options": [
+            "played",
+            "play",
+            "plays"
+          ],
+          "answer": "play",
+          "full": "They are going to play football tomorrow.",
+          "hint": "After going to, use the base form of the verb: play.",
+          "explain": "Going to play tells us about a plan for tomorrow.",
+          "scene": "ball",
+          "dskpTopic": "Year 6 future forms: will and going to; also recycled Year 4–5 grammar",
+          "learningStandard": "4.2.2 (preparatory language support)"
+        },
+        {
+          "prompt": "We ___ going to visit the zoo tomorrow.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "are",
+          "full": "We are going to visit the zoo tomorrow.",
+          "hint": "Use are with we.",
+          "explain": "We are going to visit the zoo tomorrow. Use are after we.",
+          "scene": "friends",
+          "dskpTopic": "Year 6 future forms: will and going to; also recycled Year 4–5 grammar",
+          "learningStandard": "4.2.2 (preparatory language support)"
+        }
+      ],
+      "subtitle": "Travel to tomorrow"
+    },
+    {
+      "id": "rescue",
+      "title": "Animal Rescue",
+      "topic": "in · on · under · behind · between",
+      "type": "place",
+      "color": "#ff9c95",
+      "icon": "cat",
+      "x": 42,
+      "y": 22,
+      "guide": "Tap the cat, then tap the correct place. You can also drag the cat to its place!",
+      "taskLabel": "Cat rescued",
+      "tasks": [
+        {
+          "prompt": "The cat is in the box.",
+          "answer": "in",
+          "full": "The cat is in the box.",
+          "hint": "In means inside. Find the inside of the box.",
+          "explain": "In the box means inside the box.",
+          "dskpTopic": "Recycled location and position; Year 6 language function 8 and earlier primary prepositions",
+          "learningStandard": "3.2.2 (preparatory language support)"
+        },
+        {
+          "prompt": "The cat is on the table.",
+          "answer": "on",
+          "full": "The cat is on the table.",
+          "hint": "On means on top. Find the top of the table.",
+          "explain": "On the table means on top of the table.",
+          "dskpTopic": "Recycled location and position; Year 6 language function 8 and earlier primary prepositions",
+          "learningStandard": "3.2.2 (preparatory language support)"
+        },
+        {
+          "prompt": "The cat is under the table.",
+          "answer": "under",
+          "full": "The cat is under the table.",
+          "hint": "Under means below. Find the space below the table.",
+          "explain": "Under the table means below the table.",
+          "dskpTopic": "Recycled location and position; Year 6 language function 8 and earlier primary prepositions",
+          "learningStandard": "3.2.2 (preparatory language support)"
+        },
+        {
+          "prompt": "The cat is behind the tree.",
+          "answer": "behind",
+          "full": "The cat is behind the tree.",
+          "hint": "Behind means at the back. Find the space behind the tree.",
+          "explain": "Behind the tree means at the back of the tree.",
+          "dskpTopic": "Recycled location and position; Year 6 language function 8 and earlier primary prepositions",
+          "learningStandard": "3.2.2 (preparatory language support)"
+        },
+        {
+          "prompt": "The cat is between the rocks.",
+          "answer": "between",
+          "full": "The cat is between the rocks.",
+          "hint": "Between means in the middle of two things. Find the space between the two rocks.",
+          "explain": "Between the rocks means in the space between the two rocks.",
+          "dskpTopic": "Recycled location and position; Year 6 language function 8 and earlier primary prepositions",
+          "learningStandard": "3.2.2 (preparatory language support)"
+        }
+      ],
+      "subtitle": "Find a safe place for the cat"
+    },
+    {
+      "id": "castle",
+      "title": "Giant Castle",
+      "topic": "Comparative & Superlative",
+      "type": "compare",
+      "color": "#e5b3f0",
+      "icon": "castle",
+      "x": 89,
+      "y": 73,
+      "guide": "Tap the building or chest that matches the instruction. Light up the castle!",
+      "taskLabel": "Castle light switched on",
+      "tasks": [
+        {
+          "prompt": "Choose the taller tower.",
+          "answer": "tall",
+          "objects": [
+            {
+              "id": "short",
+              "label": "Tower A",
+              "size": 80
+            },
+            {
+              "id": "tall",
+              "label": "Tower B",
+              "size": 140
+            }
+          ],
+          "hint": "A taller tower is higher than the other tower. Compare the two towers.",
+          "explain": "Tower B is taller than Tower A. Taller compares two things.",
+          "dskpTopic": "Recycled comparative and superlative adjectives; Years 4–5 grammar in Year 6 Appendix 1",
+          "learningStandard": "3.2.2 (preparatory language support)",
+          "full": "Tower B is taller than Tower A."
+        },
+        {
+          "prompt": "Choose the tallest tower.",
+          "answer": "tallest",
+          "objects": [
+            {
+              "id": "small",
+              "label": "Tower A",
+              "size": 70
+            },
+            {
+              "id": "medium",
+              "label": "Tower B",
+              "size": 110
+            },
+            {
+              "id": "tallest",
+              "label": "Tower C",
+              "size": 158
+            }
+          ],
+          "hint": "The tallest tower is higher than all the other towers.",
+          "explain": "Tower C is the tallest of the three towers.",
+          "dskpTopic": "Recycled comparative and superlative adjectives; Years 4–5 grammar in Year 6 Appendix 1",
+          "learningStandard": "3.2.2 (preparatory language support)",
+          "full": "Tower C is the tallest of the three towers."
+        },
+        {
+          "prompt": "Choose the smaller chest.",
+          "answer": "smaller",
+          "objects": [
+            {
+              "id": "bigger",
+              "label": "Chest A",
+              "size": 128
+            },
+            {
+              "id": "smaller",
+              "label": "Chest B",
+              "size": 75
+            }
+          ],
+          "objectType": "chest",
+          "hint": "Look at the two chests. Choose the smaller one. It is less big.",
+          "explain": "Chest B is smaller than Chest A.",
+          "dskpTopic": "Recycled comparative and superlative adjectives; Years 4–5 grammar in Year 6 Appendix 1",
+          "learningStandard": "3.2.2 (preparatory language support)",
+          "full": "Chest B is smaller than Chest A."
+        },
+        {
+          "prompt": "Choose the biggest chest.",
+          "answer": "biggest",
+          "objects": [
+            {
+              "id": "small",
+              "label": "Chest A",
+              "size": 68
+            },
+            {
+              "id": "biggest",
+              "label": "Chest B",
+              "size": 140
+            },
+            {
+              "id": "medium",
+              "label": "Chest C",
+              "size": 100
+            }
+          ],
+          "objectType": "chest",
+          "hint": "Look at all three chests. Choose the largest one.",
+          "explain": "Chest B is the biggest of the three chests.",
+          "dskpTopic": "Recycled comparative and superlative adjectives; Years 4–5 grammar in Year 6 Appendix 1",
+          "learningStandard": "3.2.2 (preparatory language support)",
+          "full": "Chest B is the biggest of the three chests."
+        },
+        {
+          "prompt": "Choose the shortest tower.",
+          "answer": "shortest",
+          "objects": [
+            {
+              "id": "tall",
+              "label": "Tower A",
+              "size": 145
+            },
+            {
+              "id": "shortest",
+              "label": "Tower B",
+              "size": 70
+            },
+            {
+              "id": "medium",
+              "label": "Tower C",
+              "size": 108
+            }
+          ],
+          "hint": "Look at all three towers. Choose the lowest one.",
+          "explain": "Tower B is the shortest of the three towers.",
+          "dskpTopic": "Recycled comparative and superlative adjectives; Years 4–5 grammar in Year 6 Appendix 1",
+          "learningStandard": "3.2.2 (preparatory language support)",
+          "full": "Tower B is the shortest of the three towers."
+        }
+      ],
+      "subtitle": "Light up the castle"
+    }
+  ],
+  "rules": [
+    [
+      "shop",
+      "Am / is / are",
+      "I am · He / she / it is · You / we / they are",
+      "Choose am, is or are to match the person or people in the sentence.",
+      "I am happy. She is a teacher."
+    ],
+    [
+      "shop",
+      "Have / has",
+      "I / you / we / they have · He / she / it has",
+      "Have and has tell us what someone owns.",
+      "We have books. He has a bag."
+    ],
+    [
+      "bridge",
+      "Pronouns",
+      "He = a boy · She = a girl · They = two or more people",
+      "Use his for something a boy owns. Use her for something a girl owns.",
+      "Ali is kind. He is kind. It is her book."
+    ],
+    [
+      "train",
+      "Simple Present",
+      "I play · She plays · They play",
+      "Use it for routines. Many verbs take s or es after he, she or it.",
+      "She walks to school every day."
+    ],
+    [
+      "boat",
+      "Present Continuous",
+      "am / is / are + verb-ing",
+      "Use it for actions happening now.",
+      "They are playing football."
+    ],
+    [
+      "pickaxe",
+      "Simple Past",
+      "play → played · go → went · eat → ate",
+      "Use it for actions in the past. Many verbs take ed. Some verbs have a special past form.",
+      "Yesterday, I went to school."
+    ],
+    [
+      "portal",
+      "Future",
+      "will + verb · am / is / are going to + verb",
+      "Use it for the future. After will or going to, use the base form of the verb.",
+      "She will visit grandma. We are going to play."
+    ],
+    [
+      "cat",
+      "Prepositions",
+      "in · on · under · behind · between",
+      "Inside · on top · below · at the back · in the middle of two things.",
+      "The cat is under the table."
+    ],
+    [
+      "castle",
+      "Comparisons",
+      "tall → taller → tallest",
+      "Use taller to compare two things. The tallest is higher than all the other things.",
+      "Tower B is taller. Tower C is the tallest."
+    ]
+  ],
+  "curriculum": {
+    "document": "KSSR (Semakan 2017) Standards-Based English Language Curriculum, Sekolah Kebangsaan, Year 6; Bahagian Pembangunan Kurikulum, Ministry of Education Malaysia, January 2022",
+    "title": "Year 6 supported primary grammar revision · 6B",
+    "url": "https://www.teacherfiera.com/wp-content/uploads/2020/04/2.-DSKP-KSSR-Semakan-2017-Bahasa-Inggeris-Tahun-6-SK_ISBN.pdf",
+    "grammarPages": "Printed syllabus pages 44–46; PDF pages 58–60. Earlier grammar: printed pages 52–53; PDF pages 66–67.",
+    "learningStandards": [
+      {
+        "code": "4.2.1",
+        "focus": "Foundational language for giving information about people."
+      },
+      {
+        "code": "4.2.2",
+        "focus": "Foundational language for future plans and events."
+      },
+      {
+        "code": "4.2.3",
+        "focus": "Foundational language for recounting events."
+      },
+      {
+        "code": "4.2.5",
+        "focus": "Prerequisite pronouns for linking ideas."
+      },
+      {
+        "code": "3.2.2",
+        "focus": "Prerequisite understanding of position and comparison instructions."
+      }
+    ],
+    "note": "Audited against the January 2022 KPM/BPK Year 6 SK DSKP. Retained as supported revision for a lower to lower-middle ability Year 6 class: sections 9–10 permit teachers to revisit Years 1–5 grammar, and Appendix 1 confirms the upper-primary foundations. This pack is prerequisite practice, not complete coverage of new Year 6 grammar or full learning standards. Original mission IDs, task order, prompts, answers, options and object definitions are unchanged so existing pupil progress remains valid. The five comparison tasks only gained missing full-sentence feedback. Game scores are not PBD performance levels.",
+    "topicAudit": [
+      {
+        "missionId": "market",
+        "status": "permitted revision",
+        "topic": "Recycled Years 1–5 be and have foundations; Year 6 syllabus sections 9–10 permit earlier grammar review"
+      },
+      {
+        "missionId": "bridge",
+        "status": "permitted revision",
+        "topic": "Recycled subject pronouns and possessive adjectives; Year 6 syllabus sections 9–10 and Appendix 1"
+      },
+      {
+        "missionId": "train",
+        "status": "permitted revision",
+        "topic": "Recycled present simple for routines; Year 4 routine-versus-current-action function in Year 6 Appendix 1"
+      },
+      {
+        "missionId": "river",
+        "status": "permitted revision",
+        "topic": "Recycled present continuous; Year 4 routine-versus-current-action function in Year 6 Appendix 1"
+      },
+      {
+        "missionId": "mine",
+        "status": "permitted revision",
+        "topic": "Recycled past simple, regular and irregular; Year 4 grammar in Year 6 Appendix 1"
+      },
+      {
+        "missionId": "portal",
+        "status": "permitted revision",
+        "topic": "Year 6 future forms: will and going to; also recycled Year 4–5 grammar"
+      },
+      {
+        "missionId": "rescue",
+        "status": "permitted revision",
+        "topic": "Recycled location and position; Year 6 language function 8 and earlier primary prepositions"
+      },
+      {
+        "missionId": "castle",
+        "status": "permitted revision",
+        "topic": "Recycled comparative and superlative adjectives; Years 4–5 grammar in Year 6 Appendix 1"
+      }
+    ],
+    "kbatCount": 0
+  }
+}

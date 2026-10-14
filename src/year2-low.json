@@ -1,0 +1,681 @@
+{
+  "year": 2,
+  "levelLabel": "Supported adventure · small steps",
+  "missions": [
+    {
+      "id": "y2l-market",
+      "title": "Counting Market",
+      "topic": "One or more · there is and there are",
+      "type": "rune",
+      "color": "#ffbd64",
+      "icon": "shop",
+      "x": 18,
+      "y": 72,
+      "subtitle": "Count the village supplies",
+      "guide": "Tap a word block. Count the supplies for the village!",
+      "taskLabel": "Shop supplied",
+      "reminder": "Use There is for one thing. Use There are for two or more.",
+      "tasks": [
+        {
+          "prompt": "One cap is here. There ___ a cap.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": "is",
+          "full": "There is a cap.",
+          "hint": "One cap: say There is a cap.",
+          "explain": "There is tells us about one cap."
+        },
+        {
+          "prompt": "Two shoes are here. There ___ two shoes.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": "are",
+          "full": "There are two shoes.",
+          "hint": "Two shoes: say There are two shoes.",
+          "explain": "There are tells us about more than one shoe."
+        },
+        {
+          "prompt": "One parrot is in the room. ___ a parrot.",
+          "options": [
+            "There are",
+            "There's"
+          ],
+          "answer": "There's",
+          "full": "There's a parrot.",
+          "hint": "There's means There is.",
+          "explain": "There's a parrot tells us about one parrot."
+        },
+        {
+          "prompt": "We want to count the hats. How ___ hats are there?",
+          "options": [
+            "old",
+            "many"
+          ],
+          "answer": "many",
+          "full": "How many hats are there?",
+          "hint": "Ask How many? to count things.",
+          "explain": "How many hats are there? asks for the number of hats."
+        },
+        {
+          "prompt": "Count the cars: car, car, car. There are ___ cars.",
+          "options": [
+            "two",
+            "three"
+          ],
+          "answer": "three",
+          "full": "There are three cars.",
+          "hint": "Count each car: one, two, three.",
+          "explain": "There are three cars. Cars is the word for more than one car."
+        }
+      ]
+    },
+    {
+      "id": "y2l-bridge",
+      "title": "Weekend Bridge",
+      "topic": "Do you? · yes and no",
+      "type": "bridge",
+      "color": "#80d4ea",
+      "icon": "bridge",
+      "x": 38,
+      "y": 56,
+      "subtitle": "Ask about free time",
+      "guide": "Tap a word block. Ask about free time to build the bridge!",
+      "taskLabel": "Bridge block added",
+      "reminder": "Do you? asks about a routine. Reply Yes, I do or No, I don't.",
+      "tasks": [
+        {
+          "prompt": "You play tennis on Sundays. Do you play tennis on Sundays? Yes, I ___.",
+          "options": [
+            "do",
+            "don't"
+          ],
+          "answer": "do",
+          "full": "Yes, I do.",
+          "hint": "You play tennis. Answer Yes, I do.",
+          "explain": "Yes, I do answers the question about your routine."
+        },
+        {
+          "prompt": "You do not watch TV on Mondays. Do you watch TV on Mondays? No, I ___.",
+          "options": [
+            "do",
+            "don't"
+          ],
+          "answer": "don't",
+          "full": "No, I don't.",
+          "hint": "You do not watch TV. Answer No, I don't.",
+          "explain": "No, I don't tells us that you do not do this activity."
+        },
+        {
+          "prompt": "Complete the routine question: ___ you play football on Saturdays?",
+          "options": [
+            "Do",
+            "Is"
+          ],
+          "answer": "Do",
+          "full": "Do you play football on Saturdays?",
+          "hint": "Start the question with Do you.",
+          "explain": "Do you play football on Saturdays? asks about a routine."
+        },
+        {
+          "prompt": "You ride a bike at the weekend. Do you ride a bike at the weekend? Yes, I ___.",
+          "options": [
+            "don't",
+            "do"
+          ],
+          "answer": "do",
+          "full": "Yes, I do.",
+          "hint": "You ride a bike. Answer Yes, I do.",
+          "explain": "Yes, I do means that this is your weekend activity."
+        },
+        {
+          "prompt": "You do not play the piano on Fridays. Do you play the piano on Fridays? ___",
+          "options": [
+            "No, I don't.",
+            "Yes, I do."
+          ],
+          "answer": "No, I don't.",
+          "full": "No, I don't.",
+          "hint": "You do not play the piano. Choose No, I don't.",
+          "explain": "No, I don't matches the routine in the clue."
+        }
+      ]
+    },
+    {
+      "id": "y2l-train",
+      "title": "Free-time Train",
+      "topic": "I play · on days of the week",
+      "type": "train",
+      "color": "#a8d884",
+      "icon": "train",
+      "x": 17,
+      "y": 34,
+      "subtitle": "Make a free-time plan",
+      "guide": "Tap the word carriages in order. Tell a friend your plan!",
+      "taskLabel": "Train journey completed",
+      "reminder": "Use on with a day. Start your sentence with I.",
+      "tasks": [
+        {
+          "prompt": "You play football every Monday. Make your sentence. Start with I.",
+          "words": [
+            "I",
+            "play",
+            "football",
+            "on",
+            "Mondays."
+          ],
+          "answer": "I play football on Mondays.",
+          "full": "I play football on Mondays.",
+          "hint": "Start with I play. Add football on Mondays.",
+          "explain": "I play football on Mondays tells us your weekly activity."
+        },
+        {
+          "prompt": "You watch TV every Friday. Make your sentence. Start with I.",
+          "words": [
+            "I",
+            "watch",
+            "TV",
+            "on",
+            "Fridays."
+          ],
+          "answer": "I watch TV on Fridays.",
+          "full": "I watch TV on Fridays.",
+          "hint": "Start with I watch. Add TV on Fridays.",
+          "explain": "On Fridays tells us when you watch TV."
+        },
+        {
+          "prompt": "You ride a bike every Sunday. Make your sentence. Start with I.",
+          "words": [
+            "I",
+            "ride",
+            "a",
+            "bike",
+            "on",
+            "Sundays."
+          ],
+          "answer": "I ride a bike on Sundays.",
+          "full": "I ride a bike on Sundays.",
+          "hint": "Start with I ride. Add a bike on Sundays.",
+          "explain": "I ride a bike on Sundays tells us your weekly activity."
+        },
+        {
+          "prompt": "You play tennis every Tuesday. Make your sentence. Start with I.",
+          "words": [
+            "I",
+            "play",
+            "tennis",
+            "on",
+            "Tuesdays."
+          ],
+          "answer": "I play tennis on Tuesdays.",
+          "full": "I play tennis on Tuesdays.",
+          "hint": "Start with I play. Add tennis on Tuesdays.",
+          "explain": "On Tuesdays tells us when you play tennis."
+        },
+        {
+          "prompt": "You play the piano every Saturday. Make your sentence. Start with I.",
+          "words": [
+            "I",
+            "play",
+            "the",
+            "piano",
+            "on",
+            "Saturdays."
+          ],
+          "answer": "I play the piano on Saturdays.",
+          "full": "I play the piano on Saturdays.",
+          "hint": "Start with I play. Add the piano on Saturdays.",
+          "explain": "I play the piano on Saturdays tells us your weekly activity."
+        }
+      ]
+    },
+    {
+      "id": "y2l-river",
+      "title": "Clothes River",
+      "topic": "is wearing · clothes and colours",
+      "type": "build",
+      "color": "#69c8e8",
+      "icon": "boat",
+      "x": 56,
+      "y": 74,
+      "subtitle": "Dress for the journey",
+      "guide": "Put the word blocks in order. Describe the clothes to launch a boat!",
+      "taskLabel": "Boat launched",
+      "reminder": "Say is wearing to tell us about clothes someone has on now.",
+      "tasks": [
+        {
+          "prompt": "Amir has a red cap on. Describe his clothes. Start with Amir.",
+          "words": [
+            "Amir",
+            "is",
+            "wearing",
+            "a",
+            "red",
+            "cap."
+          ],
+          "answer": "Amir is wearing a red cap.",
+          "full": "Amir is wearing a red cap.",
+          "hint": "Start with Amir is wearing. Add a red cap.",
+          "explain": "Amir is wearing a red cap tells us what he has on now."
+        },
+        {
+          "prompt": "Hana has a blue jacket on. Describe her clothes. Start with Hana.",
+          "words": [
+            "Hana",
+            "is",
+            "wearing",
+            "a",
+            "blue",
+            "jacket."
+          ],
+          "answer": "Hana is wearing a blue jacket.",
+          "full": "Hana is wearing a blue jacket.",
+          "hint": "Start with Hana is wearing. Add a blue jacket.",
+          "explain": "Hana is wearing a blue jacket tells us about her clothes."
+        },
+        {
+          "prompt": "A girl has a green skirt on. Describe her clothes. Start with She.",
+          "words": [
+            "She",
+            "is",
+            "wearing",
+            "a",
+            "green",
+            "skirt."
+          ],
+          "answer": "She is wearing a green skirt.",
+          "full": "She is wearing a green skirt.",
+          "hint": "Start with She is wearing. Add a green skirt.",
+          "explain": "She is wearing a green skirt tells us what the girl has on."
+        },
+        {
+          "prompt": "A boy has blue shoes on. Describe his clothes. Start with He.",
+          "words": [
+            "He",
+            "is",
+            "wearing",
+            "blue",
+            "shoes."
+          ],
+          "answer": "He is wearing blue shoes.",
+          "full": "He is wearing blue shoes.",
+          "hint": "Start with He is wearing. Add blue shoes.",
+          "explain": "He is wearing blue shoes tells us what the boy has on."
+        },
+        {
+          "prompt": "Mia has a warm sweater on. Describe her clothes. Start with Mia.",
+          "words": [
+            "Mia",
+            "is",
+            "wearing",
+            "a",
+            "warm",
+            "sweater."
+          ],
+          "answer": "Mia is wearing a warm sweater.",
+          "full": "Mia is wearing a warm sweater.",
+          "hint": "Start with Mia is wearing. Add a warm sweater.",
+          "explain": "Mia is wearing a warm sweater tells us about her clothes."
+        }
+      ]
+    },
+    {
+      "id": "y2l-mine",
+      "title": "Ability Mine",
+      "topic": "can · can't",
+      "type": "mine",
+      "color": "#acbcdf",
+      "icon": "pickaxe",
+      "x": 68,
+      "y": 51,
+      "subtitle": "Discover what friends can do",
+      "guide": "Read the clue. Tap a word block to find an ability gem!",
+      "taskLabel": "Ability gem found",
+      "reminder": "Can means able to do it. Can't means not able to do it.",
+      "tasks": [
+        {
+          "prompt": "Dan can swim. Dan says: I ___ swim.",
+          "options": [
+            "can",
+            "can't"
+          ],
+          "answer": "can",
+          "full": "I can swim.",
+          "hint": "Dan can swim. Choose can.",
+          "explain": "I can swim tells us that Dan is able to swim."
+        },
+        {
+          "prompt": "The robot cannot fly. It says: I ___ fly.",
+          "options": [
+            "can",
+            "can't"
+          ],
+          "answer": "can't",
+          "full": "I can't fly.",
+          "hint": "Cannot and can't mean the same thing.",
+          "explain": "I can't fly tells us that the robot is not able to fly."
+        },
+        {
+          "prompt": "Mia can skip. She ___ skip.",
+          "options": [
+            "can't",
+            "can"
+          ],
+          "answer": "can",
+          "full": "She can skip.",
+          "hint": "Mia is able to skip. Choose can.",
+          "explain": "She can skip tells us about Mia's ability."
+        },
+        {
+          "prompt": "Ben can run. Can you run, Ben? Yes, I ___.",
+          "options": [
+            "can",
+            "can't"
+          ],
+          "answer": "can",
+          "full": "Yes, I can.",
+          "hint": "Ben can run. Answer Yes, I can.",
+          "explain": "Yes, I can answers the question about running."
+        },
+        {
+          "prompt": "Hana cannot dance. Can you dance, Hana? No, I ___.",
+          "options": [
+            "can",
+            "can't"
+          ],
+          "answer": "can't",
+          "full": "No, I can't.",
+          "hint": "Hana cannot dance. Answer No, I can't.",
+          "explain": "No, I can't tells us that Hana is not able to dance."
+        }
+      ]
+    },
+    {
+      "id": "y2l-portal",
+      "title": "Dressing Portal",
+      "topic": "this · these · clothes questions",
+      "type": "portal",
+      "color": "#bea1fa",
+      "icon": "portal",
+      "x": 80,
+      "y": 27,
+      "subtitle": "Choose clothes for the trip",
+      "guide": "Tap a word portal. Choose words for one item or more!",
+      "taskLabel": "Clothes portal opened",
+      "reminder": "Use this with one cap. Use these with shoes or socks.",
+      "tasks": [
+        {
+          "prompt": "One cap is here. Do you like ___ cap?",
+          "options": [
+            "this",
+            "these"
+          ],
+          "answer": "this",
+          "full": "Do you like this cap?",
+          "hint": "One cap: use this cap.",
+          "explain": "This cap means one cap."
+        },
+        {
+          "prompt": "Two shoes are here. Do you like ___ shoes?",
+          "options": [
+            "this",
+            "these"
+          ],
+          "answer": "these",
+          "full": "Do you like these shoes?",
+          "hint": "Two shoes: use these shoes.",
+          "explain": "These shoes means more than one shoe."
+        },
+        {
+          "prompt": "I like these socks. Do you like these socks? Yes, I ___.",
+          "options": [
+            "do",
+            "don't"
+          ],
+          "answer": "do",
+          "full": "Yes, I do.",
+          "hint": "You like the socks. Answer Yes, I do.",
+          "explain": "Yes, I do tells us that you like the socks."
+        },
+        {
+          "prompt": "I do not like this hat. Do you like this hat? No, I ___.",
+          "options": [
+            "do",
+            "don't"
+          ],
+          "answer": "don't",
+          "full": "No, I don't.",
+          "hint": "You do not like the hat. Answer No, I don't.",
+          "explain": "No, I don't tells us that you do not like the hat."
+        },
+        {
+          "prompt": "Ali is wearing a blue jacket. Is he wearing a blue jacket? Yes, he ___.",
+          "options": [
+            "is",
+            "isn't"
+          ],
+          "answer": "is",
+          "full": "Yes, he is.",
+          "hint": "The blue jacket matches. Answer Yes, he is.",
+          "explain": "Yes, he is confirms that Ali is wearing a blue jacket."
+        }
+      ]
+    },
+    {
+      "id": "y2l-rescue",
+      "title": "Lost-and-Found Hideout",
+      "topic": "Where's? · Where are? · in",
+      "type": "rune",
+      "color": "#ff9c95",
+      "icon": "cat",
+      "x": 42,
+      "y": 22,
+      "subtitle": "Find the missing things",
+      "guide": "Read the clue. Tap the words to find the missing things!",
+      "taskLabel": "Lost item found",
+      "reminder": "Ask Where's? for one thing. Ask Where are? for more than one.",
+      "tasks": [
+        {
+          "prompt": "One book is in the bag. ___ the book?",
+          "options": [
+            "Where's",
+            "Where are"
+          ],
+          "answer": "Where's",
+          "full": "Where's the book?",
+          "hint": "One book: ask Where's the book?",
+          "explain": "Where's means Where is. Use it to ask about one book."
+        },
+        {
+          "prompt": "Two hats are in the box. ___ the hats?",
+          "options": [
+            "Where's",
+            "Where are"
+          ],
+          "answer": "Where are",
+          "full": "Where are the hats?",
+          "hint": "Two hats: ask Where are the hats?",
+          "explain": "Where are asks about the place of more than one hat."
+        },
+        {
+          "prompt": "Where's the cap? The cap is in the bag. ___ in the bag.",
+          "options": [
+            "They're",
+            "It's"
+          ],
+          "answer": "It's",
+          "full": "It's in the bag.",
+          "hint": "One cap: say It's in the bag.",
+          "explain": "It's means It is. It takes the place of the cap."
+        },
+        {
+          "prompt": "Where are the shoes? The shoes are in the box. ___ in the box.",
+          "options": [
+            "It's",
+            "They're"
+          ],
+          "answer": "They're",
+          "full": "They're in the box.",
+          "hint": "Two shoes: say They're in the box.",
+          "explain": "They're means They are. They takes the place of the shoes."
+        },
+        {
+          "prompt": "The map is inside the bag. The map is ___ the bag.",
+          "options": [
+            "is",
+            "in"
+          ],
+          "answer": "in",
+          "full": "The map is in the bag.",
+          "hint": "Inside means in.",
+          "explain": "In the bag means inside the bag."
+        }
+      ]
+    },
+    {
+      "id": "y2l-castle",
+      "title": "Beach Castle",
+      "topic": "Let's · friendly replies",
+      "type": "rune",
+      "color": "#e5b3f0",
+      "icon": "castle",
+      "x": 89,
+      "y": 73,
+      "subtitle": "Make a plan with friends",
+      "guide": "Read the clue. Tap a suggestion or reply to light the castle!",
+      "taskLabel": "Castle light switched on",
+      "reminder": "Let's suggests an activity together. Say Good idea when you like the plan.",
+      "tasks": [
+        {
+          "prompt": "Choose the word to make a suggestion: ___ read a book.",
+          "options": [
+            "Let's",
+            "There"
+          ],
+          "answer": "Let's",
+          "full": "Let's read a book.",
+          "hint": "Start your suggestion with Let's.",
+          "explain": "Let's read a book suggests reading together."
+        },
+        {
+          "prompt": "Choose the activity that uses a camera: Let's ___.",
+          "options": [
+            "take a photo",
+            "make a sandcastle"
+          ],
+          "answer": "take a photo",
+          "full": "Let's take a photo.",
+          "hint": "A camera helps us take a photo.",
+          "explain": "Let's take a photo suggests an activity with a camera."
+        },
+        {
+          "prompt": "Your friend says, Let's play tennis. You like the idea. Say: ___",
+          "options": [
+            "Good idea.",
+            "I'm not sure."
+          ],
+          "answer": "Good idea.",
+          "full": "Good idea.",
+          "hint": "You like the plan. Say Good idea.",
+          "explain": "Good idea tells your friend that you like the suggestion."
+        },
+        {
+          "prompt": "Your friend says, Let's dance. You do not want to dance. Say: ___",
+          "options": [
+            "Good idea.",
+            "Sorry, I don't want to."
+          ],
+          "answer": "Sorry, I don't want to.",
+          "full": "Sorry, I don't want to.",
+          "hint": "You do not want to dance. Say Sorry, I don't want to.",
+          "explain": "Sorry, I don't want to politely says that you do not want this activity."
+        },
+        {
+          "prompt": "Choose the activity that uses paper and paints: Let's ___.",
+          "options": [
+            "catch a fish",
+            "paint a picture"
+          ],
+          "answer": "paint a picture",
+          "full": "Let's paint a picture.",
+          "hint": "Use paper and paints to paint a picture.",
+          "explain": "Let's paint a picture suggests an activity with paper and paints."
+        }
+      ]
+    }
+  ],
+  "rules": [
+    [
+      "shop",
+      "Count the supplies",
+      "There is one ... · There are two ...",
+      "Use is for one thing. Use are for two or more.",
+      "There is a cap. There are two shoes."
+    ],
+    [
+      "bridge",
+      "Ask about free time",
+      "Do you ...? · Yes, I do. · No, I don't.",
+      "Use these words to ask and answer about a routine.",
+      "Do you play tennis on Sundays? Yes, I do."
+    ],
+    [
+      "train",
+      "Your weekly plan",
+      "I play ... on Mondays.",
+      "Use on with a day to tell a friend when you do an activity.",
+      "I ride a bike on Sundays."
+    ],
+    [
+      "boat",
+      "Clothes now",
+      "He is wearing ... · She is wearing ...",
+      "Wearing tells us about clothes someone has on now.",
+      "She is wearing a green skirt."
+    ],
+    [
+      "pickaxe",
+      "What you can do",
+      "I can ... · I can't ...",
+      "Can means able to do it. Cannot and can't mean the same thing.",
+      "I can swim. I can't fly."
+    ],
+    [
+      "portal",
+      "One item or more",
+      "this cap · these shoes",
+      "Use this with one item. Use these with more than one item.",
+      "Do you like this cap? Do you like these shoes?"
+    ],
+    [
+      "cat",
+      "Find the things",
+      "Where's ...? · Where are ...?",
+      "Use It's for one thing. Use They're for more than one. In means inside.",
+      "Where are the shoes? They're in the box."
+    ],
+    [
+      "castle",
+      "Make a friendly plan",
+      "Let's ... · Good idea.",
+      "Use Let's to suggest an activity together. Say Good idea when you like the plan.",
+      "Let's paint a picture. Good idea."
+    ]
+  ],
+  "curriculum": {
+    "document": "KSSR (Semakan 2017), SK, CEFR-aligned, KPM BPK",
+    "title": "DSKP Bahasa Inggeris Tahun 2 — Primary Year 2 English Language Syllabus (SK)",
+    "url": "https://bpk.moe.gov.my/kurikulum/kssr/kssr-tahun-2/96-50-dskp-kssr-semakan-tahun-2-bahasa-inggeris-cefr-sk-v2/file",
+    "grammarPages": "Printed p. 48 (meaning-led grammar); pp. 54–56 (routines, counting, clothes, ability, suggestions, location). PDF pp. 62, 68–70.",
+    "learningStandards": [
+      "3.2.1–3.2.2, p. 36: Understand simple sentences and their details.",
+      "3.3.1, p. 36: Enjoy sentence-level digital games.",
+      "4.2.2 and 4.2.4, p. 41: Ability and object descriptions.",
+      "4.3.1 and 4.3.3, p. 41: Guided punctuation and sentence formation."
+    ],
+    "note": "Original supported practice for 2B/2K. Short choices, familiar phrases and direct clues keep the focus on meaning and enjoyment. Selected grammar practice only; scores are not PBD levels or full DSKP assessment."
+  }
+}

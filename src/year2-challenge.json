@@ -1,0 +1,713 @@
+{
+  "year": 2,
+  "levelLabel": "Challenge adventure · read the clues",
+  "missions": [
+    {
+      "id": "y2c-market",
+      "title": "Market Explorer",
+      "topic": "Count and check · there is and there are",
+      "type": "rune",
+      "color": "#ffbd64",
+      "icon": "shop",
+      "x": 18,
+      "y": 72,
+      "subtitle": "Read the market clues",
+      "guide": "Read the list. Tap the word block that matches the supplies!",
+      "taskLabel": "Shop supplied",
+      "reminder": "Match the words to the number. One item needs is; two or more need are.",
+      "tasks": [
+        {
+          "prompt": "Market list: one jacket, two caps. There ___ two caps.",
+          "options": [
+            "is",
+            "am",
+            "are"
+          ],
+          "answer": "are",
+          "full": "There are two caps.",
+          "hint": "The clue says two caps. Choose the words for more than one.",
+          "explain": "There are matches two caps. There is would describe one cap."
+        },
+        {
+          "prompt": "Market list: three hats, no shoes. Are there any shoes? No, there ___.",
+          "options": [
+            "are",
+            "aren't",
+            "is"
+          ],
+          "answer": "aren't",
+          "full": "No, there aren't.",
+          "hint": "Read the shoes part of the list. There are no shoes.",
+          "explain": "No, there aren't matches the question and the empty shoes list."
+        },
+        {
+          "prompt": "Only one parrot is in the tower. Complete the yes-or-no question: ___ a parrot in the tower?",
+          "options": [
+            "Are there",
+            "How many",
+            "Is there"
+          ],
+          "answer": "Is there",
+          "full": "Is there a parrot in the tower?",
+          "hint": "The question is about one parrot. Start with Is there.",
+          "explain": "Is there a parrot? asks whether one parrot is there."
+        },
+        {
+          "prompt": "Room list: one robot, four cars. How many cars are there? There are ___.",
+          "options": [
+            "one robot",
+            "four cars",
+            "a car"
+          ],
+          "answer": "four cars",
+          "full": "There are four cars.",
+          "hint": "Count the cars, not the robot.",
+          "explain": "How many cars? asks for the car count. The list has four cars."
+        },
+        {
+          "prompt": "Box list: two books and one map. ___ a map in the box.",
+          "options": [
+            "There are",
+            "There aren't",
+            "There's"
+          ],
+          "answer": "There's",
+          "full": "There's a map in the box.",
+          "hint": "The map is one item. Choose the words for one.",
+          "explain": "There's means There is. It matches one map."
+        }
+      ]
+    },
+    {
+      "id": "y2c-bridge",
+      "title": "Routine Bridge",
+      "topic": "Do you? · read a weekly plan",
+      "type": "bridge",
+      "color": "#80d4ea",
+      "icon": "bridge",
+      "x": 38,
+      "y": 56,
+      "subtitle": "Ask the right routine question",
+      "guide": "Read the plan. Tap an answer that matches the day and activity!",
+      "taskLabel": "Bridge block added",
+      "reminder": "Read the whole clue before answering. Do you? uses Yes, I do or No, I don't.",
+      "tasks": [
+        {
+          "prompt": "Sara: I ride a bike on Sundays. Do you ride a bike on Sundays, Sara? ___",
+          "options": [
+            "No, I don't.",
+            "Yes, I can.",
+            "Yes, I do."
+          ],
+          "answer": "Yes, I do.",
+          "full": "Yes, I do.",
+          "hint": "Sara rides a bike on Sundays. The question starts with Do you.",
+          "explain": "Yes, I do matches both the routine and the Do you question."
+        },
+        {
+          "prompt": "Dan: I play tennis on Saturdays. I do not play tennis on Mondays. Do you play tennis on Mondays, Dan? ___",
+          "options": [
+            "Yes, I do.",
+            "No, I don't.",
+            "No, I can't."
+          ],
+          "answer": "No, I don't.",
+          "full": "No, I don't.",
+          "hint": "Check Monday, not Saturday.",
+          "explain": "No, I don't matches Dan's Monday routine."
+        },
+        {
+          "prompt": "Mia: I watch TV on Fridays. Ask Mia about her Friday routine: ___ you watch TV on Fridays?",
+          "options": [
+            "Is",
+            "Do",
+            "Are"
+          ],
+          "answer": "Do",
+          "full": "Do you watch TV on Fridays?",
+          "hint": "Use Do you to ask about this free-time routine.",
+          "explain": "Do you watch TV on Fridays? asks about Mia's weekly activity."
+        },
+        {
+          "prompt": "Ali: I read a book on Tuesdays. Do you read a book on Tuesdays, Ali? Yes, I ___.",
+          "options": [
+            "am",
+            "can",
+            "do"
+          ],
+          "answer": "do",
+          "full": "Yes, I do.",
+          "hint": "Match Do you with Yes, I do.",
+          "explain": "Yes, I do confirms that reading is Ali's Tuesday activity."
+        },
+        {
+          "prompt": "Tim: I ride a bike at the weekend. I do not watch TV at the weekend. Do you watch TV at the weekend, Tim? No, I ___.",
+          "options": [
+            "don't",
+            "isn't",
+            "can't"
+          ],
+          "answer": "don't",
+          "full": "No, I don't.",
+          "hint": "Check the TV clue, not the bike clue.",
+          "explain": "No, I don't matches the activity in the question."
+        }
+      ]
+    },
+    {
+      "id": "y2c-train",
+      "title": "Weekly-plan Train",
+      "topic": "Free-time sentences · on and at",
+      "type": "train",
+      "color": "#a8d884",
+      "icon": "train",
+      "x": 17,
+      "y": 34,
+      "subtitle": "Turn clues into a plan",
+      "guide": "Tap the word carriages in order. Turn each plan into a sentence!",
+      "taskLabel": "Train journey completed",
+      "reminder": "Use on with days, such as Mondays. Use at in at the weekend.",
+      "tasks": [
+        {
+          "prompt": "Your plan says: tennis, every Monday. Tell a friend. Start with I.",
+          "words": [
+            "I",
+            "play",
+            "tennis",
+            "on",
+            "Mondays."
+          ],
+          "answer": "I play tennis on Mondays.",
+          "full": "I play tennis on Mondays.",
+          "hint": "Begin I play. Put the day after on.",
+          "explain": "I play tennis on Mondays gives the activity and the repeated day."
+        },
+        {
+          "prompt": "You read a book each Friday. Tell a friend when. Start with I.",
+          "words": [
+            "I",
+            "read",
+            "a",
+            "book",
+            "on",
+            "Fridays."
+          ],
+          "answer": "I read a book on Fridays.",
+          "full": "I read a book on Fridays.",
+          "hint": "Begin I read. Put on Fridays at the end.",
+          "explain": "On Fridays tells your friend which day this happens."
+        },
+        {
+          "prompt": "Every Sunday is your bike day. Tell a friend your routine. Start with I.",
+          "words": [
+            "I",
+            "ride",
+            "a",
+            "bike",
+            "on",
+            "Sundays."
+          ],
+          "answer": "I ride a bike on Sundays.",
+          "full": "I ride a bike on Sundays.",
+          "hint": "Begin I ride. Put the activity before the day.",
+          "explain": "I ride a bike on Sundays turns the weekly plan into a sentence."
+        },
+        {
+          "prompt": "The piano is your activity every Saturday. Make your sentence. Start with I.",
+          "words": [
+            "I",
+            "play",
+            "the",
+            "piano",
+            "on",
+            "Saturdays."
+          ],
+          "answer": "I play the piano on Saturdays.",
+          "full": "I play the piano on Saturdays.",
+          "hint": "Begin I play. Keep the piano together.",
+          "explain": "I play the piano on Saturdays gives the activity and the day."
+        },
+        {
+          "prompt": "Your weekend activity is watching TV. Tell a friend. Start with I.",
+          "words": [
+            "I",
+            "watch",
+            "TV",
+            "at",
+            "the",
+            "weekend."
+          ],
+          "answer": "I watch TV at the weekend.",
+          "full": "I watch TV at the weekend.",
+          "hint": "Begin I watch TV. Finish with at the weekend.",
+          "explain": "At the weekend tells us when you watch TV."
+        }
+      ]
+    },
+    {
+      "id": "y2c-river",
+      "title": "Clothes-check River",
+      "topic": "Wearing · statements and questions",
+      "type": "build",
+      "color": "#69c8e8",
+      "icon": "boat",
+      "x": 56,
+      "y": 74,
+      "subtitle": "Read clothes clues",
+      "guide": "Put the word blocks in order. Describe or check the clothes!",
+      "taskLabel": "Boat launched",
+      "reminder": "Describe clothes with is wearing. Start a clothes question with Is he or Is she.",
+      "tasks": [
+        {
+          "prompt": "Amir has a red cap on his head. Describe what he is wearing. Start with Amir.",
+          "words": [
+            "Amir",
+            "is",
+            "wearing",
+            "a",
+            "red",
+            "cap."
+          ],
+          "answer": "Amir is wearing a red cap.",
+          "full": "Amir is wearing a red cap.",
+          "hint": "Begin Amir is wearing. Put the colour before cap.",
+          "explain": "Amir is wearing a red cap describes the clothes in the clue."
+        },
+        {
+          "prompt": "Nia is a girl with a green skirt on. Describe her clothes. Start with She.",
+          "words": [
+            "She",
+            "is",
+            "wearing",
+            "a",
+            "green",
+            "skirt."
+          ],
+          "answer": "She is wearing a green skirt.",
+          "full": "She is wearing a green skirt.",
+          "hint": "She replaces Nia. Begin She is wearing.",
+          "explain": "She is wearing a green skirt describes Nia's clothes."
+        },
+        {
+          "prompt": "Dan is a boy with blue shoes on his feet. Describe his clothes. Start with He.",
+          "words": [
+            "He",
+            "is",
+            "wearing",
+            "blue",
+            "shoes."
+          ],
+          "answer": "He is wearing blue shoes.",
+          "full": "He is wearing blue shoes.",
+          "hint": "He replaces Dan. Begin He is wearing.",
+          "explain": "He is wearing blue shoes describes Dan's clothes."
+        },
+        {
+          "prompt": "Ben is a boy. You want to check if his T-shirt is blue. Build a question. Start with Is.",
+          "words": [
+            "Is",
+            "he",
+            "wearing",
+            "a",
+            "blue",
+            "T-shirt?"
+          ],
+          "answer": "Is he wearing a blue T-shirt?",
+          "full": "Is he wearing a blue T-shirt?",
+          "hint": "Begin Is he wearing. Finish the question with a blue T-shirt?",
+          "explain": "Is he wearing a blue T-shirt? asks someone to check Ben's clothes."
+        },
+        {
+          "prompt": "Mia is a girl. You want to check if she has a warm jacket on. Build a question. Start with Is.",
+          "words": [
+            "Is",
+            "she",
+            "wearing",
+            "a",
+            "warm",
+            "jacket?"
+          ],
+          "answer": "Is she wearing a warm jacket?",
+          "full": "Is she wearing a warm jacket?",
+          "hint": "Begin Is she wearing. Finish with a warm jacket?",
+          "explain": "Is she wearing a warm jacket? asks someone to check Mia's clothes."
+        }
+      ]
+    },
+    {
+      "id": "y2c-mine",
+      "title": "Robot Ability Mine",
+      "topic": "can · can't · check the skill card",
+      "type": "mine",
+      "color": "#acbcdf",
+      "icon": "pickaxe",
+      "x": 68,
+      "y": 51,
+      "subtitle": "Match skills to the clue",
+      "guide": "Read the skill card. Tap the answer that matches the ability!",
+      "taskLabel": "Ability gem found",
+      "reminder": "Check the activity in the question. Can means able; can't means not able.",
+      "tasks": [
+        {
+          "prompt": "Robot card: swim yes; fly no. The robot ___ swim.",
+          "options": [
+            "can't",
+            "is",
+            "can"
+          ],
+          "answer": "can",
+          "full": "The robot can swim.",
+          "hint": "Read the swim part of the card.",
+          "explain": "The robot can swim matches swim yes."
+        },
+        {
+          "prompt": "Mia: I can run. I can't skip. Can you skip, Mia? ___",
+          "options": [
+            "Yes, I can.",
+            "No, I can't.",
+            "No, I don't."
+          ],
+          "answer": "No, I can't.",
+          "full": "No, I can't.",
+          "hint": "The question asks about skipping, not running.",
+          "explain": "No, I can't matches Mia's skipping ability."
+        },
+        {
+          "prompt": "Amir: I can dance. I can't fly. Amir ___ dance.",
+          "options": [
+            "is",
+            "can't",
+            "can"
+          ],
+          "answer": "can",
+          "full": "Amir can dance.",
+          "hint": "Choose the words for the dance clue.",
+          "explain": "Amir can dance matches the first part of his skill card."
+        },
+        {
+          "prompt": "Nia is a girl. Her card says: jump yes; swim no. She ___ swim.",
+          "options": [
+            "can",
+            "are",
+            "can't"
+          ],
+          "answer": "can't",
+          "full": "She can't swim.",
+          "hint": "Check swim, not jump.",
+          "explain": "She can't swim matches swim no."
+        },
+        {
+          "prompt": "Ben: I can stand on one leg. Ask Ben about this ability: ___ you stand on one leg?",
+          "options": [
+            "Are",
+            "Can",
+            "Is"
+          ],
+          "answer": "Can",
+          "full": "Can you stand on one leg?",
+          "hint": "Start an ability question with Can you.",
+          "explain": "Can you stand on one leg? asks about Ben's ability."
+        }
+      ]
+    },
+    {
+      "id": "y2c-portal",
+      "title": "Clothes-choice Portal",
+      "topic": "this · these · read and reply",
+      "type": "portal",
+      "color": "#bea1fa",
+      "icon": "portal",
+      "x": 80,
+      "y": 27,
+      "subtitle": "Check the clothes together",
+      "guide": "Tap a word portal. Check the item, colour and reply!",
+      "taskLabel": "Clothes portal opened",
+      "reminder": "Use this for one item and these for more than one. Check colours before you reply.",
+      "tasks": [
+        {
+          "prompt": "Shop labels: one cap, two socks. Ask about the cap: Do you like ___ cap?",
+          "options": [
+            "these",
+            "they",
+            "this"
+          ],
+          "answer": "this",
+          "full": "Do you like this cap?",
+          "hint": "The cap is one item.",
+          "explain": "This cap matches the one cap on the shop list."
+        },
+        {
+          "prompt": "Shop labels: one cap, two socks. Ask about the socks: Do you like ___ socks?",
+          "options": [
+            "this",
+            "these",
+            "it"
+          ],
+          "answer": "these",
+          "full": "Do you like these socks?",
+          "hint": "The socks are more than one item.",
+          "explain": "These socks matches the two socks on the shop list."
+        },
+        {
+          "prompt": "Amir has a green jacket on. Is he wearing a blue jacket? ___",
+          "options": [
+            "Yes, he is.",
+            "No, he can't.",
+            "No, he isn't."
+          ],
+          "answer": "No, he isn't.",
+          "full": "No, he isn't.",
+          "hint": "The question says blue. The clue says green.",
+          "explain": "No, he isn't is the reply because Amir's jacket is green."
+        },
+        {
+          "prompt": "Hana has a red skirt on. Is she wearing a red skirt? Yes, she ___.",
+          "options": [
+            "isn't",
+            "is",
+            "are"
+          ],
+          "answer": "is",
+          "full": "Yes, she is.",
+          "hint": "The colour and the clothing both match.",
+          "explain": "Yes, she is confirms the clothes in the clue."
+        },
+        {
+          "prompt": "Mia: I like this cap. I do not like these shoes. Do you like these shoes, Mia? ___",
+          "options": [
+            "No, I don't.",
+            "Yes, I do.",
+            "No, I can't."
+          ],
+          "answer": "No, I don't.",
+          "full": "No, I don't.",
+          "hint": "Read the shoes clue. The question is not about the cap.",
+          "explain": "No, I don't matches how Mia feels about the shoes."
+        }
+      ]
+    },
+    {
+      "id": "y2c-rescue",
+      "title": "Lost-item Hideout",
+      "topic": "Where's? · Where are? · match the place",
+      "type": "rune",
+      "color": "#ff9c95",
+      "icon": "cat",
+      "x": 42,
+      "y": 22,
+      "subtitle": "Find things from a list",
+      "guide": "Read both clues. Tap the words that find the right item!",
+      "taskLabel": "Lost item found",
+      "reminder": "One item uses Where's and It's. More than one uses Where are and They're.",
+      "tasks": [
+        {
+          "prompt": "Bag list: one book and two caps. Ask about the book: ___ the book?",
+          "options": [
+            "Where are",
+            "They're",
+            "Where's"
+          ],
+          "answer": "Where's",
+          "full": "Where's the book?",
+          "hint": "The book is one item.",
+          "explain": "Where's the book? asks about the place of the one book."
+        },
+        {
+          "prompt": "Bag list: one book and two caps. Ask about the caps: ___ the caps?",
+          "options": [
+            "Where's",
+            "Where are",
+            "It's"
+          ],
+          "answer": "Where are",
+          "full": "Where are the caps?",
+          "hint": "The caps are more than one item.",
+          "explain": "Where are the caps? asks about the place of the two caps."
+        },
+        {
+          "prompt": "One blue book is in a red bag. Two green books are in a black bag. Where's the blue book? ___",
+          "options": [
+            "They're in the red bag.",
+            "It's in the black bag.",
+            "It's in the red bag."
+          ],
+          "answer": "It's in the red bag.",
+          "full": "It's in the red bag.",
+          "hint": "Find the blue book. There is only one blue book.",
+          "explain": "It's in the red bag uses It's for one book and matches its bag."
+        },
+        {
+          "prompt": "One red cap is in a green box. Two red shoes are in a blue bag. Where are the shoes? ___",
+          "options": [
+            "They're in the green box.",
+            "They're in the blue bag.",
+            "It's in the blue bag."
+          ],
+          "answer": "They're in the blue bag.",
+          "full": "They're in the blue bag.",
+          "hint": "Find the shoes. Use the words for more than one.",
+          "explain": "They're in the blue bag matches both the two shoes and their place."
+        },
+        {
+          "prompt": "One map is in the bag. Where's the map? ___ in the bag.",
+          "options": [
+            "It's",
+            "There are",
+            "They're"
+          ],
+          "answer": "It's",
+          "full": "It's in the bag.",
+          "hint": "Answer about the one map.",
+          "explain": "It's in the bag uses It for the one map."
+        }
+      ]
+    },
+    {
+      "id": "y2c-castle",
+      "title": "Beach-plan Castle",
+      "topic": "Let's · choose a matching reply",
+      "type": "rune",
+      "color": "#e5b3f0",
+      "icon": "castle",
+      "x": 89,
+      "y": 73,
+      "subtitle": "Plan an adventure together",
+      "guide": "Read the clue. Tap the suggestion or reply that matches the plan!",
+      "taskLabel": "Castle light switched on",
+      "reminder": "Let's suggests a plan. Good idea agrees. I'm not sure means you have not decided.",
+      "tasks": [
+        {
+          "prompt": "We have sand and a bucket. Choose the activity that uses both: Let's ___.",
+          "options": [
+            "read a book",
+            "make a sandcastle",
+            "play the piano"
+          ],
+          "answer": "make a sandcastle",
+          "full": "Let's make a sandcastle.",
+          "hint": "Think about what you can make with sand and a bucket.",
+          "explain": "Let's make a sandcastle matches the materials in the clue."
+        },
+        {
+          "prompt": "Paper and paints are ready. Choose the matching suggestion: Let's ___.",
+          "options": [
+            "take a photo",
+            "listen to music",
+            "paint a picture"
+          ],
+          "answer": "paint a picture",
+          "full": "Let's paint a picture.",
+          "hint": "Which activity uses paper and paints?",
+          "explain": "Let's paint a picture matches the materials that are ready."
+        },
+        {
+          "prompt": "Your friend says, Let's go swimming. You want to swim too. Choose your reply: ___",
+          "options": [
+            "I'm not sure.",
+            "Good idea.",
+            "Sorry, I don't want to."
+          ],
+          "answer": "Good idea.",
+          "full": "Good idea.",
+          "hint": "You both want to swim. Choose the reply that agrees.",
+          "explain": "Good idea tells your friend that you want to follow the plan."
+        },
+        {
+          "prompt": "Your friend says, Let's play tennis. You do not want to play. Choose your reply: ___",
+          "options": [
+            "Sorry, I don't want to.",
+            "Good idea.",
+            "I'm not sure."
+          ],
+          "answer": "Sorry, I don't want to.",
+          "full": "Sorry, I don't want to.",
+          "hint": "You have decided that you do not want to play.",
+          "explain": "Sorry, I don't want to politely declines the tennis plan."
+        },
+        {
+          "prompt": "Your friend says, Let's read a book. You have not decided if you want to read. Choose your reply: ___",
+          "options": [
+            "Good idea.",
+            "Sorry, I don't want to.",
+            "I'm not sure."
+          ],
+          "answer": "I'm not sure.",
+          "full": "I'm not sure.",
+          "hint": "Choose the reply that means you have not decided.",
+          "explain": "I'm not sure tells your friend that you have not decided."
+        }
+      ]
+    }
+  ],
+  "rules": [
+    [
+      "shop",
+      "Check the supplies",
+      "There is ... · There are ... · How many ...?",
+      "Read the count. Use is for one and are for two or more. Ask How many? for a number.",
+      "How many hats are there? There are three hats."
+    ],
+    [
+      "bridge",
+      "Check the routine",
+      "Do you ...? · Yes, I do. · No, I don't.",
+      "Read the activity and the day. Match your reply to both.",
+      "Do you watch TV on Fridays? Yes, I do."
+    ],
+    [
+      "train",
+      "Tell your weekly plan",
+      "on Mondays · at the weekend",
+      "Put the activity after I. Use on with a day and at in at the weekend.",
+      "I play the piano on Saturdays."
+    ],
+    [
+      "boat",
+      "Describe or check clothes",
+      "She is wearing ... · Is she wearing ...?",
+      "A statement tells us about clothes. A question asks someone to check them.",
+      "Is he wearing a blue T-shirt?"
+    ],
+    [
+      "pickaxe",
+      "Check an ability",
+      "Can you ...? · Yes, I can. · No, I can't.",
+      "Read the activity in the question. A friend may be able to do one activity but not another.",
+      "Can you skip? No, I can't."
+    ],
+    [
+      "portal",
+      "Check one item or more",
+      "this cap · these socks · Is he wearing ...?",
+      "Use this for one and these for more than one. Check the colour before replying.",
+      "Is he wearing a red cap? Yes, he is."
+    ],
+    [
+      "cat",
+      "Match the item and place",
+      "Where's / It's · Where are / They're",
+      "Find the correct item. Then match one or more and its place.",
+      "Where's the map? It's in the bag."
+    ],
+    [
+      "castle",
+      "Match a plan and a reply",
+      "Let's ... · Good idea. · I'm not sure.",
+      "Agree with Good idea. Say I'm not sure if you have not decided. Decline politely with Sorry, I don't want to.",
+      "Let's take a photo. Good idea."
+    ]
+  ],
+  "curriculum": {
+    "document": "KSSR (Semakan 2017), SK, CEFR-aligned, KPM BPK",
+    "title": "DSKP Bahasa Inggeris Tahun 2 — Primary Year 2 English Language Syllabus (SK)",
+    "url": "https://bpk.moe.gov.my/kurikulum/kssr/kssr-tahun-2/96-50-dskp-kssr-semakan-tahun-2-bahasa-inggeris-cefr-sk-v2/file",
+    "grammarPages": "Printed p. 48 (meaning-led grammar); pp. 54–56 (routines, counting, clothes, ability, suggestions, location). PDF pp. 62, 68–70.",
+    "learningStandards": [
+      "3.2.1–3.2.2, p. 36: Understand simple sentences and their details.",
+      "3.3.1, p. 36: Enjoy sentence-level digital games.",
+      "4.2.2 and 4.2.4, p. 41: Ability and object descriptions.",
+      "4.3.1 and 4.3.3, p. 41: Guided punctuation and sentence formation."
+    ],
+    "note": "Original medium/high practice for 2S. Context and meaning add challenge within Year 2 forms. Selected grammar practice only; scores are not PBD levels or full DSKP assessment."
+  }
+}

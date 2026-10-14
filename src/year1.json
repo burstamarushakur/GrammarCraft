@@ -1,0 +1,759 @@
+{
+  "year": 1,
+  "levelLabel": "Explorer adventure",
+  "missions": [
+    {
+      "id": "y1-market",
+      "title": "Hello Village",
+      "topic": "Meet your friends · names and age",
+      "type": "rune",
+      "color": "#ffbd64",
+      "icon": "shop",
+      "x": 18,
+      "y": 72,
+      "subtitle": "Meet the villagers",
+      "guide": "Tap a word block. Say hello to a new friend!",
+      "taskLabel": "Friend greeted",
+      "reminder": "Use the words in the story. Tap Listen to hear them.",
+      "tasks": [
+        {
+          "prompt": "Hello! My name ___ Hana.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "is",
+          "full": "Hello! My name is Hana.",
+          "hint": "Say: My name is Hana.",
+          "explain": "My name is Hana. We use is after My name.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "I ___ seven.",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ],
+          "answer": "am",
+          "full": "I am seven.",
+          "hint": "Say: I am seven.",
+          "explain": "I am seven. Am goes with I.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "A boy is called Dan. ___ name is Dan.",
+          "options": [
+            "Her",
+            "His"
+          ],
+          "answer": "His",
+          "full": "His name is Dan.",
+          "hint": "Dan is a boy. Say: His name is Dan.",
+          "explain": "His tells us the name of the boy.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "A girl is called May. ___ name is May.",
+          "options": [
+            "Her",
+            "His"
+          ],
+          "answer": "Her",
+          "full": "Her name is May.",
+          "hint": "May is a girl. Say: Her name is May.",
+          "explain": "Her tells us the name of the girl.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "Ben is six. How ___ is Ben?",
+          "options": [
+            "name",
+            "old"
+          ],
+          "answer": "old",
+          "full": "How old is Ben?",
+          "hint": "Ask How old? to find out an age.",
+          "explain": "How old is Ben? The answer is six.",
+          "scene": "boy"
+        }
+      ]
+    },
+    {
+      "id": "y1-bridge",
+      "title": "Toy Bridge",
+      "topic": "My toys · his and her",
+      "type": "bridge",
+      "color": "#80d4ea",
+      "icon": "bridge",
+      "x": 38,
+      "y": 56,
+      "subtitle": "Help friends find their toys",
+      "guide": "Tap a word block to add a bridge block. Return each toy to its owner!",
+      "taskLabel": "Bridge block added",
+      "reminder": "His tells us about a boy. Her tells us about a girl.",
+      "tasks": [
+        {
+          "prompt": "This ball belongs to Dan. It is ___ ball.",
+          "options": [
+            "his",
+            "her"
+          ],
+          "answer": "his",
+          "full": "It is his ball.",
+          "hint": "Dan is a boy. His ball belongs to Dan.",
+          "explain": "His ball is the ball that belongs to Dan.",
+          "scene": "ball"
+        },
+        {
+          "prompt": "This doll belongs to May. It is ___ doll.",
+          "options": [
+            "his",
+            "her"
+          ],
+          "answer": "her",
+          "full": "It is her doll.",
+          "hint": "May is a girl. Her doll belongs to May.",
+          "explain": "Her doll is the doll that belongs to May.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "Ben is a boy. ___ is six.",
+          "options": [
+            "He",
+            "She"
+          ],
+          "answer": "He",
+          "full": "He is six.",
+          "hint": "Ben is a boy. Use He.",
+          "explain": "He takes the place of Ben.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "Hana is a girl. ___ is seven.",
+          "options": [
+            "He",
+            "She"
+          ],
+          "answer": "She",
+          "full": "She is seven.",
+          "hint": "Hana is a girl. Use She.",
+          "explain": "She takes the place of Hana.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "May has a kite. ___ favourite toy is her kite.",
+          "options": [
+            "His",
+            "Her"
+          ],
+          "answer": "Her",
+          "full": "Her favourite toy is her kite.",
+          "hint": "The kite belongs to May. Use Her.",
+          "explain": "Her favourite toy is her kite. We are talking about May.",
+          "scene": "girl"
+        }
+      ]
+    },
+    {
+      "id": "y1-train",
+      "title": "Toy Train",
+      "topic": "Toy labels · a and an",
+      "type": "train",
+      "color": "#a8d884",
+      "icon": "train",
+      "x": 17,
+      "y": 34,
+      "subtitle": "Give the toys a label",
+      "guide": "Tap the word carriages in order. Build a toy label to move the train!",
+      "taskLabel": "Toy delivered",
+      "reminder": "Use a before red or big. Use an before orange or old.",
+      "tasks": [
+        {
+          "prompt": "Make a label for a red ball. Start with It.",
+          "words": [
+            "It",
+            "is",
+            "a",
+            "red",
+            "ball."
+          ],
+          "answer": "It is a red ball.",
+          "full": "It is a red ball.",
+          "hint": "Start with It is. Add a red ball.",
+          "explain": "A red ball. A comes before the word red.",
+          "scene": "ball"
+        },
+        {
+          "prompt": "Make a label for an orange kite. Start with It.",
+          "words": [
+            "It",
+            "is",
+            "an",
+            "orange",
+            "kite."
+          ],
+          "answer": "It is an orange kite.",
+          "full": "It is an orange kite.",
+          "hint": "Start with It is. Add an orange kite.",
+          "explain": "An orange kite. An comes before orange.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "Make a label for a big train. Start with It.",
+          "words": [
+            "It",
+            "is",
+            "a",
+            "big",
+            "train."
+          ],
+          "answer": "It is a big train.",
+          "full": "It is a big train.",
+          "hint": "Start with It is. Add a big train.",
+          "explain": "A big train. A comes before big.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "Make a label for an old car. Start with It.",
+          "words": [
+            "It",
+            "is",
+            "an",
+            "old",
+            "car."
+          ],
+          "answer": "It is an old car.",
+          "full": "It is an old car.",
+          "hint": "Start with It is. Add an old car.",
+          "explain": "An old car. An comes before old.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "Make a label for a new doll. Start with It.",
+          "words": [
+            "It",
+            "is",
+            "a",
+            "new",
+            "doll."
+          ],
+          "answer": "It is a new doll.",
+          "full": "It is a new doll.",
+          "hint": "Start with It is. Add a new doll.",
+          "explain": "A new doll. A comes before new.",
+          "scene": "girl"
+        }
+      ]
+    },
+    {
+      "id": "y1-river",
+      "title": "Classroom River",
+      "topic": "Classroom instructions",
+      "type": "build",
+      "color": "#69c8e8",
+      "icon": "boat",
+      "x": 56,
+      "y": 74,
+      "subtitle": "Help your class get ready",
+      "guide": "Put the word blocks in order. Each helpful instruction launches a boat!",
+      "taskLabel": "Boat launched",
+      "reminder": "A helpful instruction can end with please.",
+      "tasks": [
+        {
+          "prompt": "Ask your friend to open a book. Start with Open.",
+          "words": [
+            "Open",
+            "your",
+            "book,",
+            "please."
+          ],
+          "answer": "Open your book, please.",
+          "full": "Open your book, please.",
+          "hint": "Start with Open. Add your book, then please.",
+          "explain": "Open your book, please. This is a helpful classroom instruction.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "Ask your friend to close a bag. Start with Close.",
+          "words": [
+            "Close",
+            "your",
+            "bag,",
+            "please."
+          ],
+          "answer": "Close your bag, please.",
+          "full": "Close your bag, please.",
+          "hint": "Start with Close. Add your bag, then please.",
+          "explain": "Close your bag, please. Close tells your friend what to do.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "Ask for a pencil. Start with Pass.",
+          "words": [
+            "Pass",
+            "me",
+            "a",
+            "pencil,",
+            "please."
+          ],
+          "answer": "Pass me a pencil, please.",
+          "full": "Pass me a pencil, please.",
+          "hint": "Start with Pass me. Add a pencil, then please.",
+          "explain": "Pass me a pencil, please. Please makes your request polite.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Ask your friend to sit down. Start with Sit.",
+          "words": [
+            "Sit",
+            "down,",
+            "please."
+          ],
+          "answer": "Sit down, please.",
+          "full": "Sit down, please.",
+          "hint": "Start with Sit. Then add down, and please.",
+          "explain": "Sit down, please. This tells your friend what to do.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "Ask your friend to look at a kite. Start with Look.",
+          "words": [
+            "Look",
+            "at",
+            "the",
+            "kite,",
+            "please."
+          ],
+          "answer": "Look at the kite, please.",
+          "full": "Look at the kite, please.",
+          "hint": "Start with Look at. Add the kite, then please.",
+          "explain": "Look at the kite, please. Look at tells your friend where to look.",
+          "scene": "girl"
+        }
+      ]
+    },
+    {
+      "id": "y1-mine",
+      "title": "Pet Mine",
+      "topic": "I like · I do not like",
+      "type": "mine",
+      "color": "#acbcdf",
+      "icon": "pickaxe",
+      "x": 68,
+      "y": 51,
+      "subtitle": "Find a gem for each pet",
+      "guide": "Tap the word block that matches the story. Collect a pet gem!",
+      "taskLabel": "Pet gem found",
+      "reminder": "Like tells us what you enjoy. Do not like tells us what you do not enjoy.",
+      "tasks": [
+        {
+          "prompt": "Hana likes cats. She says: I ___ cats.",
+          "options": [
+            "like",
+            "do not like"
+          ],
+          "answer": "like",
+          "full": "I like cats.",
+          "hint": "Hana likes cats. Choose like.",
+          "explain": "I like cats means Hana enjoys cats.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "Dan does not like snakes. He says: I ___ snakes.",
+          "options": [
+            "like",
+            "do not like"
+          ],
+          "answer": "do not like",
+          "full": "I do not like snakes.",
+          "hint": "Dan does not like snakes. Choose do not like.",
+          "explain": "I do not like snakes tells us how Dan feels.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "May likes ducks. She says: I ___ ducks.",
+          "options": [
+            "like",
+            "do not like"
+          ],
+          "answer": "like",
+          "full": "I like ducks.",
+          "hint": "May likes ducks. Choose like.",
+          "explain": "I like ducks means May enjoys ducks.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "Ben does not like rats. He says: I ___ rats.",
+          "options": [
+            "like",
+            "do not like"
+          ],
+          "answer": "do not like",
+          "full": "I do not like rats.",
+          "hint": "Ben does not like rats. Choose do not like.",
+          "explain": "I do not like rats tells us how Ben feels.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "You enjoy dogs. Choose your words: I ___ dogs.",
+          "options": [
+            "do not like",
+            "like"
+          ],
+          "answer": "like",
+          "full": "I like dogs.",
+          "hint": "You enjoy dogs. Say: I like dogs.",
+          "explain": "I like dogs tells people what you enjoy.",
+          "scene": "friends"
+        }
+      ]
+    },
+    {
+      "id": "y1-portal",
+      "title": "Lunchbox Portal",
+      "topic": "Lunchbox · have got",
+      "type": "portal",
+      "color": "#bea1fa",
+      "icon": "portal",
+      "x": 80,
+      "y": 27,
+      "subtitle": "Pack lunch for the journey",
+      "guide": "Tap a word portal. Choose the words that match each lunchbox!",
+      "taskLabel": "Lunchbox packed",
+      "reminder": "Have got tells us what is in a lunchbox. Have not got tells us what is missing.",
+      "tasks": [
+        {
+          "prompt": "An apple is in my lunchbox. I ___ an apple.",
+          "options": [
+            "have got",
+            "have not got"
+          ],
+          "answer": "have got",
+          "full": "I have got an apple.",
+          "hint": "The apple is in the lunchbox. Say have got.",
+          "explain": "I have got an apple means I have an apple.",
+          "scene": "apple"
+        },
+        {
+          "prompt": "There is no banana in my lunchbox. I ___ a banana.",
+          "options": [
+            "have got",
+            "have not got"
+          ],
+          "answer": "have not got",
+          "full": "I have not got a banana.",
+          "hint": "The banana is missing. Say have not got.",
+          "explain": "I have not got a banana means I do not have a banana.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "We have some cheese. Have we got any cheese? Yes, we ___.",
+          "options": [
+            "have",
+            "have not"
+          ],
+          "answer": "have",
+          "full": "Yes, we have.",
+          "hint": "The cheese is here. Say Yes, we have.",
+          "explain": "Yes, we have answers the question about the cheese.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "We have no cake. Have we got any cake? No, we ___.",
+          "options": [
+            "have",
+            "have not"
+          ],
+          "answer": "have not",
+          "full": "No, we have not.",
+          "hint": "There is no cake. Say No, we have not.",
+          "explain": "No, we have not means we do not have cake.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "A sandwich is in my lunchbox. I have ___ a sandwich.",
+          "options": [
+            "got",
+            "get"
+          ],
+          "answer": "got",
+          "full": "I have got a sandwich.",
+          "hint": "Use the words have got together.",
+          "explain": "I have got a sandwich tells us what is in the lunchbox.",
+          "scene": "girl"
+        }
+      ]
+    },
+    {
+      "id": "y1-rescue",
+      "title": "Pet Hideout",
+      "topic": "in · on · under",
+      "type": "rune",
+      "color": "#ff9c95",
+      "icon": "cat",
+      "x": 42,
+      "y": 22,
+      "subtitle": "Find the hidden pets",
+      "guide": "Read the clue. Tap a place word to help a pet get home!",
+      "taskLabel": "Pet found",
+      "reminder": "In means inside. On means on top. Under means below.",
+      "tasks": [
+        {
+          "prompt": "The cat is inside the box. The cat is ___ the box.",
+          "options": [
+            "in",
+            "on",
+            "under"
+          ],
+          "answer": "in",
+          "full": "The cat is in the box.",
+          "hint": "Inside means in.",
+          "explain": "In the box means inside the box.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "The dog is on top of the bag. The dog is ___ the bag.",
+          "options": [
+            "under",
+            "on",
+            "in"
+          ],
+          "answer": "on",
+          "full": "The dog is on the bag.",
+          "hint": "On top means on.",
+          "explain": "On the bag means on top of the bag.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "The frog is below the desk. The frog is ___ the desk.",
+          "options": [
+            "on",
+            "in",
+            "under"
+          ],
+          "answer": "under",
+          "full": "The frog is under the desk.",
+          "hint": "Below means under.",
+          "explain": "Under the desk means below the desk.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "The rat is inside the bag. The rat is ___ the bag.",
+          "options": [
+            "under",
+            "in",
+            "on"
+          ],
+          "answer": "in",
+          "full": "The rat is in the bag.",
+          "hint": "Inside means in.",
+          "explain": "In the bag means inside the bag.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "The cat is below the chair. The cat is ___ the chair.",
+          "options": [
+            "under",
+            "on",
+            "in"
+          ],
+          "answer": "under",
+          "full": "The cat is under the chair.",
+          "hint": "Below means under.",
+          "explain": "Under the chair means below the chair.",
+          "scene": "friends"
+        }
+      ]
+    },
+    {
+      "id": "y1-castle",
+      "title": "Toy Castle",
+      "topic": "big · small · tall · short",
+      "type": "compare",
+      "color": "#e5b3f0",
+      "icon": "castle",
+      "x": 89,
+      "y": 73,
+      "subtitle": "Choose the right size",
+      "guide": "Look at the sizes. Tap the object that matches the words!",
+      "taskLabel": "Castle light switched on",
+      "reminder": "Look at both objects. Big and small tell us about size. Tall and short tell us about height.",
+      "tasks": [
+        {
+          "prompt": "Find the big chest.",
+          "answer": "big",
+          "full": "Chest B is big.",
+          "hint": "Look for the chest that takes up more space.",
+          "explain": "Chest B is big. Chest A is small.",
+          "objects": [
+            {
+              "id": "small",
+              "label": "Chest A",
+              "size": 75
+            },
+            {
+              "id": "big",
+              "label": "Chest B",
+              "size": 150
+            }
+          ],
+          "objectType": "chest"
+        },
+        {
+          "prompt": "Find the small chest.",
+          "answer": "small",
+          "full": "Chest A is small.",
+          "hint": "Look for the chest that takes up less space.",
+          "explain": "Chest A is small. Chest B is big.",
+          "objects": [
+            {
+              "id": "small",
+              "label": "Chest A",
+              "size": 70
+            },
+            {
+              "id": "big",
+              "label": "Chest B",
+              "size": 142
+            }
+          ],
+          "objectType": "chest"
+        },
+        {
+          "prompt": "Find the tall tower.",
+          "answer": "tall",
+          "full": "Tower B is tall.",
+          "hint": "Look for the tower that goes high up.",
+          "explain": "Tower B is tall. Tower A is short.",
+          "objects": [
+            {
+              "id": "short",
+              "label": "Tower A",
+              "size": 75
+            },
+            {
+              "id": "tall",
+              "label": "Tower B",
+              "size": 150
+            }
+          ],
+          "objectType": "tower"
+        },
+        {
+          "prompt": "Find the short tower.",
+          "answer": "short",
+          "full": "Tower B is short.",
+          "hint": "Look for the tower that does not go very high.",
+          "explain": "Tower B is short. Tower A is tall.",
+          "objects": [
+            {
+              "id": "tall",
+              "label": "Tower A",
+              "size": 146
+            },
+            {
+              "id": "short",
+              "label": "Tower B",
+              "size": 75
+            }
+          ],
+          "objectType": "tower"
+        },
+        {
+          "prompt": "Choose a big chest for the toys.",
+          "answer": "big",
+          "full": "Chest A is big.",
+          "hint": "Find the chest with more space for the toys.",
+          "explain": "Chest A is big. It has more space for toys.",
+          "objects": [
+            {
+              "id": "big",
+              "label": "Chest A",
+              "size": 145
+            },
+            {
+              "id": "small",
+              "label": "Chest B",
+              "size": 72
+            }
+          ],
+          "objectType": "chest"
+        }
+      ]
+    }
+  ],
+  "rules": [
+    [
+      "shop",
+      "Meet your friends",
+      "My name is ... · I am seven.",
+      "Use these words to tell a friend your name and age.",
+      "My name is Hana. I am seven."
+    ],
+    [
+      "bridge",
+      "His and her",
+      "His = a boy's · Her = a girl's",
+      "Use his or her to talk about a name or a favourite toy.",
+      "Her kite belongs to May. His ball belongs to Dan."
+    ],
+    [
+      "train",
+      "Toy labels",
+      "a red ball · an orange kite",
+      "Use a before red. Use an before orange. Listen to the first sound of the next word.",
+      "It is an old car. It is a new doll."
+    ],
+    [
+      "boat",
+      "Helpful instructions",
+      "Open ... · Close ... · Pass me ...",
+      "Tell a friend what to do. Add please to be polite.",
+      "Close your bag, please."
+    ],
+    [
+      "pickaxe",
+      "What I like",
+      "I like ... · I do not like ...",
+      "Use these words to say what you enjoy.",
+      "I like cats. I do not like snakes."
+    ],
+    [
+      "portal",
+      "My lunchbox",
+      "I have got ... · I have not got ...",
+      "Have got tells us what you have. Have not got tells us what is missing.",
+      "I have got an apple. I have not got a banana."
+    ],
+    [
+      "cat",
+      "Where is the pet?",
+      "in = inside · on = on top · under = below",
+      "Use a place word to find the pet.",
+      "The cat is under the chair."
+    ],
+    [
+      "castle",
+      "Sizes",
+      "big · small · tall · short",
+      "Big and small tell us about size. Tall and short tell us about height.",
+      "The chest is big. The tower is tall."
+    ]
+  ],
+  "curriculum": {
+    "document": "KSSR (Semakan 2017), SK, CEFR-aligned",
+    "title": "DSKP Bahasa Inggeris Tahun 1 — Primary Year 1 English Language Syllabus",
+    "url": "https://bpk.moe.gov.my/kurikulum/kssr/kssr-tahun-1/57-48-dskp-kssr-semakan-tahun-1-bahasa-inggeris-cefr-sk-v2/file",
+    "grammarPages": "Printed pages 50 and 55–57 (PDF pages 64 and 69–71)",
+    "learningStandards": [
+      "3.2.2: Read details in very simple phrases and sentences.",
+      "3.3.1: Enjoy simple digital word games.",
+      "4.2.1: Give a name or age through familiar fixed phrases.",
+      "4.2.3: Express likes and dislikes.",
+      "4.2.4: Name or describe familiar objects."
+    ],
+    "note": "Original medium-challenge practice using the SK Year 1 syllabus language in playful contexts. Year 1 grammar is experienced through meaning, fixed phrases and enjoyment, with short choices, word blocks, audio and hints. This pack practises selected language; game points do not determine a DSKP performance level."
+  }
+}

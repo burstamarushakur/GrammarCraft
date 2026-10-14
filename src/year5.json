@@ -1,0 +1,509 @@
+{
+  "year": 5,
+  "levelLabel": "Challenge",
+  "missions": [
+    {
+      "id": "y5-market",
+      "title": "Village Café",
+      "subtitle": "Check the supplies",
+      "topic": "much · many · there is / are · also",
+      "type": "rune",
+      "color": "#ffbd64",
+      "icon": "shop",
+      "x": 18,
+      "y": 72,
+      "guide": "Read the café clues. Tap the correct message block to help the cooks!",
+      "taskLabel": "Café supply checked",
+      "tasks": [
+        {
+          "prompt": "The café has ten apples but only a little juice. Choose the message with correct grammar.",
+          "options": ["There are many apples, but there isn't much juice.", "There is many apples, but there aren't much juice.", "There are much apples, but there isn't many juice."],
+          "answer": "There are many apples, but there isn't much juice.",
+          "full": "There are many apples, but there isn't much juice.",
+          "hint": "Apples can be counted: many apples. Juice is a liquid: much juice. Match are to apples and is to juice.",
+          "explain": "Use many with countable apples and much with uncountable juice. The verb also matches the noun.",
+          "scene": "apple"
+        },
+        {
+          "prompt": "The cook needs six bananas. You want to check the number of bananas on the table. Choose a correct question.",
+          "options": ["How much bananas is there?", "How many bananas are there?", "How many banana is there?"],
+          "answer": "How many bananas are there?",
+          "full": "How many bananas are there?",
+          "hint": "Ask How many about a number of things you can count. Bananas is plural.",
+          "explain": "How many asks for a number. Use the plural bananas and the question order are there.",
+          "scene": "apple"
+        },
+        {
+          "prompt": "There are two bottles on the shelf. Both contain water. Fix the cook's note: 'There is two bottles of water.'",
+          "options": ["There are two bottles of water.", "There is two bottle of water.", "There are two bottle of waters."],
+          "answer": "There are two bottles of water.",
+          "full": "There are two bottles of water.",
+          "hint": "The sentence counts bottles, not the water inside them. Two bottles needs are.",
+          "explain": "Bottles is the plural noun that controls the verb. Use There are two bottles of water.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "The cook has plenty of rice. She does not know the amount of rice needed for the meal. Choose the question to ask her.",
+          "options": ["How many rice do we need?", "How much rices do we need?", "How much rice do we need?"],
+          "answer": "How much rice do we need?",
+          "full": "How much rice do we need?",
+          "hint": "Rice is uncountable here. Ask about its amount with How much.",
+          "explain": "Use How much with uncountable rice. Do not add s to rice.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Ravi enjoys fruit. He enjoys sandwiches too. Choose the correct sentence that adds this second fact using also.",
+          "options": ["He also enjoy sandwiches.", "He also enjoys sandwiches.", "He also enjoying sandwiches."],
+          "answer": "He also enjoys sandwiches.",
+          "full": "Ravi enjoys fruit. He also enjoys sandwiches.",
+          "hint": "Also adds another fact. A routine or preference with he needs enjoys.",
+          "explain": "Also adds the second preference. Use enjoys after he in the present simple.",
+          "scene": "boy"
+        }
+      ]
+    },
+    {
+      "id": "y5-bridge",
+      "title": "Message Bridge",
+      "subtitle": "Connect the explorers",
+      "topic": "object pronouns · and · or · but · so · because",
+      "type": "bridge",
+      "color": "#80d4ea",
+      "icon": "bridge",
+      "x": 38,
+      "y": 56,
+      "guide": "Choose messages that connect ideas clearly. Each correct message builds the bridge!",
+      "taskLabel": "Message delivered",
+      "tasks": [
+        {
+          "prompt": "Mina dropped two maps. You picked up both maps. Complete her message: 'I dropped the maps, so you picked ___ up.'",
+          "options": ["they", "him", "them"],
+          "answer": "them",
+          "full": "I dropped the maps, so you picked them up.",
+          "hint": "Both maps is plural. The word after picked refers to the things that received the action.",
+          "explain": "Them is an object pronoun for the two maps. They is a subject pronoun.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "Ravi can run fast. He cannot climb the high wall. Choose the word that shows this contrast: 'He can run fast, ___ he cannot climb the wall.'",
+          "options": ["but", "because", "so"],
+          "answer": "but",
+          "full": "He can run fast, but he cannot climb the wall.",
+          "hint": "You need a word that contrasts an ability with something he cannot do.",
+          "explain": "But connects contrasting ideas: he can do one thing, but he cannot do the other.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "Only one route can open. The team must choose between the train and the boat. Complete the choice: 'We can take the train ___ the boat.'",
+          "options": ["so", "and", "or"],
+          "answer": "or",
+          "full": "We can take the train or the boat.",
+          "hint": "The team has two alternatives and must choose one.",
+          "explain": "Or presents alternatives. And would join both forms of transport rather than show this choice.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "The bridge was broken. As a result, the team took the boat. Choose the word that shows the result: 'The bridge was broken, ___ we took the boat.'",
+          "options": ["because", "so", "or"],
+          "answer": "so",
+          "full": "The bridge was broken, so we took the boat.",
+          "hint": "The first part gives a problem. The second part tells you what happened as a result.",
+          "explain": "So introduces the result of the broken bridge: the team took the boat.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Aisha is lost. Ben gives Aisha a map. Choose the sentence that uses the correct pronouns and gives the reason.",
+          "options": ["Ben gives she a map because her is lost.", "Ben gives him a map because she is lost.", "Ben gives her a map because she is lost."],
+          "answer": "Ben gives her a map because she is lost.",
+          "full": "Ben gives her a map because she is lost.",
+          "hint": "Aisha receives the map: use her. Aisha is the subject of is lost: use she. Because introduces the reason.",
+          "explain": "Use object pronoun her after gives and subject pronoun she before is. Because explains why Ben gives the map.",
+          "scene": "girl"
+        }
+      ]
+    },
+    {
+      "id": "y5-train",
+      "title": "Timetable Train",
+      "subtitle": "Build questions and routines",
+      "topic": "What time · How often · frequency · present simple",
+      "type": "train",
+      "color": "#a8d884",
+      "icon": "train",
+      "x": 17,
+      "y": 34,
+      "guide": "Use the clues to build each question or routine. Put every carriage in the correct order!",
+      "taskLabel": "Timetable message ready",
+      "tasks": [
+        {
+          "prompt": "Nora checks her compass every morning. Ask about the frequency of this action. Start with How and finish with compass?",
+          "words": ["How", "often", "does", "Nora", "check", "her", "compass?"],
+          "answer": "How often does Nora check her compass?",
+          "full": "How often does Nora check her compass?",
+          "hint": "Use How often to ask about frequency. Put does before Nora, then use check without s.",
+          "explain": "How often asks about frequency. In a present simple question, does is followed by the subject and the base verb.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "You know the train leaves in the morning, but you need its exact departure time. Build a question. Start with What and finish with leave?",
+          "words": ["What", "time", "does", "the", "train", "leave?"],
+          "answer": "What time does the train leave?",
+          "full": "What time does the train leave?",
+          "hint": "Use What time for an exact time. Use does with the train, then the base verb leave.",
+          "explain": "What time asks for the departure time. After does, use leave rather than leaves.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Mina visits the market on most days, but not every day. Build her routine with usually before the main verb. Start with Mina.",
+          "words": ["Mina", "usually", "visits", "the", "market."],
+          "answer": "Mina usually visits the market.",
+          "full": "Mina usually visits the market.",
+          "hint": "Usually means on most occasions. Place it before visits.",
+          "explain": "Usually expresses a regular action that does not happen every time. It comes before the main verb visits.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "The boat operates on Tuesdays and Fridays. It is closed on Mondays. Build the negative routine. Start with The and finish with Mondays.",
+          "words": ["The", "boat", "does", "not", "sail", "on", "Mondays."],
+          "answer": "The boat does not sail on Mondays.",
+          "full": "The boat does not sail on Mondays.",
+          "hint": "Use does not with the boat. The verb after does not is sail, without s.",
+          "explain": "Does not sail is the correct present simple negative for the boat. On Mondays tells us about a repeated routine.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Your team is ready for every adventure. Build a sentence using always directly after are. Start with We and finish with adventure.",
+          "words": ["We", "are", "always", "ready", "for", "adventure."],
+          "answer": "We are always ready for adventure.",
+          "full": "We are always ready for adventure.",
+          "hint": "A frequency adverb usually comes after am, is or are. Put always after are.",
+          "explain": "Always means every time. With the verb be, place the frequency adverb after the verb: are always.",
+          "scene": "friends"
+        }
+      ]
+    },
+    {
+      "id": "y5-river",
+      "title": "River Instructions",
+      "subtitle": "Guide the boat crew",
+      "topic": "imperatives · negative instructions · sequencing",
+      "type": "build",
+      "color": "#69c8e8",
+      "icon": "boat",
+      "x": 56,
+      "y": 74,
+      "guide": "Build clear instructions for the crew. Use the order clues to launch the boat!",
+      "taskLabel": "Crew instruction ready",
+      "tasks": [
+        {
+          "prompt": "Before a trip, the crew prepares drinking water. Build the first instruction. Start with First, and finish with water.",
+          "words": ["First,", "fill", "the", "bottle", "with", "clean", "water."],
+          "answer": "First, fill the bottle with clean water.",
+          "full": "First, fill the bottle with clean water.",
+          "hint": "First introduces the opening step. An instruction begins with a base verb such as fill.",
+          "explain": "First marks the start of the sequence. Fill is an imperative that tells the crew what to do.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Running on the narrow bridge is unsafe. Build a clear negative instruction for the crew. Start with Do and finish with bridge.",
+          "words": ["Do", "not", "run", "on", "the", "bridge."],
+          "answer": "Do not run on the bridge.",
+          "full": "Do not run on the bridge.",
+          "hint": "A negative instruction starts with Do not. Follow it with the base verb run.",
+          "explain": "Do not run is a negative imperative. It gives a clear instruction to avoid the unsafe action.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "The crew has put soil in a pot and added a seed. Now build the last instruction. Start with Finally, and finish with pot.",
+          "words": ["Finally,", "water", "the", "seed", "in", "the", "pot."],
+          "answer": "Finally, water the seed in the pot.",
+          "full": "Finally, water the seed in the pot.",
+          "hint": "Finally introduces the last step. Water is a verb here: it tells someone to give water to the seed.",
+          "explain": "Finally marks the end of the sequence. Water the seed is an imperative instruction.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Before walking to the boat, explorers must check their map, then follow the path. Join the two instructions. Start with Check and finish with path.",
+          "words": ["Check", "your", "map", "and", "follow", "the", "path."],
+          "answer": "Check your map and follow the path.",
+          "full": "Check your map and follow the path.",
+          "hint": "Check and follow are instruction verbs. And joins the two instructions.",
+          "explain": "Both actions use the base verb because they are imperatives. And links the two steps.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "First, fold the map. The second step is to put it in your bag. Build that second instruction. Start with Next, and finish with bag.",
+          "words": ["Next,", "put", "the", "map", "in", "your", "bag."],
+          "answer": "Next, put the map in your bag.",
+          "full": "Next, put the map in your bag.",
+          "hint": "Next introduces the following step. Start the instruction itself with put.",
+          "explain": "Next shows the order of the steps. Put the map in your bag tells the explorer what to do after folding the map.",
+          "scene": "boy"
+        }
+      ]
+    },
+    {
+      "id": "y5-mine",
+      "title": "Story Mine",
+      "subtitle": "Repair the adventure diary",
+      "topic": "past simple · questions · negatives · past and now",
+      "type": "mine",
+      "color": "#acbcdf",
+      "icon": "pickaxe",
+      "x": 68,
+      "y": 51,
+      "guide": "Read the diary clues. Mine the correct sentence block to repair the story!",
+      "taskLabel": "Diary page repaired",
+      "tasks": [
+        {
+          "prompt": "The team searched the mine yesterday. They found no gold. Fix this diary sentence: 'We did not found any gold.'",
+          "options": ["We did not find any gold.", "We did not finds any gold.", "We did not finding any gold."],
+          "answer": "We did not find any gold.",
+          "full": "We did not find any gold.",
+          "hint": "Did not already shows the past. Use the base verb find after it.",
+          "explain": "A past simple negative uses did not plus the base verb. Found becomes find after did not.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Rina joined the team yesterday. You are checking what she brought on that trip. Choose the correct past-tense question about the rope.",
+          "options": ["Does she bring the rope yesterday?", "Did she bring the rope?", "Did she brought the rope?"],
+          "answer": "Did she bring the rope?",
+          "full": "Did she bring the rope?",
+          "hint": "Ask about yesterday with Did. Follow the subject with the base verb bring.",
+          "explain": "Did marks the question as past simple. Use bring, not brought, after did.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "The diary says: First, we entered the mine. Next, we found a gem. After that, we went home. Choose the grammatically correct final diary sentence.",
+          "options": ["After that, we go home yesterday.", "After that, we goed home.", "After that, we went home."],
+          "answer": "After that, we went home.",
+          "full": "After that, we went home.",
+          "hint": "All three events are finished. Go has the irregular past form went.",
+          "explain": "Went is the past form of go. After that places this event after finding the gem.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Last Saturday, the explorers made a safe path from wooden blocks. Complete their report: 'We ___ a safe path.'",
+          "options": ["builded", "built", "build"],
+          "answer": "built",
+          "full": "We built a safe path.",
+          "hint": "Last Saturday is a finished time. Build is irregular in the past: built.",
+          "explain": "Use built for the completed action last Saturday. Not all past-tense verbs end in ed.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "The adventure happened yesterday. The team is taking a rest at this moment. Choose the message that shows both times correctly.",
+          "options": ["Yesterday, we explored the mine. Now, we are resting.", "Yesterday, we explore the mine. Now, we rested.", "Yesterday, we exploring the mine. Now, we are rest."],
+          "answer": "Yesterday, we explored the mine. Now, we are resting.",
+          "full": "Yesterday, we explored the mine. Now, we are resting.",
+          "hint": "A finished action yesterday needs the past simple. An action happening now needs are plus an ing verb.",
+          "explain": "Explored describes the finished adventure. Are resting describes what the team is doing now.",
+          "scene": "friends"
+        }
+      ]
+    },
+    {
+      "id": "y5-portal",
+      "title": "Future Portal",
+      "subtitle": "Make plans and promises",
+      "topic": "will / won't · predictions · promises · going to",
+      "type": "portal",
+      "color": "#bea1fa",
+      "icon": "portal",
+      "x": 80,
+      "y": 27,
+      "guide": "Read each future clue. Choose a clear plan, prediction or promise to open the portal!",
+      "taskLabel": "Future message ready",
+      "tasks": [
+        {
+          "prompt": "Your friend cannot carry the heavy boxes alone. Choose a grammatically correct promise to help with the boxes tomorrow.",
+          "options": ["I will helped you carry the boxes tomorrow.", "I will help you carry the boxes tomorrow.", "I will helping you carry the boxes tomorrow."],
+          "answer": "I will help you carry the boxes tomorrow.",
+          "full": "I will help you carry the boxes tomorrow.",
+          "hint": "Use will for the promise. The verb immediately after will must be the base form help.",
+          "explain": "Will help expresses the promise. Will is followed by a base verb, even when the action is tomorrow.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "The weather report predicts heavy rain tomorrow. The team decides to stay indoors. Choose a message that matches the report and has correct grammar.",
+          "options": ["It won't rain tomorrow, so we will stay indoors.", "It will rains tomorrow, so we will stay indoors.", "It will rain tomorrow, so we will stay indoors."],
+          "answer": "It will rain tomorrow, so we will stay indoors.",
+          "full": "It will rain tomorrow, so we will stay indoors.",
+          "hint": "The prediction is rain, not no rain. After will, use rain without s. So introduces the team's decision.",
+          "explain": "Will rain gives the prediction. Will stay uses another base verb, and so connects the prediction to the decision.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Mei has bought seeds and prepared pots. She has a plan for tomorrow. Choose the correct sentence describing that plan.",
+          "options": ["She is going to plant the seeds tomorrow.", "She are going to plant the seeds tomorrow.", "She is going to planted the seeds tomorrow."],
+          "answer": "She is going to plant the seeds tomorrow.",
+          "full": "She is going to plant the seeds tomorrow.",
+          "hint": "For this plan, use She is going to followed by the base verb plant.",
+          "explain": "Is going to plant describes Mei's planned action. Use is with she and the base verb after going to.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "A bird has a broken wing. The vet predicts it will need several days of rest. Choose a grammatically correct negative prediction for today.",
+          "options": ["It won't flew today.", "It won't fly today.", "It won't flying today."],
+          "answer": "It won't fly today.",
+          "full": "It won't fly today.",
+          "hint": "Won't means will not. It is followed by the base verb fly.",
+          "explain": "Won't fly is a negative prediction. Use fly rather than flew or flying after won't.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "The explorers have made a plan for next week. You want to check whether their plan is to visit the village. Choose the correctly formed question.",
+          "options": ["Are they going to visiting the village?", "Is they going to visit the village?", "Are they going to visit the village?"],
+          "answer": "Are they going to visit the village?",
+          "full": "Are they going to visit the village?",
+          "hint": "Use are with they. In the question, place Are before they and use visit after going to.",
+          "explain": "Are they going to visit is the question form of They are going to visit. The main verb stays in its base form.",
+          "scene": "friends"
+        }
+      ]
+    },
+    {
+      "id": "y5-rescue",
+      "title": "Rescue Camp",
+      "subtitle": "Use your skills and ask permission",
+      "topic": "can / can't · ability · permission · verb + ing",
+      "type": "rune",
+      "color": "#ff9c95",
+      "icon": "cat",
+      "x": 46,
+      "y": 31,
+      "guide": "Choose the right rescue message. Think about skills, permission and what each explorer enjoys!",
+      "taskLabel": "Rescue plan approved",
+      "tasks": [
+        {
+          "prompt": "Mina climbs trees easily, but she is unable to swim. Choose a correct sentence that reports both abilities.",
+          "options": ["Mina can climb, but she can't swim.", "Mina cans climb, but she can't swim.", "Mina can swim, but she can't climb."],
+          "answer": "Mina can climb, but she can't swim.",
+          "full": "Mina can climb, but she can't swim.",
+          "hint": "Can describes an ability. Can't describes something she is unable to do. Do not add s to can.",
+          "explain": "Can climb and can't swim match the clues. Can has the same form with every subject.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "You need the teacher's book for the rescue plan. Choose a grammatically correct, polite question asking permission to use it.",
+          "options": ["Can I using your book, please?", "Can I use your book, please?", "Can I uses your book, please?"],
+          "answer": "Can I use your book, please?",
+          "full": "Can I use your book, please?",
+          "hint": "A permission question starts Can I. Put the base verb use after I.",
+          "explain": "Can I use asks permission. Please makes the request polite. The verb after can stays in its base form.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "The path is closed. The captain refuses the request, 'Can we use this path?' Choose the reply that clearly refuses permission.",
+          "options": ["No, you can. The path is closed.", "No, you don't. The path is closed.", "No, you can't. The path is closed."],
+          "answer": "No, you can't. The path is closed.",
+          "full": "No, you can't. The path is closed.",
+          "hint": "Match a question with can to a short answer with can or can't. Refusing permission needs can't.",
+          "explain": "No, you can't refuses permission. The closed path gives the reason.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "The captain owns a locked chest. Your team must ask permission before opening it. Choose a correctly formed question from the team.",
+          "options": ["Can we open the chest?", "Can we opening the chest?", "Can we opens the chest?"],
+          "answer": "Can we open the chest?",
+          "full": "Can we open the chest?",
+          "hint": "For the standard question form, put Can before we, then add the base verb open.",
+          "explain": "Can we open is the standard question order for requesting permission. Use open rather than opens.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Ben likes swimming, but he dislikes running. Choose the sentence that expresses his preferences and has correct grammar.",
+          "options": ["He enjoys swim, but he does not like running.", "He enjoys swimming, but he does not like running.", "He enjoys running, but he does not like swimming."],
+          "answer": "He enjoys swimming, but he does not like running.",
+          "full": "He enjoys swimming, but he does not like running.",
+          "hint": "Enjoy is followed by a verb ending in ing. Check that both activities match Ben's preferences.",
+          "explain": "Enjoys swimming uses the ing form after enjoy. But connects Ben's contrasting preferences.",
+          "scene": "boy"
+        }
+      ]
+    },
+    {
+      "id": "y5-castle",
+      "title": "Castle Logic",
+      "subtitle": "Solve the comparison clues",
+      "topic": "comparatives · superlatives · connected clues",
+      "type": "compare",
+      "color": "#e5b3f0",
+      "icon": "castle",
+      "x": 62,
+      "y": 13,
+      "guide": "Use every comparison clue. Tap the tower or chest that meets the whole instruction!",
+      "taskLabel": "Castle clue solved",
+      "tasks": [
+        {
+          "prompt": "The scout needs a tower taller than Tower A but shorter than Tower C. Choose the tower that meets both clues.",
+          "answer": "b",
+          "full": "Tower B is taller than Tower A but shorter than Tower C.",
+          "objects": [{"id": "a", "label": "Tower A", "size": 76}, {"id": "b", "label": "Tower B", "size": 113}, {"id": "c", "label": "Tower C", "size": 154}],
+          "hint": "You need the middle height. The answer cannot be the shortest or the tallest tower.",
+          "explain": "Tower B meets both comparisons: it is taller than A and shorter than C."
+        },
+        {
+          "prompt": "The boat needs a chest bigger than Chest A but smaller than Chest B. Choose a chest that meets both size clues.",
+          "answer": "c",
+          "full": "Chest C is bigger than Chest A but smaller than Chest B.",
+          "objectType": "chest",
+          "objects": [{"id": "a", "label": "Chest A", "size": 76}, {"id": "b", "label": "Chest B", "size": 150}, {"id": "c", "label": "Chest C", "size": 112}],
+          "hint": "Compare all three chests. Look for a chest in the middle of the two named sizes.",
+          "explain": "Chest C is the middle size. Bigger and smaller compare it with the two other chests."
+        },
+        {
+          "prompt": "Tower C is taller than Tower B. Tower A is shorter than Tower B. Choose the second-tallest tower.",
+          "answer": "b",
+          "full": "Tower B is the second-tallest tower.",
+          "objects": [{"id": "a", "label": "Tower A", "size": 76}, {"id": "b", "label": "Tower B", "size": 116}, {"id": "c", "label": "Tower C", "size": 155}],
+          "hint": "First find the tallest tower. The next tower in height is the second-tallest.",
+          "explain": "C is tallest and A is shortest. B is the second-tallest because it is between them in height."
+        },
+        {
+          "prompt": "The ladder reaches only towers shorter than Tower B. Of those towers, choose the tallest one it can reach.",
+          "answer": "c",
+          "full": "Tower C is the tallest tower that is shorter than Tower B.",
+          "objects": [{"id": "a", "label": "Tower A", "size": 76}, {"id": "b", "label": "Tower B", "size": 155}, {"id": "c", "label": "Tower C", "size": 117}],
+          "hint": "Leave out Tower B first. Then compare the heights of the two remaining towers.",
+          "explain": "A and C are shorter than B. C is the taller of those two, so it is the tallest tower the ladder can reach."
+        },
+        {
+          "prompt": "The smallest chest is too small. The biggest chest is too heavy. Choose a chest that is not the smallest and not the biggest.",
+          "answer": "a",
+          "full": "Chest A is bigger than Chest B but smaller than Chest C.",
+          "objectType": "chest",
+          "objects": [{"id": "a", "label": "Chest A", "size": 113}, {"id": "b", "label": "Chest B", "size": 76}, {"id": "c", "label": "Chest C", "size": 150}],
+          "hint": "Cross out the smallest and biggest chests. Only the middle-sized chest remains.",
+          "explain": "Chest A is the middle size. It avoids both problems because it is not the smallest or the biggest."
+        }
+      ]
+    }
+  ],
+  "rules": [
+    ["shop", "Café quantities", "many apples · much juice · there are bottles", "Use many for things you can count and much for an uncountable amount. Match is or are to the noun you describe. Also adds another fact.", "There are many apples, but there isn't much juice. He also enjoys sandwiches."],
+    ["bridge", "Pronouns and links", "him / her / them · and / or / but / so / because", "Object pronouns receive an action. And adds, or gives a choice, but contrasts, so gives a result and because gives a reason.", "Aisha is lost. Ben gives her a map because she needs help."],
+    ["train", "Questions and frequency", "How often does ...? · What time does ...?", "Ask about frequency with How often and a time with What time. Use a base verb after does. Frequency words usually come before a main verb and after be.", "How often does Nora check her compass? We are always ready."],
+    ["boat", "Instructions in order", "First, ... Next, ... Finally, ... · Do not + base verb", "Start an instruction with a base verb. Use Do not for a negative instruction. Sequencing words make the steps clear.", "First, check your map. Next, follow the path. Do not run on the bridge."],
+    ["pickaxe", "Past and now", "built · went · did not find · Did she bring ...?", "Use past simple for finished events. After did or did not, use a base verb. For an action happening now, use am, is or are plus an ing verb.", "Yesterday, we explored the mine. Now, we are resting."],
+    ["portal", "Future messages", "will / won't + base verb · be going to + base verb", "Use will for predictions and promises. Won't means will not. Going to describes a plan. Match am, is or are to the subject.", "I will help you tomorrow. She is going to plant seeds."],
+    ["cat", "Skills and permission", "can / can't + base verb · Can we ...? · enjoy + verb-ing", "Can describes an ability or asks permission. Can't can show inability or refuse permission. Keep the next verb in its base form. Use an ing verb after enjoy.", "Can we open the chest? He enjoys swimming."],
+    ["castle", "Comparison clues", "taller than · smaller than · the tallest · the smallest", "Comparatives compare things. Superlatives identify an extreme in a group. When there are two clues, your choice must satisfy both of them.", "Tower B is taller than Tower A but shorter than Tower C."]
+  ],
+  "curriculum": {
+    "document": "KSSR (Semakan 2017) Standards-Based English Language Curriculum, Sekolah Kebangsaan, Year 5; Bahagian Pembangunan Kurikulum, Ministry of Education Malaysia, November 2020",
+    "title": "Year 5 DSKP grammar practice",
+    "url": "https://www.teacherfiera.com/wp-content/uploads/2020/04/DSKP-ENGLISH-YEAR-5-SK-30-12-2020-Latest.pdf",
+    "grammarPages": "Printed syllabus pages 45–46; PDF pages 59–60",
+    "learningStandards": [
+      {"code": "2.1.3 / 4.2.2", "focus": "Language for asking for and giving simple advice."},
+      {"code": "2.1.4", "focus": "Language for questions and descriptions about future plans."},
+      {"code": "2.1.5 / 4.2.4", "focus": "Suitable statements describing people, places and things."},
+      {"code": "2.2.1", "focus": "Suitable questions for short exchanges."},
+      {"code": "4.2.3", "focus": "Language for recounting real events and experiences."},
+      {"code": "4.2.5", "focus": "Links between ideas using coordinating conjunctions and reference pronouns."},
+      {"code": "4.3.3", "focus": "Checking and improving a draft after feedback."}
+    ],
+    "note": "Original contextual grammar activities for a higher-ability class, within the Year 5 syllabus and its stated review of earlier grammar. These short practice tasks support selected language skills; game scores are not a complete assessment of the DSKP learning standards or a PBD performance level."
+  }
+}

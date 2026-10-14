@@ -1,0 +1,735 @@
+{
+  "year": 3,
+  "levelLabel": "Step-by-step adventure",
+  "missions": [
+    {
+      "id": "y3-market",
+      "title": "Counting Market",
+      "topic": "There is · there are · plurals",
+      "type": "rune",
+      "color": "#ffbd64",
+      "icon": "shop",
+      "x": 18,
+      "y": 72,
+      "subtitle": "Count the village supplies",
+      "guide": "Tap the correct word block. Help the market count its supplies!",
+      "taskLabel": "Shop supplied",
+      "reminder": "There is goes with one thing. There are goes with more than one.",
+      "tasks": [
+        {
+          "prompt": "One apple is on the stall. There ___ one apple.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": "is",
+          "full": "There is one apple.",
+          "hint": "One apple is one thing. Choose is.",
+          "explain": "There is one apple. Use is for one thing.",
+          "scene": "apple"
+        },
+        {
+          "prompt": "Three bags are on the stall. There ___ three bags.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": "are",
+          "full": "There are three bags.",
+          "hint": "Three bags are more than one. Choose are.",
+          "explain": "There are three bags. Use are for more than one thing.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "We have two boxes. There are two ___ here.",
+          "options": [
+            "box",
+            "boxes"
+          ],
+          "answer": "boxes",
+          "full": "There are two boxes here.",
+          "hint": "More than one box: boxes.",
+          "explain": "Use boxes when there is more than one box.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Two children visit the market. There are two ___.",
+          "options": [
+            "child",
+            "children"
+          ],
+          "answer": "children",
+          "full": "There are two children.",
+          "hint": "One child. Two children.",
+          "explain": "Children is the word for more than one child.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Two mice hide by the stall. There are two ___.",
+          "options": [
+            "mouse",
+            "mice"
+          ],
+          "answer": "mice",
+          "full": "There are two mice.",
+          "hint": "One mouse. Two mice.",
+          "explain": "Mice is the word for more than one mouse.",
+          "scene": "friends"
+        }
+      ]
+    },
+    {
+      "id": "y3-bridge",
+      "title": "Friendship Bridge",
+      "topic": "he · she · they · his · her",
+      "type": "bridge",
+      "color": "#80d4ea",
+      "icon": "bridge",
+      "x": 38,
+      "y": 56,
+      "subtitle": "Help your friends cross",
+      "guide": "Tap the correct pronoun block. Build a bridge for your friends!",
+      "taskLabel": "Bridge block added",
+      "reminder": "Use he for a boy, she for a girl, and they for two or more people.",
+      "tasks": [
+        {
+          "prompt": "Amir is a boy. ___ is my friend.",
+          "options": [
+            "He",
+            "She",
+            "They"
+          ],
+          "answer": "He",
+          "full": "Amir is a boy. He is my friend.",
+          "hint": "Amir is a boy. Choose He.",
+          "explain": "He takes the place of Amir.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "Mei is a girl. ___ is reading.",
+          "options": [
+            "He",
+            "She",
+            "They"
+          ],
+          "answer": "She",
+          "full": "Mei is a girl. She is reading.",
+          "hint": "Mei is a girl. Choose She.",
+          "explain": "She takes the place of Mei.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "Amir and Mei play together. ___ are friends.",
+          "options": [
+            "He",
+            "She",
+            "They"
+          ],
+          "answer": "They",
+          "full": "Amir and Mei play together. They are friends.",
+          "hint": "Amir and Mei are two people. Choose They.",
+          "explain": "They takes the place of Amir and Mei.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "This cap belongs to Amir. It is ___ cap.",
+          "options": [
+            "his",
+            "her"
+          ],
+          "answer": "his",
+          "full": "It is his cap.",
+          "hint": "The cap belongs to a boy. Choose his.",
+          "explain": "His cap means the cap belongs to Amir.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "This ruler belongs to Mei. It is ___ ruler.",
+          "options": [
+            "his",
+            "her"
+          ],
+          "answer": "her",
+          "full": "It is her ruler.",
+          "hint": "The ruler belongs to a girl. Choose her.",
+          "explain": "Her ruler means the ruler belongs to Mei.",
+          "scene": "girl"
+        }
+      ]
+    },
+    {
+      "id": "y3-train",
+      "title": "Routine Train",
+      "topic": "Every day · simple present",
+      "type": "train",
+      "color": "#a8d884",
+      "icon": "train",
+      "x": 17,
+      "y": 34,
+      "subtitle": "Build a daily routine",
+      "guide": "Tap the word carriages in order. Build a routine to move the train!",
+      "taskLabel": "Train journey completed",
+      "reminder": "Use play with I or they. Use plays with he or she.",
+      "tasks": [
+        {
+          "prompt": "Tell us your morning routine. Start with I.",
+          "words": [
+            "I",
+            "eat",
+            "breakfast",
+            "every",
+            "day."
+          ],
+          "answer": "I eat breakfast every day.",
+          "full": "I eat breakfast every day.",
+          "hint": "Start with I eat. Finish with every day.",
+          "explain": "Every day tells us this is a routine. Use eat after I.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "Tell us how Mei goes to school. Start with She.",
+          "words": [
+            "She",
+            "walks",
+            "to",
+            "school."
+          ],
+          "answer": "She walks to school.",
+          "full": "She walks to school.",
+          "hint": "Start with She. Then put walks.",
+          "explain": "She walks to school. Use walks after she for a routine.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "Tell us about the friends. Start with They.",
+          "words": [
+            "They",
+            "play",
+            "football",
+            "every",
+            "day."
+          ],
+          "answer": "They play football every day.",
+          "full": "They play football every day.",
+          "hint": "Start with They play. Finish with every day.",
+          "explain": "They play football every day. Use play after they.",
+          "scene": "ball"
+        },
+        {
+          "prompt": "Amir always packs his bag. Start with He.",
+          "words": [
+            "He",
+            "always",
+            "packs",
+            "his",
+            "bag."
+          ],
+          "answer": "He always packs his bag.",
+          "full": "He always packs his bag.",
+          "hint": "Start with He always. Put packs next.",
+          "explain": "Always means every time. Use packs after he.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "Tell us what your group does after school. Start with We.",
+          "words": [
+            "We",
+            "read",
+            "books",
+            "after",
+            "school."
+          ],
+          "answer": "We read books after school.",
+          "full": "We read books after school.",
+          "hint": "Start with We read. Finish with after school.",
+          "explain": "We read books after school. Use read after we.",
+          "scene": "friends"
+        }
+      ]
+    },
+    {
+      "id": "y3-river",
+      "title": "Action River",
+      "topic": "Actions now · am · is · are",
+      "type": "build",
+      "color": "#69c8e8",
+      "icon": "boat",
+      "x": 56,
+      "y": 74,
+      "subtitle": "Build actions happening now",
+      "guide": "Put the word blocks in order. Build a boat with an action happening now!",
+      "taskLabel": "Boat launched",
+      "reminder": "For an action happening now, use am, is or are with an -ing word.",
+      "tasks": [
+        {
+          "prompt": "You are reading now. Start with I.",
+          "words": [
+            "I",
+            "am",
+            "reading",
+            "a",
+            "book."
+          ],
+          "answer": "I am reading a book.",
+          "full": "I am reading a book.",
+          "hint": "Start with I am. Add reading a book.",
+          "explain": "I am reading a book. Use am with I.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "Mei is singing now. Start with She.",
+          "words": [
+            "She",
+            "is",
+            "singing",
+            "now."
+          ],
+          "answer": "She is singing now.",
+          "full": "She is singing now.",
+          "hint": "Start with She is. Put singing next.",
+          "explain": "She is singing now. Use is with she.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "The boys are playing now. Start with They.",
+          "words": [
+            "They",
+            "are",
+            "playing",
+            "football."
+          ],
+          "answer": "They are playing football.",
+          "full": "They are playing football.",
+          "hint": "Start with They are. Put playing next.",
+          "explain": "They are playing football. Use are with they.",
+          "scene": "ball"
+        },
+        {
+          "prompt": "Amir is eating now. Start with He.",
+          "words": [
+            "He",
+            "is",
+            "eating",
+            "an",
+            "apple."
+          ],
+          "answer": "He is eating an apple.",
+          "full": "He is eating an apple.",
+          "hint": "Start with He is. Add eating an apple.",
+          "explain": "He is eating an apple. Use is with he.",
+          "scene": "apple"
+        },
+        {
+          "prompt": "Your group is drawing now. Start with We.",
+          "words": [
+            "We",
+            "are",
+            "drawing",
+            "now."
+          ],
+          "answer": "We are drawing now.",
+          "full": "We are drawing now.",
+          "hint": "Start with We are. Put drawing next.",
+          "explain": "We are drawing now. Use are with we.",
+          "scene": "friends"
+        }
+      ]
+    },
+    {
+      "id": "y3-mine",
+      "title": "Yesterday Mine",
+      "topic": "Yesterday · simple past",
+      "type": "mine",
+      "color": "#acbcdf",
+      "icon": "pickaxe",
+      "x": 68,
+      "y": 51,
+      "subtitle": "Find words from the past",
+      "guide": "Tap the correct word block. Find a gem for each action from yesterday!",
+      "taskLabel": "Past gem found",
+      "reminder": "Yesterday is in the past. Play becomes played. Go becomes went.",
+      "tasks": [
+        {
+          "prompt": "Yesterday, I ___ a game.",
+          "options": [
+            "play",
+            "played"
+          ],
+          "answer": "played",
+          "full": "Yesterday, I played a game.",
+          "hint": "Yesterday is in the past. Play becomes played.",
+          "explain": "Played tells us the action happened in the past.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "Yesterday, Mei ___ her grandma.",
+          "options": [
+            "visited",
+            "visit"
+          ],
+          "answer": "visited",
+          "full": "Yesterday, Mei visited her grandma.",
+          "hint": "Visit becomes visited for the past.",
+          "explain": "Visited tells us Mei saw her grandma in the past.",
+          "scene": "girl"
+        },
+        {
+          "prompt": "Yesterday, Amir ___ to the park.",
+          "options": [
+            "go",
+            "went"
+          ],
+          "answer": "went",
+          "full": "Yesterday, Amir went to the park.",
+          "hint": "Go changes to went in the past.",
+          "explain": "Went is the past word for go.",
+          "scene": "boy"
+        },
+        {
+          "prompt": "Last night, we ___ rice.",
+          "options": [
+            "ate",
+            "eat"
+          ],
+          "answer": "ate",
+          "full": "Last night, we ate rice.",
+          "hint": "Eat changes to ate in the past.",
+          "explain": "Ate tells us the meal happened last night.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Yesterday, they ___ a film.",
+          "options": [
+            "watch",
+            "watched"
+          ],
+          "answer": "watched",
+          "full": "Yesterday, they watched a film.",
+          "hint": "Watch becomes watched for the past.",
+          "explain": "Watched tells us the action happened yesterday.",
+          "scene": "friends"
+        }
+      ]
+    },
+    {
+      "id": "y3-portal",
+      "title": "Linking Portal",
+      "topic": "and · or · but",
+      "type": "portal",
+      "color": "#bea1fa",
+      "icon": "portal",
+      "x": 80,
+      "y": 27,
+      "subtitle": "Join the story blocks",
+      "guide": "Read the story clue. Tap a linking word to open the portal!",
+      "taskLabel": "Story portal opened",
+      "reminder": "And adds. Or gives a choice. But joins different or opposite ideas.",
+      "tasks": [
+        {
+          "prompt": "We need both things. Bring a pencil ___ a ruler.",
+          "options": [
+            "and",
+            "or",
+            "but"
+          ],
+          "answer": "and",
+          "full": "Bring a pencil and a ruler.",
+          "hint": "We need both a pencil and a ruler. Use and.",
+          "explain": "And joins the two things we need.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Choose one drink. Would you like milk ___ water?",
+          "options": [
+            "and",
+            "but",
+            "or"
+          ],
+          "answer": "or",
+          "full": "Would you like milk or water?",
+          "hint": "You choose one drink. Use or.",
+          "explain": "Or gives you a choice between two drinks.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Join these opposite ideas: I like cats, ___ I do not like snakes.",
+          "options": [
+            "or",
+            "but",
+            "and"
+          ],
+          "answer": "but",
+          "full": "I like cats, but I do not like snakes.",
+          "hint": "One animal is liked. The other is not. Use but to show the difference.",
+          "explain": "But connects the different ideas about cats and snakes.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Both friends are here. Amir ___ Mei are in the village.",
+          "options": [
+            "but",
+            "and",
+            "or"
+          ],
+          "answer": "and",
+          "full": "Amir and Mei are in the village.",
+          "hint": "Both friends are here. Use and to name both.",
+          "explain": "And connects the names of the two friends.",
+          "scene": "friends"
+        },
+        {
+          "prompt": "Join these surprising ideas: The box is small, ___ it is heavy.",
+          "options": [
+            "and",
+            "or",
+            "but"
+          ],
+          "answer": "but",
+          "full": "The box is small, but it is heavy.",
+          "hint": "The box is small, yet it is heavy. Use but to show the surprise.",
+          "explain": "But shows the difference: the box is small, yet it is heavy.",
+          "scene": "friends"
+        }
+      ]
+    },
+    {
+      "id": "y3-rescue",
+      "title": "Animal Rescue",
+      "topic": "in · on · under · behind · between",
+      "type": "place",
+      "color": "#ff9c95",
+      "icon": "cat",
+      "x": 42,
+      "y": 22,
+      "subtitle": "Give the cat a safe place",
+      "guide": "Tap the cat, then tap its place. You can also drag the cat!",
+      "taskLabel": "Cat rescued",
+      "reminder": "Read the place word. In is inside. Behind is at the back. Between is in the middle.",
+      "tasks": [
+        {
+          "prompt": "The cat is in the box.",
+          "answer": "in",
+          "full": "The cat is in the box.",
+          "hint": "In means inside. Tap the inside of the box.",
+          "explain": "In the box means inside the box."
+        },
+        {
+          "prompt": "The cat is on the table.",
+          "answer": "on",
+          "full": "The cat is on the table.",
+          "hint": "On means on top. Tap the table top.",
+          "explain": "On the table means on top of the table."
+        },
+        {
+          "prompt": "The cat is under the table.",
+          "answer": "under",
+          "full": "The cat is under the table.",
+          "hint": "Under means below. Tap the space below the table.",
+          "explain": "Under the table means below the table."
+        },
+        {
+          "prompt": "The cat is behind the tree.",
+          "answer": "behind",
+          "full": "The cat is behind the tree.",
+          "hint": "Behind means at the back. Tap the space behind the tree.",
+          "explain": "Behind the tree means at the back of the tree."
+        },
+        {
+          "prompt": "The cat is between the rocks.",
+          "answer": "between",
+          "full": "The cat is between the rocks.",
+          "hint": "Between means in the middle of two things. Tap the space between the rocks.",
+          "explain": "Between the rocks means in the middle of the two rocks."
+        }
+      ]
+    },
+    {
+      "id": "y3-castle",
+      "title": "Size Castle",
+      "topic": "taller · shorter · bigger · smaller",
+      "type": "compare",
+      "color": "#e5b3f0",
+      "icon": "castle",
+      "x": 89,
+      "y": 73,
+      "subtitle": "Compare two objects",
+      "guide": "Look at both objects. Tap the one that matches the words!",
+      "taskLabel": "Castle light switched on",
+      "reminder": "Taller and shorter compare heights. Bigger and smaller compare sizes.",
+      "tasks": [
+        {
+          "prompt": "Choose the taller tower.",
+          "answer": "taller",
+          "full": "Tower B is taller than Tower A.",
+          "hint": "Look for the tower that is higher than the other.",
+          "explain": "Tower B is taller than Tower A.",
+          "objects": [
+            {
+              "id": "shorter",
+              "label": "Tower A",
+              "size": 75
+            },
+            {
+              "id": "taller",
+              "label": "Tower B",
+              "size": 146
+            }
+          ],
+          "objectType": "tower"
+        },
+        {
+          "prompt": "Choose the shorter tower.",
+          "answer": "shorter",
+          "full": "Tower A is shorter than Tower B.",
+          "hint": "Look for the tower that is lower than the other.",
+          "explain": "Tower A is shorter than Tower B.",
+          "objects": [
+            {
+              "id": "shorter",
+              "label": "Tower A",
+              "size": 78
+            },
+            {
+              "id": "taller",
+              "label": "Tower B",
+              "size": 151
+            }
+          ],
+          "objectType": "tower"
+        },
+        {
+          "prompt": "Choose the bigger chest.",
+          "answer": "bigger",
+          "full": "Chest A is bigger than Chest B.",
+          "hint": "Look for the chest that takes up more space.",
+          "explain": "Chest A is bigger than Chest B.",
+          "objects": [
+            {
+              "id": "bigger",
+              "label": "Chest A",
+              "size": 145
+            },
+            {
+              "id": "smaller",
+              "label": "Chest B",
+              "size": 75
+            }
+          ],
+          "objectType": "chest"
+        },
+        {
+          "prompt": "Choose the smaller chest.",
+          "answer": "smaller",
+          "full": "Chest B is smaller than Chest A.",
+          "hint": "Look for the chest that takes up less space.",
+          "explain": "Chest B is smaller than Chest A.",
+          "objects": [
+            {
+              "id": "bigger",
+              "label": "Chest A",
+              "size": 143
+            },
+            {
+              "id": "smaller",
+              "label": "Chest B",
+              "size": 72
+            }
+          ],
+          "objectType": "chest"
+        },
+        {
+          "prompt": "Choose the taller tower for the flag.",
+          "answer": "taller",
+          "full": "Tower A is taller than Tower B.",
+          "hint": "Compare the two towers. Which one is higher?",
+          "explain": "Tower A is taller than Tower B. Taller compares two heights.",
+          "objects": [
+            {
+              "id": "taller",
+              "label": "Tower A",
+              "size": 150
+            },
+            {
+              "id": "shorter",
+              "label": "Tower B",
+              "size": 80
+            }
+          ],
+          "objectType": "tower"
+        }
+      ]
+    }
+  ],
+  "rules": [
+    [
+      "shop",
+      "Counting supplies",
+      "There is one ... · There are two ...",
+      "Use is for one. Use are for more than one. Some plural words change.",
+      "One child, two children. One mouse, two mice."
+    ],
+    [
+      "bridge",
+      "Talking about friends",
+      "he · she · they · his · her",
+      "Use he for a boy, she for a girl, and they for two or more people. His and her show who owns something.",
+      "Mei is a girl. She has a ruler. It is her ruler."
+    ],
+    [
+      "train",
+      "Daily routines",
+      "I play · She plays · They play",
+      "Use these words for routines. Always means every time.",
+      "He always packs his bag."
+    ],
+    [
+      "boat",
+      "Actions now",
+      "am / is / are + an -ing word",
+      "Use am with I, is with he or she, and are with we or they.",
+      "We are drawing now."
+    ],
+    [
+      "pickaxe",
+      "Actions in the past",
+      "play → played · go → went · eat → ate",
+      "Yesterday and last night tell us an action is in the past.",
+      "Yesterday, Amir went to the park."
+    ],
+    [
+      "portal",
+      "Linking words",
+      "and = add · or = choose · but = show a difference",
+      "Choose a word that matches the ideas you want to join.",
+      "I like cats, but I do not like snakes."
+    ],
+    [
+      "cat",
+      "Places",
+      "in · on · under · behind · between",
+      "Inside · on top · below · at the back · in the middle of two things.",
+      "The cat is between the rocks."
+    ],
+    [
+      "castle",
+      "Comparing two things",
+      "tall → taller · big → bigger · small → smaller",
+      "Use taller or shorter for height. Use bigger or smaller for size.",
+      "Tower A is taller than Tower B."
+    ]
+  ],
+  "curriculum": {
+    "document": "KSSR (Semakan 2017), SK, CEFR-aligned",
+    "title": "DSKP Bahasa Inggeris SK Tahun 3 — Primary Year 3 English Language Syllabus",
+    "url": "https://bpk.moe.gov.my/kurikulum/kssr/kssr-tahun-3/102-001-dskp-kssr-semakan-2017-bi-sk-thn3-print/file",
+    "grammarPages": "Printed pages 43–45 (PDF pages 57–59); recycled Year 1–2 structures in Appendix 2",
+    "learningStandards": [
+      "3.2.2: Read details in short, simple texts.",
+      "4.2.4: Describe people and objects with suitable vocabulary.",
+      "4.2.5: Link sentences with basic coordinating conjunctions.",
+      "4.3.1: Practise capitals and sentence punctuation through guided word ordering.",
+      "4.3.3: Plan and form a range of simple sentences."
+    ],
+    "note": "Original supported practice for pupils needing short, scaffolded tasks. Content selects Year 3 grammar and recycled Year 1–2 language: plurals, pronouns, present simple and continuous, simple past, conjunctions, position words and short-adjective comparisons. Hints, audio, small choices and retry feedback support learning. Game points do not determine a DSKP performance level."
+  }
+}
