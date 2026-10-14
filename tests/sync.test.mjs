@@ -45,3 +45,18 @@ test('Teacher connection errors clear loading and leave sign-in usable',async()=
  assert.equal(c.nodes.get('game-loader').hidden,false);assert.equal(c.nodes.get('app').inert,true);
  r.offline(true);release();await opening;await r.drain();assert.equal(c.nodes.get('game-loader').hidden,true);assert.equal(c.nodes.get('app').inert,false);assert.match(c.nodes.get('app').innerHTML,/Sign in with IC/);
 });
+test('Back to game returns from teacher sign-in to the class selection screen',async()=>{
+ const r=runtime(),c=r.client();
+ for(let visit=0;visit<2;visit++){
+  c.click('teacher-open');await r.drain();assert.match(c.nodes.get('app').innerHTML,/teacher-login-form/);
+  c.click('teacher-back');assert.equal(c.g.state.page,'lobby');
+  assert.match(c.nodes.get('app').innerHTML,/class-select/);assert.doesNotMatch(c.nodes.get('app').innerHTML,/teacher-login-form|teacher-main/);
+ }
+});
+test('Back to game returns an existing player from the dashboard to their map with progress intact',async()=>{
+ const r=runtime(),c=r.client(new Map(),true);await c.choose();
+ c.g.openMission('market');c.g.answer('am');await c.g.CloudGame.flush();await r.drain();
+ const id=c.g.state.student.id;c.click('teacher-open');await r.drain();assert.match(c.nodes.get('app').innerHTML,/teacher-table/);
+ c.click('teacher-back');assert.equal(c.g.state.page,'map');assert.equal(c.g.state.student.id,id);assert.equal(c.g.stats().solved,1);
+ assert.doesNotMatch(c.nodes.get('app').innerHTML,/teacher-main|teacher-table/);assert.match(c.nodes.get('app').innerHTML,/data-action="mission"/);
+});
