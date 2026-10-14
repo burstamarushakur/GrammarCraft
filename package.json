@@ -1,6 +1,6 @@
 {
   "name": "grammarcraft",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "private": true,
   "description": "Interactive English grammar adventures for nine SK Sungai Abong classrooms.",
   "scripts": {

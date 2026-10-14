@@ -38,6 +38,8 @@ Jumlah **281 murid dalam sembilan kelas**. Setiap kelas mempunyai 8 misi dan 40 
 
 Pemilihan nama ialah pengenalan murid untuk aktiviti kelas. Murid tidak memerlukan kata laluan. Rekod disimpan berasingan menggunakan ID murid rasmi.
 
+Footer kredit **@Copyright of Cikgu Asraf – SK Sg Abong English Panel** dipaparkan pada semua paparan game dan dashboard guru, serta achievement card yang dimuat turun atau dicetak.
+
 ## Pemain dan loading
 
 Butang **Change Player** tidak lagi dipaparkan selepas murid masuk game. Nama yang disahkan kekal semasa sesi tersebut; **Choose again** masih tersedia sebelum pengesahan mula bermain.
