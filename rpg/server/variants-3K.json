@@ -1,0 +1,127 @@
+{
+  "classCode": "3K",
+  "year": 3,
+  "level": "Challenge · Sederhana dan sederhana tinggi",
+  "questions": {
+    "3-0-0": {
+      "prompt": "Last night, Hana and two sisters stayed at home. Choose the correct sentence.",
+      "answer": "Hana was at home, and her sisters were there too.",
+      "options": [
+        "Hana was at home, and her sisters were there too.",
+        "Hana were at home and sisters was there.",
+        "Hana is at home yesterday.",
+        "Hana and her sisters was home last night."
+      ],
+      "hint": "One Hana was; plural sisters were.",
+      "kbat": false
+    },
+    "3-0-1": {
+      "prompt": "The boy was at school, but his friends were at the zoo. Which phrase describes his friends?",
+      "answer": "They were at the zoo.",
+      "options": [
+        "They were at the zoo.",
+        "They was at the zoo.",
+        "He were at the zoo.",
+        "It was at the zoo."
+      ],
+      "hint": "They takes were.",
+      "kbat": false
+    },
+    "3-1-0": {
+      "prompt": "Two days ago, Amir went to the library and ___ a book.",
+      "answer": "borrowed",
+      "options": [
+        "borrowed",
+        "borrows",
+        "borrowing",
+        "borrow"
+      ],
+      "hint": "Two days ago calls for past simple.",
+      "kbat": false
+    },
+    "3-1-1": {
+      "prompt": "Yesterday we ___ the bus, so we walked to school.",
+      "answer": "missed",
+      "options": [
+        "missed",
+        "miss",
+        "missing",
+        "misses"
+      ],
+      "hint": "Missed is past simple of miss.",
+      "kbat": false
+    },
+    "3-2-0": {
+      "prompt": "A farmer has two sheep, three geese and four cows. Which word has the correct irregular plural?",
+      "answer": "geese",
+      "options": [
+        "geese",
+        "gooses",
+        "sheeps",
+        "cowes"
+      ],
+      "hint": "Plural of goose is geese.",
+      "kbat": false
+    },
+    "3-3-0": {
+      "prompt": "A group includes one man, one woman and two children. Which plural is correct?",
+      "answer": "children",
+      "options": [
+        "children",
+        "childs",
+        "womans",
+        "mans"
+      ],
+      "hint": "Child changes to children.",
+      "kbat": false
+    },
+    "3-4-0": {
+      "prompt": "A giraffe is 5 metres tall. A zebra is 2 metres tall. Which sentence is correct?",
+      "answer": "The giraffe is taller than the zebra.",
+      "options": [
+        "The giraffe is taller than the zebra.",
+        "The zebra is taller than the giraffe.",
+        "The giraffe is the tallest than the zebra.",
+        "The zebra is more tall than the giraffe."
+      ],
+      "hint": "Five metres is taller than two metres.",
+      "kbat": false
+    },
+    "3-5-0": {
+      "prompt": "A blue bag weighs 2kg; a red bag weighs 5kg. Which sentence is true?",
+      "answer": "The blue bag is lighter than the red bag.",
+      "options": [
+        "The blue bag is lighter than the red bag.",
+        "The blue bag is heavier than the red bag.",
+        "The red bag is more light than blue.",
+        "The bags are lightest than each other."
+      ],
+      "hint": "Two kilograms is lighter.",
+      "kbat": false
+    },
+    "3-6-0": {
+      "prompt": "Tina visits the library every Saturday. She ___ visits on Saturdays.",
+      "answer": "always",
+      "options": [
+        "always",
+        "never",
+        "rarely",
+        "tomorrow"
+      ],
+      "hint": "Every Saturday means always.",
+      "kbat": false
+    },
+    "3-7-0": {
+      "prompt": "Ali brushes his teeth morning and night. Which sentence is correct?",
+      "answer": "He always brushes his teeth twice a day.",
+      "options": [
+        "He always brushes his teeth twice a day.",
+        "He never brushes his teeth.",
+        "He brushes yesterday every night.",
+        "He always brushing his teeth daily."
+      ],
+      "hint": "Repeated routine uses always and present simple.",
+      "kbat": false
+    }
+  }
+}
