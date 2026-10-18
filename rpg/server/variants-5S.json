@@ -1,0 +1,247 @@
+{
+  "classCode": "5S",
+  "year": 5,
+  "level": "Challenge · Tinggi",
+  "questions": {
+    "5-0-0": {
+      "prompt": "A wildlife guide compares three birds. One is taller than all the others. Choose the correct sentence.",
+      "answer": "It is the tallest bird of the three.",
+      "options": [
+        "It is the tallest bird of the three.",
+        "It is taller bird of the three.",
+        "It is more taller than all the birds.",
+        "It is the most tall bird of three."
+      ],
+      "hint": "A group of three needs a superlative.",
+      "kbat": false
+    },
+    "5-0-1": {
+      "prompt": "One of two journeys takes longer. Which comparison is grammatical?",
+      "answer": "The train journey is more tiring than the bus journey.",
+      "options": [
+        "The train journey is more tiring than the bus journey.",
+        "The train journey is most tiring than the bus journey.",
+        "The train journey is tiringer than the bus journey.",
+        "The train journey is the more tiring of all three."
+      ],
+      "hint": "Long adjectives use more + adjective + than.",
+      "kbat": false
+    },
+    "5-0-2": {
+      "prompt": "Among four dishes, the soup tastes best. Which description is correct?",
+      "answer": "The soup is the best of the four dishes.",
+      "options": [
+        "The soup is the best of the four dishes.",
+        "The soup is better of the four dishes.",
+        "The soup is the goodest of the four dishes.",
+        "The soup is the more good dish."
+      ],
+      "hint": "Good has irregular superlative best.",
+      "kbat": false
+    },
+    "5-1-0": {
+      "prompt": "You have visited many beaches. Which sentence identifies your favourite compared with them all?",
+      "answer": "This is the most beautiful beach I have visited.",
+      "options": [
+        "This is the most beautiful beach I have visited.",
+        "This is the more beautiful beach of all.",
+        "This beach is beautifuler than all.",
+        "This is the beautifulest of all beaches."
+      ],
+      "hint": "Most beautiful is the superlative of a long adjective.",
+      "kbat": false
+    },
+    "5-1-1": {
+      "prompt": "Compare only Amir and Ben. Amir runs 10 seconds; Ben runs 12 seconds. Which is true?",
+      "answer": "Amir is faster than Ben.",
+      "options": [
+        "Amir is faster than Ben.",
+        "Ben is faster than Amir.",
+        "Amir is the fastest of the two than Ben.",
+        "Both boys runs fastest."
+      ],
+      "hint": "Lower time means faster; compare two with faster.",
+      "kbat": false
+    },
+    "5-1-2": {
+      "prompt": "Of the three books, A has 80 pages, B has 120, C has 200. Which is correct?",
+      "answer": "Book C is the longest of the three.",
+      "options": [
+        "Book C is the longest of the three.",
+        "Book C is longer of the three.",
+        "Book A is the most long book.",
+        "Book B is longer than C."
+      ],
+      "hint": "The greatest length among three needs longest.",
+      "kbat": false
+    },
+    "5-2-0": {
+      "prompt": "The weather office expects heavy rain, but isn't certain. Which prediction fits?",
+      "answer": "I think it will rain this evening.",
+      "options": [
+        "I think it will rain this evening.",
+        "It rained tomorrow because of clouds.",
+        "It is raining yesterday evening.",
+        "It will raining this evening."
+      ],
+      "hint": "Will + base verb makes predictions.",
+      "kbat": false
+    },
+    "5-2-1": {
+      "prompt": "A friend lost his pen. You promise to help right now. What do you say?",
+      "answer": "I will lend you mine.",
+      "options": [
+        "I will lend you mine.",
+        "I will lending you mine.",
+        "I lent you mine tomorrow.",
+        "I won't helped you."
+      ],
+      "hint": "Spontaneous offer uses will + base verb.",
+      "kbat": false
+    },
+    "5-2-2": {
+      "prompt": "The science museum predicts robots in classrooms in 2050. Which statement works?",
+      "answer": "Robots will assist teachers in 2050.",
+      "options": [
+        "Robots will assist teachers in 2050.",
+        "Robots assisted teachers in 2050 yesterday.",
+        "Robots will assisting teachers in 2050.",
+        "Robots assist will the teachers in 2050."
+      ],
+      "hint": "Use future will + assist.",
+      "kbat": false
+    },
+    "5-3-0": {
+      "prompt": "A pupil makes a promise to be on time tomorrow. Which is correct?",
+      "answer": "I won't be late tomorrow.",
+      "options": [
+        "I won't be late tomorrow.",
+        "I doesn't be late tomorrow.",
+        "I wasn't be late tomorrow.",
+        "I not will late tomorrow."
+      ],
+      "hint": "Won't is will not, followed by be.",
+      "kbat": false
+    },
+    "5-3-1": {
+      "prompt": "You want to ask politely about tomorrow's visit. Choose the correct question.",
+      "answer": "Will your parents come tomorrow?",
+      "options": [
+        "Will your parents come tomorrow?",
+        "Do your parents will come tomorrow?",
+        "Are your parents will coming tomorrow?",
+        "Did your parents comes tomorrow?"
+      ],
+      "hint": "Future yes/no questions begin with Will.",
+      "kbat": false
+    },
+    "5-3-2": {
+      "prompt": "Your team lost yesterday but expects better next week. Which sentence fits?",
+      "answer": "We will try again next week.",
+      "options": [
+        "We will try again next week.",
+        "We tried again next week yesterday.",
+        "We will trying again next week.",
+        "We are try again last week."
+      ],
+      "hint": "Will followed by try shows future.",
+      "kbat": false
+    },
+    "5-4-0": {
+      "prompt": "The football field is wet, ___ the match is postponed.",
+      "answer": "so",
+      "options": [
+        "so",
+        "but",
+        "or",
+        "and"
+      ],
+      "hint": "So indicates a result.",
+      "kbat": false
+    },
+    "5-4-1": {
+      "prompt": "Mina is tired, ___ she continues studying.",
+      "answer": "but",
+      "options": [
+        "but",
+        "so",
+        "or",
+        "because of"
+      ],
+      "hint": "But connects contrasting ideas.",
+      "kbat": false
+    },
+    "5-5-0": {
+      "prompt": "Ali brought an umbrella, ___ it started raining.",
+      "answer": "and",
+      "options": [
+        "and",
+        "so",
+        "or",
+        "but"
+      ],
+      "hint": "And adds another event.",
+      "kbat": false
+    },
+    "5-5-1": {
+      "prompt": "The bus was full, ___ we waited for the next one.",
+      "answer": "so",
+      "options": [
+        "so",
+        "but",
+        "or",
+        "and"
+      ],
+      "hint": "Result follows so.",
+      "kbat": false
+    },
+    "5-6-0": {
+      "prompt": "The team thanked the volunteer. Which replacement is correct?",
+      "answer": "The team thanked her.",
+      "options": [
+        "The team thanked her.",
+        "The team thanked she.",
+        "The team thanked hers.",
+        "The team thanked herselfs."
+      ],
+      "hint": "After thanked, use the object pronoun.",
+      "kbat": false
+    },
+    "5-6-1": {
+      "prompt": "\"My cousins visited Aina and me.\" Which word replaces Aina and me?",
+      "answer": "us",
+      "options": [
+        "us",
+        "we",
+        "our",
+        "ours"
+      ],
+      "hint": "We as objects becomes us.",
+      "kbat": false
+    },
+    "5-7-0": {
+      "prompt": "The coach spoke to Danial and Amir. Replace their names correctly.",
+      "answer": "The coach spoke to them.",
+      "options": [
+        "The coach spoke to them.",
+        "The coach spoke to they.",
+        "The coach spoke to their.",
+        "The coach spoke to theirs."
+      ],
+      "hint": "After to, use object pronoun them.",
+      "kbat": false
+    },
+    "5-7-1": {
+      "prompt": "Your teacher asks, \"Who did Sara help?\" Choose the correct answer.",
+      "answer": "She helped him.",
+      "options": [
+        "She helped him.",
+        "She helped he.",
+        "She helped his.",
+        "She helped himselfs."
+      ],
+      "hint": "Him is an object pronoun.",
+      "kbat": false
+    }
+  }
+}
