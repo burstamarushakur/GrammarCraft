@@ -1,0 +1,247 @@
+{
+  "classCode": "6S",
+  "year": 6,
+  "level": "Challenge · 20/40 KBAT",
+  "questions": {
+    "6-0-0": {
+      "prompt": "Rina was writing notes. A bell rang and interrupted her. Which description is most accurate?",
+      "answer": "Rina was writing when the bell rang.",
+      "options": [
+        "Rina was writing when the bell rang.",
+        "Rina wrote when the bell was ringing every day.",
+        "Rina is writing when the bell rang.",
+        "Rina had writing when the bell ring."
+      ],
+      "hint": "Use past continuous for the background action and past simple for the interruption.",
+      "kbat": true
+    },
+    "6-0-1": {
+      "prompt": "Two actions happened: the pupils were revising at 8 pm; the lights suddenly went out. Choose the correct report.",
+      "answer": "The pupils were revising when the lights went out.",
+      "options": [
+        "The pupils were revising when the lights went out.",
+        "The pupils revised when the lights were go out.",
+        "The pupils are revising when the lights went out.",
+        "The pupils have revising when lights went out."
+      ],
+      "hint": "Background action takes were + -ing; the interruption uses past simple.",
+      "kbat": true
+    },
+    "6-0-2": {
+      "prompt": "Which sentence shows that one past activity was interrupted by another?",
+      "answer": "She was crossing the road when a car stopped.",
+      "options": [
+        "She was crossing the road when a car stopped.",
+        "She crossing the road when a car stop.",
+        "She crosses the road when a car stops daily.",
+        "She had crossed while a car will stop."
+      ],
+      "hint": "Was crossing describes an ongoing past activity.",
+      "kbat": true
+    },
+    "6-1-0": {
+      "prompt": "Farid started training in January and is still training in October. Choose the correct sentence.",
+      "answer": "Farid has trained since January.",
+      "options": [
+        "Farid has trained since January.",
+        "Farid trained since January yesterday.",
+        "Farid is trained for January.",
+        "Farid will train since January."
+      ],
+      "hint": "Since gives the starting point of an action continuing to now.",
+      "kbat": true
+    },
+    "6-1-1": {
+      "prompt": "A family moved to Muar five years ago and still lives there. Which is correct?",
+      "answer": "They have lived in Muar for five years.",
+      "options": [
+        "They have lived in Muar for five years.",
+        "They lived in Muar since five years.",
+        "They are lived at Muar for five years.",
+        "They will lived in Muar for years."
+      ],
+      "hint": "Use present perfect with for + duration.",
+      "kbat": true
+    },
+    "6-1-2": {
+      "prompt": "Your friend asks about lifetime experience rather than yesterday. Choose the best question.",
+      "answer": "Have you ever visited Langkawi?",
+      "options": [
+        "Have you ever visited Langkawi?",
+        "Did you ever visited Langkawi yesterday?",
+        "Have you visit Langkawi last Tuesday?",
+        "Do you visited Langkawi last month?"
+      ],
+      "hint": "Have you ever + past participle asks about life experience.",
+      "kbat": true
+    },
+    "6-2-0": {
+      "prompt": "A school trip depends on the weather tomorrow. Choose a realistic first conditional.",
+      "answer": "If it rains tomorrow, we will visit the museum instead.",
+      "options": [
+        "If it rains tomorrow, we will visit the museum instead.",
+        "If it will rain tomorrow, we visit the museum yesterday.",
+        "If it rained tomorrow, we will visited the museum.",
+        "If it rains tomorrow, we visited yesterday."
+      ],
+      "hint": "First conditional uses if + present and will + base verb.",
+      "kbat": true
+    },
+    "6-2-1": {
+      "prompt": "A student wants to improve her marks. Which first conditional gives sensible advice?",
+      "answer": "If she practises daily, she will improve.",
+      "options": [
+        "If she practises daily, she will improve.",
+        "If she will practises daily, she improves yesterday.",
+        "If she practised daily, she will improved.",
+        "If she practices daily, she was improving last week."
+      ],
+      "hint": "Combine present simple condition with will + verb.",
+      "kbat": true
+    },
+    "6-2-2": {
+      "prompt": "Choose the conditional that correctly links a possible event with its result.",
+      "answer": "If the bus arrives on time, we will reach school early.",
+      "options": [
+        "If the bus arrives on time, we will reach school early.",
+        "If the bus will arrive on time, we reached school yesterday.",
+        "If the bus arriving on time, we will reached school.",
+        "If the bus arrived on time, we arrives school."
+      ],
+      "hint": "Possible future: if + present, will + verb.",
+      "kbat": true
+    },
+    "6-3-0": {
+      "prompt": "A newspaper reports that volunteers collected rubbish yesterday. Which passive version is correct?",
+      "answer": "The rubbish was collected by volunteers yesterday.",
+      "options": [
+        "The rubbish was collected by volunteers yesterday.",
+        "The rubbish is collect by volunteers yesterday.",
+        "The rubbish collected by volunteers was yesterday.",
+        "The rubbish were collecting volunteers yesterday."
+      ],
+      "hint": "Passive past: was/were + past participle.",
+      "kbat": true
+    },
+    "6-3-1": {
+      "prompt": "A recipe explains that fresh bread is prepared every morning. Which passive sentence fits?",
+      "answer": "Fresh bread is made every morning.",
+      "options": [
+        "Fresh bread is made every morning.",
+        "Fresh bread are making every morning.",
+        "Fresh bread were made every mornings.",
+        "Fresh bread is make every morning."
+      ],
+      "hint": "Uncountable bread is followed by is made.",
+      "kbat": true
+    },
+    "6-3-2": {
+      "prompt": "The principal announced that the medals were presented to winners. Which sentence is correctly passive?",
+      "answer": "The medals were presented to the winners.",
+      "options": [
+        "The medals were presented to the winners.",
+        "The medals was presenting to the winners.",
+        "The medals were present the winners.",
+        "The medals presented by the winners yesterday are."
+      ],
+      "hint": "Plural medals takes were + past participle.",
+      "kbat": true
+    },
+    "6-4-0": {
+      "prompt": "Lina said, \"I am preparing for the competition.\" Report this later.",
+      "answer": "Lina said that she was preparing for the competition.",
+      "options": [
+        "Lina said that she was preparing for the competition.",
+        "Lina said that I am preparing for the competition.",
+        "Lina said that she is prepare for competition.",
+        "Lina said she were prepared the competition."
+      ],
+      "hint": "Backshift am preparing to was preparing and change I to she.",
+      "kbat": true
+    },
+    "6-4-1": {
+      "prompt": "A boy said, \"I will help you.\" Which sentence reports this correctly?",
+      "answer": "He said that he would help me.",
+      "options": [
+        "He said that he would help me.",
+        "He said he will helped me.",
+        "He said I would helping him.",
+        "He said he would helped him."
+      ],
+      "hint": "Will usually changes to would, followed by base verb.",
+      "kbat": true
+    },
+    "6-5-0": {
+      "prompt": "You see dark clouds, but the forecast is uncertain. Which statement shows possibility?",
+      "answer": "It might rain this afternoon.",
+      "options": [
+        "It might rain this afternoon.",
+        "It must rain this afternoon for sure.",
+        "It cannot rain because of clouds.",
+        "It has rained yesterday tomorrow."
+      ],
+      "hint": "Might expresses uncertainty.",
+      "kbat": true
+    },
+    "6-5-1": {
+      "prompt": "A sign says \"No entry — laboratory.\" Which instruction is strongest and correct?",
+      "answer": "You must not enter the laboratory.",
+      "options": [
+        "You must not enter the laboratory.",
+        "You might enter the laboratory.",
+        "You should enter without permission.",
+        "You can enter whenever you like."
+      ],
+      "hint": "Must not expresses prohibition.",
+      "kbat": true
+    },
+    "6-6-0": {
+      "prompt": "A traveller says, \"I arrived in 2021 and still work here.\" Which reply is accurate?",
+      "answer": "You have worked here since 2021.",
+      "options": [
+        "You have worked here since 2021.",
+        "You worked here for 2021 every day.",
+        "You were working here since 2021 tomorrow.",
+        "You work since four years ago."
+      ],
+      "hint": "Since identifies a start point for present perfect.",
+      "kbat": true
+    },
+    "6-6-1": {
+      "prompt": "At 6 pm yesterday, Sam was practising. Then the power failed. Which account fits?",
+      "answer": "Sam was practising when the power failed.",
+      "options": [
+        "Sam was practising when the power failed.",
+        "Sam practises when the power was fail.",
+        "Sam has practising when the power failed.",
+        "Sam practising when power has failing."
+      ],
+      "hint": "Continuous action was interrupted in the past.",
+      "kbat": true
+    },
+    "6-7-0": {
+      "prompt": "Road repairs are almost complete. Choose the grammatically correct prediction.",
+      "answer": "If workers finish today, the road will open tomorrow.",
+      "options": [
+        "If workers finish today, the road will open tomorrow.",
+        "If workers will finish today, the road opened yesterday.",
+        "If workers finished today, the road will opened tomorrow.",
+        "If workers finishes today, the road are opening yesterday."
+      ],
+      "hint": "First conditional: finish + will open.",
+      "kbat": true
+    },
+    "6-7-1": {
+      "prompt": "The school rules require helmets for cycling. Choose a correct statement.",
+      "answer": "Helmets must be worn when cycling.",
+      "options": [
+        "Helmets must be worn when cycling.",
+        "Helmets must wearing when cycling.",
+        "Helmets might be wore by students yesterday.",
+        "Helmets must be wear when cycling."
+      ],
+      "hint": "Modal passive uses must be + past participle.",
+      "kbat": true
+    }
+  }
+}
