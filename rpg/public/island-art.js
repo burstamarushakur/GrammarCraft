@@ -112,8 +112,8 @@ function token(c,x,y,type,frame){
   c.strokeStyle="#8b6534";c.lineWidth=12;c.lineCap="round";c.beginPath();c.arc(-1,-4,23,.3,2.13);c.stroke();c.strokeStyle="#ffde53";c.lineWidth=8;c.stroke();
   rect(c,17,-3,6,6,"#735538");
  }else{
-  polygon(c,[[-15,-14],[-19,0],[-9,14],[9,14],[19,0],[15,-14]],"#be8738");
-  polygon(c,[[-12,-13],[-14,0],[-6,10],[7,10],[15,0],[12,-13]],"#f9d34b");
+  poly(c,[[-15,-14],[-19,0],[-9,14],[9,14],[19,0],[15,-14]],"#be8738");
+  poly(c,[[-12,-13],[-14,0],[-6,10],[7,10],[15,0],[12,-13]],"#f9d34b");
   for(let j=0;j<9;j++)rect(c,-10+(j%3)*9,-9+Math.floor(j/3)*8,3,3,"#dd9f37");
   for(let j=0;j<5;j++)poly(c,[[0,-13],[-17+j*8,-27],[-10+j*6,-19]],j%2?"#248957":"#3bad64");
  }
