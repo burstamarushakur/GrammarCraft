@@ -249,6 +249,15 @@ function drawScene(c,stageIndex,stage,camera,time,player,enemies,pickups,sparks)
  for(let i=0;i<10;i++){const wx=i*476+140;const px=wx-camera*.8;if(px>-210&&px<W+210)palm(c,px,G+18,.64+(i%3)*.05,i%3===0);}
  if(stageIndex===0)hut(c,120-camera,G);
  ground(c,stageIndex,stage,camera);
+ for(const ob of stage.obstacles){
+   const x=ob.x-camera;if(x>W+70||x+ob.w<-70)continue;
+   // Solid, highly visible jump-over timber barricade.
+   rect(c,x,G-ob.h,ob.w,ob.h,"#57372c");rect(c,x+3,G-ob.h+4,ob.w-6,ob.h-9,"#a56b45");
+   rect(c,x+8,G-ob.h+8,ob.w-15,5,"#e0a66c");
+   rect(c,x+8,G-ob.h+18,ob.w-15,3,"#744633");
+   for(let j=0;j<3;j++)rect(c,x+10+j*13,G-ob.h+4,5,4,"#edbe76");
+   text(c,"↑",x+ob.w/2,G-ob.h-11,25,"#fff4ae","#5b4634");
+ }
  for(const p of pickups){if(p.taken)continue;const x=p.x-camera;if(x>-80&&x<W+80)token(c,x,p.y,p.type,time);}
  for(let i=0;i<enemies.length;i++){
  const e=enemies[i];if(e.defeated)continue;let x=e.x-camera;
