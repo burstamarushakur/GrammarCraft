@@ -1,0 +1,797 @@
+{
+  "year": 3,
+  "levelLabel": "Challenge explorer",
+  "missions": [
+    {
+      "id": "y3-challenge-market",
+      "title": "Clue Market",
+      "topic": "Irregular plurals · there is / are · how many",
+      "type": "rune",
+      "color": "#ffbd64",
+      "icon": "shop",
+      "x": 18,
+      "y": 72,
+      "subtitle": "Count the village supplies",
+      "guide": "Tap the correct word block. Help the market count its supplies!",
+      "taskLabel": "Shop supplied",
+      "reminder": "Children and mice are irregular plurals. Match is or are to the number of things. Use how many for things we count.",
+      "tasks": [
+        {
+          "prompt": "Two ___ are playing outside. One is a boy and one is a girl.",
+          "options": [
+            "child",
+            "children",
+            "childs"
+          ],
+          "answer": "children",
+          "full": "Two children are playing outside.",
+          "hint": "Child has the irregular plural children.",
+          "explain": "Use children after two, not child or childs.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Three ___ are near the cheese. Each one is a little mouse.",
+          "options": [
+            "mouse",
+            "mice",
+            "mouses"
+          ],
+          "answer": "mice",
+          "full": "Three mice are near the cheese.",
+          "hint": "The plural of mouse is mice.",
+          "explain": "Mice is the irregular plural form used after three.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "One bag is on the chair. There ___ one bag on the chair.",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ],
+          "answer": "is",
+          "full": "There is one bag on the chair.",
+          "hint": "One bag is singular.",
+          "explain": "There is agrees with the singular noun bag.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "I put one box on the stall. My friend adds two boxes. There ___ three boxes now.",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ],
+          "answer": "are",
+          "full": "There are three boxes on the stall now.",
+          "hint": "One box and two boxes make more than one box.",
+          "explain": "Three boxes is plural, so the sentence uses are.",
+          "difficulty": "upper-medium"
+        },
+        {
+          "prompt": "There are six children in the shop. How ___ children are there?",
+          "options": [
+            "much",
+            "many",
+            "any"
+          ],
+          "answer": "many",
+          "full": "How many children are there?",
+          "hint": "Children are people we can count.",
+          "explain": "How many asks for the number of countable things or people.",
+          "difficulty": "upper-medium"
+        }
+      ]
+    },
+    {
+      "id": "y3-challenge-bridge",
+      "title": "Ownership Bridge",
+      "topic": "her · our · us · them · ownership clues",
+      "type": "bridge",
+      "color": "#80d4ea",
+      "icon": "bridge",
+      "x": 38,
+      "y": 56,
+      "subtitle": "Help your friends cross",
+      "guide": "Tap the correct pronoun block. Build a bridge for your friends!",
+      "taskLabel": "Bridge block added",
+      "reminder": "Find who owns the item or who receives the action. Her and our come before nouns; us and them replace people after an action or preposition.",
+      "tasks": [
+        {
+          "prompt": "A girl called Mila owns the green bag. This is ___ bag.",
+          "options": [
+            "his",
+            "her",
+            "their"
+          ],
+          "answer": "her",
+          "full": "This is her bag.",
+          "hint": "Use her before a noun belonging to the girl.",
+          "explain": "Her shows that the bag belongs to Mila.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Adam and I share this room. This is ___ room.",
+          "options": [
+            "our",
+            "my",
+            "his"
+          ],
+          "answer": "our",
+          "full": "This is our room.",
+          "hint": "Adam and I means we.",
+          "explain": "Our shows that the room belongs to both of us.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Mum is calling Adam and me. She is calling ___.",
+          "options": [
+            "us",
+            "they",
+            "her"
+          ],
+          "answer": "us",
+          "full": "She is calling us.",
+          "hint": "Adam and me includes the speaker. Use the object form us.",
+          "explain": "Us replaces Adam and me after calling.",
+          "difficulty": "upper-medium"
+        },
+        {
+          "prompt": "These books belong to Lina and Mei. Please give the books to ___.",
+          "options": [
+            "them",
+            "it",
+            "we"
+          ],
+          "answer": "them",
+          "full": "Please give the books to them.",
+          "hint": "Lina and Mei are two people. An object pronoun is needed after to.",
+          "explain": "Them replaces the two owners after the preposition to.",
+          "difficulty": "upper-medium"
+        },
+        {
+          "prompt": "A boy has a blue cap and his sister has a red cap. The red cap is ___ cap.",
+          "options": [
+            "his",
+            "her",
+            "our"
+          ],
+          "answer": "her",
+          "full": "The red cap is her cap.",
+          "hint": "Find the owner of the red cap, not the blue one.",
+          "explain": "The sister owns the red cap, so her is the correct possessive adjective.",
+          "difficulty": "upper-medium"
+        }
+      ]
+    },
+    {
+      "id": "y3-challenge-train",
+      "title": "Routine Train",
+      "topic": "always · sometimes · never · often · how often",
+      "type": "train",
+      "color": "#a8d884",
+      "icon": "train",
+      "x": 17,
+      "y": 34,
+      "subtitle": "Build a daily routine",
+      "guide": "Tap the word carriages in order. Build a routine to move the train!",
+      "taskLabel": "Train journey completed",
+      "reminder": "Always, sometimes, never and often usually come before the main verb. After do or does in these questions, use the base verb.",
+      "tasks": [
+        {
+          "prompt": "Describe her routine. Start with She; put always before walks.",
+          "words": [
+            "She",
+            "always",
+            "walks",
+            "to",
+            "school."
+          ],
+          "answer": "She always walks to school.",
+          "full": "She always walks to school.",
+          "hint": "Use She always walks, then to school.",
+          "explain": "Always goes before walks; use walks after She.",
+          "scene": "boy",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Describe a routine. Start with We; put sometimes before play.",
+          "words": [
+            "We",
+            "sometimes",
+            "play",
+            "football",
+            "after",
+            "school."
+          ],
+          "answer": "We sometimes play football after school.",
+          "full": "We sometimes play football after school.",
+          "hint": "Use We sometimes play, then football after school.",
+          "explain": "Sometimes tells us how often we play football.",
+          "scene": "boy",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Describe his routine. Start with He; put never before eats.",
+          "words": [
+            "He",
+            "never",
+            "eats",
+            "meat."
+          ],
+          "answer": "He never eats meat.",
+          "full": "He never eats meat.",
+          "hint": "Use He never eats, then meat.",
+          "explain": "Never means at no time. Use eats with He.",
+          "scene": "boy",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Ask a routine question. Start with Do; put often before read.",
+          "words": [
+            "Do",
+            "you",
+            "often",
+            "read",
+            "at",
+            "night?"
+          ],
+          "answer": "Do you often read at night?",
+          "full": "Do you often read at night?",
+          "hint": "Use Do you often read, then at night.",
+          "explain": "A present simple question uses Do you and the base verb read.",
+          "scene": "boy",
+          "difficulty": "upper-medium"
+        },
+        {
+          "prompt": "Ask about her tennis routine. Start with How often.",
+          "words": [
+            "How",
+            "often",
+            "does",
+            "she",
+            "play",
+            "tennis?"
+          ],
+          "answer": "How often does she play tennis?",
+          "full": "How often does she play tennis?",
+          "hint": "Use How often does she, then the base verb play.",
+          "explain": "Does she is followed by play, not plays. How often asks about frequency.",
+          "scene": "boy",
+          "difficulty": "upper-medium"
+        }
+      ]
+    },
+    {
+      "id": "y3-challenge-river",
+      "title": "Action River",
+      "topic": "Actions now · statements · negatives · questions",
+      "type": "build",
+      "color": "#69c8e8",
+      "icon": "boat",
+      "x": 56,
+      "y": 74,
+      "subtitle": "Build actions happening now",
+      "guide": "Put the word blocks in order. Build a boat with an action happening now!",
+      "taskLabel": "Boat launched",
+      "reminder": "Use am, is or are with an ing verb. Put not after the helping verb. In a question, the helping verb comes before the subject.",
+      "tasks": [
+        {
+          "prompt": "Describe what is happening now. Start with The.",
+          "words": [
+            "The",
+            "boys",
+            "are",
+            "swimming."
+          ],
+          "answer": "The boys are swimming.",
+          "full": "The boys are swimming.",
+          "hint": "The boys is plural. Use are before swimming.",
+          "explain": "Are swimming describes what the boys are doing now.",
+          "scene": "boy",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Describe the girl now. Start with My.",
+          "words": [
+            "My",
+            "sister",
+            "is",
+            "drawing",
+            "a",
+            "cat."
+          ],
+          "answer": "My sister is drawing a cat.",
+          "full": "My sister is drawing a cat.",
+          "hint": "Use My sister is, then drawing a cat.",
+          "explain": "My sister is one person, so use is drawing.",
+          "scene": "boy",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Say that they are not playing now. Start with They; finish with now.",
+          "words": [
+            "They",
+            "are",
+            "not",
+            "playing",
+            "football",
+            "now."
+          ],
+          "answer": "They are not playing football now.",
+          "full": "They are not playing football now.",
+          "hint": "Put not between are and playing.",
+          "explain": "The negative present continuous uses are not plus an ing verb.",
+          "scene": "boy",
+          "difficulty": "upper-medium"
+        },
+        {
+          "prompt": "Ask about your brother now. Start with Is.",
+          "words": [
+            "Is",
+            "your",
+            "brother",
+            "reading",
+            "a",
+            "book?"
+          ],
+          "answer": "Is your brother reading a book?",
+          "full": "Is your brother reading a book?",
+          "hint": "Use Is your brother, then reading a book.",
+          "explain": "Move is before the subject to form a present continuous question.",
+          "scene": "boy",
+          "difficulty": "upper-medium"
+        },
+        {
+          "prompt": "Ask about the children now. Start with What; finish with now.",
+          "words": [
+            "What",
+            "are",
+            "the",
+            "children",
+            "doing",
+            "now?"
+          ],
+          "answer": "What are the children doing now?",
+          "full": "What are the children doing now?",
+          "hint": "Use What are the children, then doing now.",
+          "explain": "Use are with children; What asks about the action.",
+          "scene": "boy",
+          "difficulty": "upper-medium"
+        }
+      ]
+    },
+    {
+      "id": "y3-challenge-mine",
+      "title": "Story Mine",
+      "topic": "Past stories · went · found · were · broke · put",
+      "type": "mine",
+      "color": "#acbcdf",
+      "icon": "pickaxe",
+      "x": 68,
+      "y": 51,
+      "subtitle": "Find words from the past",
+      "guide": "Tap the correct word block. Find a gem for each action from yesterday!",
+      "taskLabel": "Past gem found",
+      "reminder": "Keep completed story events in the past. Some past forms change, such as go to went. Put stays put in the past.",
+      "tasks": [
+        {
+          "prompt": "Yesterday, our class ___ to the zoo by bus.",
+          "options": [
+            "go",
+            "went",
+            "goes"
+          ],
+          "answer": "went",
+          "full": "Yesterday, our class went to the zoo by bus.",
+          "hint": "Yesterday needs the past form of go.",
+          "explain": "Went is the irregular past form of go.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Yesterday, Aina ___ a small shell on the beach.",
+          "options": [
+            "find",
+            "found",
+            "finding"
+          ],
+          "answer": "found",
+          "full": "Yesterday, Aina found a small shell on the beach.",
+          "hint": "Find changes to found in the past.",
+          "explain": "Found describes the completed action yesterday.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "The children ___ at school yesterday, but today they are at home.",
+          "options": [
+            "was",
+            "were",
+            "is"
+          ],
+          "answer": "were",
+          "full": "The children were at school yesterday.",
+          "hint": "Children is plural, and yesterday is in the past.",
+          "explain": "Use were for a plural subject in the past.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Ben dropped his glass. It ___ on the floor.",
+          "options": [
+            "breaks",
+            "broke",
+            "breaking"
+          ],
+          "answer": "broke",
+          "full": "It broke on the floor.",
+          "hint": "Dropped begins a past event. Continue with a past verb.",
+          "explain": "Broke continues the story in the past; breaks is present and breaking needs a helping verb.",
+          "difficulty": "upper-medium"
+        },
+        {
+          "prompt": "Ben drank some water. Then he ___ the empty cup on the table.",
+          "options": [
+            "puts",
+            "put",
+            "putting"
+          ],
+          "answer": "put",
+          "full": "Then he put the empty cup on the table.",
+          "hint": "Drank and then show a sequence of completed past actions.",
+          "explain": "The past form of put stays put. He puts would describe a present routine.",
+          "difficulty": "upper-medium"
+        }
+      ]
+    },
+    {
+      "id": "y3-challenge-portal",
+      "title": "Choice Portal",
+      "topic": "and · or · but · match meaning to clues",
+      "type": "portal",
+      "color": "#bea1fa",
+      "icon": "portal",
+      "x": 80,
+      "y": 27,
+      "subtitle": "Join the story blocks",
+      "guide": "Read the story clue. Tap a linking word to open the portal!",
+      "taskLabel": "Story portal opened",
+      "reminder": "And adds. Or gives a choice. But joins different or opposite ideas.",
+      "tasks": [
+        {
+          "prompt": "Would you like milk ___ juice? Please choose one drink.",
+          "options": [
+            "and",
+            "or",
+            "but"
+          ],
+          "answer": "or",
+          "full": "Would you like milk or juice?",
+          "hint": "Or gives a choice between two things.",
+          "explain": "The speaker asks the listener to choose one drink, so use or.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Mia has a ruler ___ a pencil. She has both things.",
+          "options": [
+            "or",
+            "but",
+            "and"
+          ],
+          "answer": "and",
+          "full": "Mia has a ruler and a pencil.",
+          "hint": "Both things are included.",
+          "explain": "And adds one item to another.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Ben has a new bike, ___ he cannot ride it yet.",
+          "options": [
+            "and",
+            "or",
+            "but"
+          ],
+          "answer": "but",
+          "full": "Ben has a new bike, but he cannot ride it yet.",
+          "hint": "Having a bike and being unable to ride it are contrasting ideas.",
+          "explain": "But joins the unexpected contrast between owning a bike and being unable to ride it.",
+          "difficulty": "upper-medium"
+        },
+        {
+          "prompt": "There is one snack for you. Take an apple ___ a banana; do not take both.",
+          "options": [
+            "and",
+            "but",
+            "or"
+          ],
+          "answer": "or",
+          "full": "Take an apple or a banana.",
+          "hint": "The instruction allows only one of the two snacks.",
+          "explain": "Or matches a choice of one snack rather than both.",
+          "difficulty": "upper-medium"
+        },
+        {
+          "prompt": "The bag looks small, ___ it can hold many books.",
+          "options": [
+            "or",
+            "and",
+            "but"
+          ],
+          "answer": "but",
+          "full": "The bag looks small, but it can hold many books.",
+          "hint": "Holding many books is unexpected for a small-looking bag.",
+          "explain": "But connects the contrast between the appearance and what the bag can hold.",
+          "difficulty": "upper-medium"
+        }
+      ]
+    },
+    {
+      "id": "y3-challenge-rescue",
+      "title": "Hideout Rescue",
+      "topic": "in · on · under · behind · between",
+      "type": "place",
+      "color": "#ff9c95",
+      "icon": "cat",
+      "x": 42,
+      "y": 22,
+      "subtitle": "Give the cat a safe place",
+      "guide": "Tap the cat, then tap its place. You can also drag the cat!",
+      "taskLabel": "Cat rescued",
+      "reminder": "Read the place word. In is inside. Behind is at the back. Between is in the middle.",
+      "tasks": [
+        {
+          "prompt": "Put the cat in the box, not on the table.",
+          "answer": "in",
+          "full": "The cat is in the box.",
+          "hint": "Choose the inside of the box.",
+          "explain": "In describes a position inside the box.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "The cat is below the table top. Put it under the table.",
+          "answer": "under",
+          "full": "The cat is under the table.",
+          "hint": "Choose the space beneath the table.",
+          "explain": "Under means below the table, not on top of it.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Keep the cat off the floor. Put it on the table top.",
+          "answer": "on",
+          "full": "The cat is on the table.",
+          "hint": "Choose the top surface of the table.",
+          "explain": "On describes the cat resting on the table top.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "The cat is outdoors. It is not at the table or in the box. Hide it behind the tree.",
+          "answer": "behind",
+          "full": "The cat is behind the tree.",
+          "hint": "Choose the hiding place at the back of the tree.",
+          "explain": "Behind places the cat at the back of the tree rather than at the table or in the box.",
+          "difficulty": "upper-medium"
+        },
+        {
+          "prompt": "The cat needs a place outside the box and away from the table. Put it between the two rocks.",
+          "answer": "between",
+          "full": "The cat is between the rocks.",
+          "hint": "Find the middle space with a rock on each side.",
+          "explain": "Between describes the middle position with one rock on each side.",
+          "difficulty": "upper-medium"
+        }
+      ]
+    },
+    {
+      "id": "y3-challenge-castle",
+      "title": "Clue Castle",
+      "topic": "Comparisons · one clue · two clues",
+      "type": "compare",
+      "color": "#e5b3f0",
+      "icon": "castle",
+      "x": 89,
+      "y": 73,
+      "subtitle": "Compare two objects",
+      "guide": "Look at both objects. Tap the one that matches the words!",
+      "taskLabel": "Castle light switched on",
+      "reminder": "Taller and shorter compare heights. Bigger and smaller compare sizes.",
+      "tasks": [
+        {
+          "prompt": "Tap the tower that is taller than the other tower.",
+          "objects": [
+            {
+              "id": "a",
+              "label": "Tower A",
+              "size": 80
+            },
+            {
+              "id": "b",
+              "label": "Tower B",
+              "size": 150
+            }
+          ],
+          "objectType": "tower",
+          "answer": "b",
+          "full": "Tower B is taller than Tower A.",
+          "hint": "Compare the heights. Choose the tower that reaches higher.",
+          "explain": "Taller compares the heights of the two towers.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Choose the tower that is smaller than the other tower.",
+          "objects": [
+            {
+              "id": "a",
+              "label": "Tower A",
+              "size": 145
+            },
+            {
+              "id": "b",
+              "label": "Tower B",
+              "size": 80
+            }
+          ],
+          "objectType": "tower",
+          "answer": "b",
+          "full": "Tower B is smaller than Tower A.",
+          "hint": "Compare the overall sizes of the two towers.",
+          "explain": "Smaller compares the sizes of two objects.",
+          "difficulty": "medium"
+        },
+        {
+          "prompt": "Tap the tower that is taller than Tower A but shorter than Tower C.",
+          "objects": [
+            {
+              "id": "a",
+              "label": "Tower A",
+              "size": 70
+            },
+            {
+              "id": "b",
+              "label": "Tower B",
+              "size": 110
+            },
+            {
+              "id": "c",
+              "label": "Tower C",
+              "size": 155
+            }
+          ],
+          "objectType": "tower",
+          "answer": "b",
+          "full": "Tower B is taller than Tower A but shorter than Tower C.",
+          "hint": "Find one tower that fits both comparisons.",
+          "explain": "Tower B is above A in height and below C, so both parts are true.",
+          "difficulty": "upper-medium"
+        },
+        {
+          "prompt": "Choose a tower that is shorter than Tower A but taller than Tower B.",
+          "objects": [
+            {
+              "id": "a",
+              "label": "Tower A",
+              "size": 150
+            },
+            {
+              "id": "b",
+              "label": "Tower B",
+              "size": 70
+            },
+            {
+              "id": "c",
+              "label": "Tower C",
+              "size": 110
+            }
+          ],
+          "objectType": "tower",
+          "answer": "c",
+          "full": "Tower C is shorter than Tower A but taller than Tower B.",
+          "hint": "Do not choose A or B. Compare the remaining tower with each one.",
+          "explain": "Tower C fits both comparisons: it is lower than A and higher than B.",
+          "difficulty": "upper-medium"
+        },
+        {
+          "prompt": "The tower you need is bigger than Tower C and smaller than Tower B. Which tower fits both clues?",
+          "objects": [
+            {
+              "id": "a",
+              "label": "Tower A",
+              "size": 110
+            },
+            {
+              "id": "b",
+              "label": "Tower B",
+              "size": 155
+            },
+            {
+              "id": "c",
+              "label": "Tower C",
+              "size": 70
+            }
+          ],
+          "objectType": "tower",
+          "answer": "a",
+          "full": "Tower A is bigger than Tower C and smaller than Tower B.",
+          "hint": "Check both size clues before choosing.",
+          "explain": "Tower A is larger than C and smaller than B; the other towers fail one of the clues.",
+          "difficulty": "upper-medium"
+        }
+      ]
+    }
+  ],
+  "rules": [
+    [
+      "shop",
+      "Count the clues",
+      "one child → two children · one mouse → three mice",
+      "Use there is with one thing and there are with more than one. Ask how many for a number.",
+      "There are three boxes. How many children are there?"
+    ],
+    [
+      "bridge",
+      "Owners and objects",
+      "her bag · our room · calling us · give to them",
+      "Find the owner first. Use an object pronoun after an action or a preposition.",
+      "Mum is calling Adam and me. She is calling us."
+    ],
+    [
+      "train",
+      "How often?",
+      "always · sometimes · never · often",
+      "These frequency words go before the main verb in our sentences. Use a base verb after do or does.",
+      "She always walks to school. How often does she play tennis?"
+    ],
+    [
+      "boat",
+      "Actions now",
+      "They are swimming. · They are not playing. · Is he reading?",
+      "Use am, is or are with an ing verb. Change the word order to ask a question.",
+      "What are the children doing now?"
+    ],
+    [
+      "pickaxe",
+      "Past story clues",
+      "go → went · find → found · break → broke · put → put",
+      "Yesterday, completed events and then can show a past story. Keep the verb in the past.",
+      "Ben drank some water. Then he put the cup on the table."
+    ],
+    [
+      "portal",
+      "Choose the link",
+      "and = both · or = choose · but = contrast",
+      "Read both ideas before choosing the joining word.",
+      "The bag looks small, but it can hold many books."
+    ],
+    [
+      "cat",
+      "Find the place",
+      "in · on · under · behind · between",
+      "Read all the position clues, then choose the matching place.",
+      "The cat is between the two rocks."
+    ],
+    [
+      "castle",
+      "Use both clues",
+      "taller than A · shorter than C",
+      "One tower must fit both comparisons. Check the first clue and then the second.",
+      "Tower B is taller than Tower A but shorter than Tower C."
+    ]
+  ],
+  "curriculum": {
+    "document": "KSSR (Semakan 2017), SK, CEFR-aligned",
+    "title": "DSKP Bahasa Inggeris SK Tahun 3 — Primary Year 3 English Language Syllabus",
+    "url": "https://bpk.moe.gov.my/kurikulum/kssr/kssr-tahun-3/102-001-dskp-kssr-semakan-2017-bi-sk-thn3-print/file",
+    "grammarPages": "Printed pages 43–45 (PDF pages 57–59); recycled Year 1–2 structures in Appendix 2",
+    "learningStandards": [
+      "3.2.2: Read details in short, simple texts.",
+      "4.2.4: Describe people and objects with suitable vocabulary.",
+      "4.2.5: Link sentences with basic coordinating conjunctions.",
+      "4.3.1: Practise capitals and sentence punctuation through guided word ordering.",
+      "4.3.3: Plan and form a range of simple sentences."
+    ],
+    "note": "Original 3K practice: exactly 20 medium and 20 upper-medium activities within Year 3 SK language. Medium items apply a grammar pattern to a short familiar context. Upper-medium items add connected clues, pronoun reference, question word order, contrast or two comparisons; they do not introduce a higher-year grammar syllabus. Selected Year 3 grammar: irregular plurals, subject/object/possessive pronouns, frequency adverbs, conjunctions, past simple, prepositions and short-adjective comparisons. Present simple and continuous recycle Year 2 language as permitted. Difficulty labels are design categories, not PBD or CEFR levels.",
+    "mirrorUrl": "https://anyflip.com/pzxi/hnnp/basic/51-77",
+    "reviewedAt": "2026-10-18"
+  },
+  "difficultyDistribution": {
+    "medium": 20,
+    "upper-medium": 20
+  }
+}

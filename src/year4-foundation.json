@@ -1,0 +1,771 @@
+{
+  "year": 4,
+  "levelLabel": "Foundation explorer",
+  "missions": [
+    {
+      "id": "y4-foundation-market",
+      "title": "Picnic Market",
+      "topic": "much · many · some · any · there is / are",
+      "type": "rune",
+      "color": "#ffbd64",
+      "icon": "shop",
+      "x": 18,
+      "y": 72,
+      "subtitle": "Pack food for the picnic",
+      "guide": "Read the food clue. Tap a word block to pack the picnic basket!",
+      "taskLabel": "Picnic food packed",
+      "reminder": "Count carrots: many carrots. Milk is an amount: much milk. Use some in these positive sentences and any after isn't.",
+      "tasks": [
+        {
+          "prompt": "How ___ apples are there? We can count apples.",
+          "options": [
+            "many",
+            "much"
+          ],
+          "answer": "many",
+          "full": "How many apples are there?",
+          "hint": "Apples can be counted. Use many.",
+          "explain": "Use many with countable plural nouns such as apples.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "How ___ water is in the bottle?",
+          "options": [
+            "many",
+            "much"
+          ],
+          "answer": "much",
+          "full": "How much water is in the bottle?",
+          "hint": "Water is an amount, not separate items.",
+          "explain": "Use much when asking about an amount of water.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "We have oranges. There are ___ oranges in the bag.",
+          "options": [
+            "some",
+            "any"
+          ],
+          "answer": "some",
+          "full": "There are some oranges in the bag.",
+          "hint": "This positive sentence says we have oranges.",
+          "explain": "Some gives a positive amount without an exact number.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "The glass is empty. There is not ___ milk in it.",
+          "options": [
+            "some",
+            "any"
+          ],
+          "answer": "any",
+          "full": "There is not any milk in it.",
+          "hint": "Not makes this sentence negative.",
+          "explain": "Use any after not to say there is no milk.",
+          "difficulty": "lower-medium"
+        },
+        {
+          "prompt": "Two bananas are on the table. There ___ two bananas.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": "are",
+          "full": "There are two bananas on the table.",
+          "hint": "Two bananas means more than one.",
+          "explain": "There are goes with a plural noun such as bananas.",
+          "difficulty": "lower-medium"
+        }
+      ]
+    },
+    {
+      "id": "y4-foundation-bridge",
+      "title": "My Things Bridge",
+      "topic": "my · her · his · mine · 's",
+      "type": "bridge",
+      "color": "#80d4ea",
+      "icon": "bridge",
+      "x": 38,
+      "y": 56,
+      "subtitle": "Return the lost belongings",
+      "guide": "Read who owns each thing. Tap the right block to return it!",
+      "taskLabel": "Belonging returned",
+      "reminder": "Use my or her before a noun. Mine and his can show ownership without repeating the noun.",
+      "tasks": [
+        {
+          "prompt": "I own this bag. It is ___ bag.",
+          "options": [
+            "my",
+            "her"
+          ],
+          "answer": "my",
+          "full": "It is my bag.",
+          "hint": "The speaker says I own it.",
+          "explain": "My shows that something belongs to the speaker.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "A girl has a red hat. This is ___ hat.",
+          "options": [
+            "his",
+            "her"
+          ],
+          "answer": "her",
+          "full": "This is her hat.",
+          "hint": "Use her for something belonging to the girl.",
+          "explain": "Her is a possessive adjective used before hat.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "A boy owns this kite. The kite is ___.",
+          "options": [
+            "his",
+            "hers"
+          ],
+          "answer": "his",
+          "full": "The kite is his.",
+          "hint": "A boy owns the kite. Choose his.",
+          "explain": "His can stand alone to show that the kite belongs to the boy.",
+          "difficulty": "lower-medium"
+        },
+        {
+          "prompt": "I own the blue book. The blue book is ___.",
+          "options": [
+            "mine",
+            "yours"
+          ],
+          "answer": "mine",
+          "full": "The blue book is mine.",
+          "hint": "The speaker owns the book. Use mine without another noun.",
+          "explain": "Mine means the book belongs to me.",
+          "difficulty": "lower-medium"
+        },
+        {
+          "prompt": "The bag belongs to Ali. It is ___ bag.",
+          "options": [
+            "Ali",
+            "Ali's"
+          ],
+          "answer": "Ali's",
+          "full": "It is Ali's bag.",
+          "hint": "Add apostrophe s to Ali to show ownership.",
+          "explain": "Ali's shows that the bag belongs to Ali.",
+          "difficulty": "lower-medium"
+        }
+      ]
+    },
+    {
+      "id": "y4-foundation-train",
+      "title": "Daily Train",
+      "topic": "Simple routines · actions now",
+      "type": "train",
+      "color": "#a8d884",
+      "icon": "train",
+      "x": 17,
+      "y": 34,
+      "subtitle": "Spot a routine or an action now",
+      "guide": "Read the time clue. Put the word carriages in order to move the train!",
+      "taskLabel": "Time clue solved",
+      "reminder": "Every day tells us about a routine. Now tells us an action is happening: am, is or are + an -ing word.",
+      "tasks": [
+        {
+          "prompt": "Build a routine sentence. Start with I.",
+          "words": [
+            "I",
+            "walk",
+            "to",
+            "school."
+          ],
+          "answer": "I walk to school.",
+          "full": "I walk to school.",
+          "hint": "Start I walk. Put to school at the end.",
+          "explain": "I walk describes a routine in the present simple.",
+          "scene": "boy",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "Describe what she is doing now. Start with She.",
+          "words": [
+            "She",
+            "is",
+            "reading",
+            "now."
+          ],
+          "answer": "She is reading now.",
+          "full": "She is reading now.",
+          "hint": "Use She is, then reading, then now.",
+          "explain": "She is reading describes an action happening now.",
+          "scene": "boy",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "Describe the boys now. Start with They.",
+          "words": [
+            "They",
+            "are",
+            "eating",
+            "lunch."
+          ],
+          "answer": "They are eating lunch.",
+          "full": "They are eating lunch.",
+          "hint": "Use They are before eating.",
+          "explain": "Use are with They in the present continuous.",
+          "scene": "boy",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "Describe a daily routine. Start with We; finish with every day.",
+          "words": [
+            "We",
+            "drink",
+            "water",
+            "every",
+            "day."
+          ],
+          "answer": "We drink water every day.",
+          "full": "We drink water every day.",
+          "hint": "Put We drink water before every day.",
+          "explain": "Every day shows a routine, so use drink with We.",
+          "scene": "boy",
+          "difficulty": "lower-medium"
+        },
+        {
+          "prompt": "Describe Ali on Sundays. Start with Ali; finish with on Sundays.",
+          "words": [
+            "Ali",
+            "plays",
+            "football",
+            "on",
+            "Sundays."
+          ],
+          "answer": "Ali plays football on Sundays.",
+          "full": "Ali plays football on Sundays.",
+          "hint": "Use Ali plays football, then on Sundays.",
+          "explain": "A singular subject such as Ali takes plays for a present simple routine.",
+          "scene": "boy",
+          "difficulty": "lower-medium"
+        }
+      ]
+    },
+    {
+      "id": "y4-foundation-river",
+      "title": "Wish River",
+      "topic": "like / enjoy / love + ing · want + to",
+      "type": "build",
+      "color": "#69c8e8",
+      "icon": "boat",
+      "x": 56,
+      "y": 74,
+      "subtitle": "Tell us what you enjoy or want",
+      "guide": "Put the word blocks in order. Build a wish or a favourite activity!",
+      "taskLabel": "Wish boat launched",
+      "reminder": "Enjoy goes with an -ing word: enjoy playing. Want goes with to + a verb: want to play. Love can also go with an -ing word.",
+      "tasks": [
+        {
+          "prompt": "Say what you like. Start with I.",
+          "words": [
+            "I",
+            "like",
+            "reading",
+            "books."
+          ],
+          "answer": "I like reading books.",
+          "full": "I like reading books.",
+          "hint": "Put reading after like.",
+          "explain": "Like can be followed by an ing form such as reading.",
+          "scene": "boy",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "Say what you want. Start with We.",
+          "words": [
+            "We",
+            "want",
+            "to",
+            "swim."
+          ],
+          "answer": "We want to swim.",
+          "full": "We want to swim.",
+          "hint": "Put to before swim.",
+          "explain": "Use want to followed by the base form swim.",
+          "scene": "boy",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "Say what she enjoys. Start with She.",
+          "words": [
+            "She",
+            "enjoys",
+            "playing",
+            "games."
+          ],
+          "answer": "She enjoys playing games.",
+          "full": "She enjoys playing games.",
+          "hint": "Put playing after enjoys.",
+          "explain": "Enjoys is followed by an ing form, so use playing.",
+          "scene": "boy",
+          "difficulty": "lower-medium"
+        },
+        {
+          "prompt": "Say what they love. Start with They.",
+          "words": [
+            "They",
+            "love",
+            "drawing",
+            "cats."
+          ],
+          "answer": "They love drawing cats.",
+          "full": "They love drawing cats.",
+          "hint": "Use drawing after love.",
+          "explain": "Love can be followed by an ing form such as drawing.",
+          "scene": "boy",
+          "difficulty": "lower-medium"
+        },
+        {
+          "prompt": "Say what he wants. Start with He.",
+          "words": [
+            "He",
+            "wants",
+            "to",
+            "eat."
+          ],
+          "answer": "He wants to eat.",
+          "full": "He wants to eat.",
+          "hint": "Use He wants, then to eat.",
+          "explain": "Use wants with He, followed by to and the base verb eat.",
+          "scene": "boy",
+          "difficulty": "lower-medium"
+        }
+      ]
+    },
+    {
+      "id": "y4-foundation-mine",
+      "title": "Memory Mine",
+      "topic": "Past actions · helped · went · saw · could",
+      "type": "mine",
+      "color": "#acbcdf",
+      "icon": "pickaxe",
+      "x": 68,
+      "y": 51,
+      "subtitle": "Find memories and past skills",
+      "guide": "Read the past clue. Mine the word block that completes the memory!",
+      "taskLabel": "Memory gem found",
+      "reminder": "Yesterday and last night are in the past. Help becomes helped, go becomes went, and see becomes saw. Could describes a past ability.",
+      "tasks": [
+        {
+          "prompt": "Yesterday, I ___ Mum in the kitchen.",
+          "options": [
+            "help",
+            "helped"
+          ],
+          "answer": "helped",
+          "full": "Yesterday, I helped Mum in the kitchen.",
+          "hint": "Yesterday tells us the action is in the past.",
+          "explain": "Helped is the past form of help.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "Last night, we ___ a film.",
+          "options": [
+            "watched",
+            "watch"
+          ],
+          "answer": "watched",
+          "full": "Last night, we watched a film.",
+          "hint": "Use the past form ending in ed.",
+          "explain": "Watched is the regular past form of watch.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "Yesterday, they ___ their grandmother.",
+          "options": [
+            "visit",
+            "visited"
+          ],
+          "answer": "visited",
+          "full": "Yesterday, they visited their grandmother.",
+          "hint": "Add ed to visit for this past action.",
+          "explain": "Visited is the past form of visit.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "We go to the park on Sundays. Yesterday, we ___ to the zoo.",
+          "options": [
+            "go",
+            "went"
+          ],
+          "answer": "went",
+          "full": "Yesterday, we went to the zoo.",
+          "hint": "Go changes to went in the past.",
+          "explain": "Went is the irregular past form of go.",
+          "difficulty": "lower-medium"
+        },
+        {
+          "prompt": "I can swim now. When I was five, I ___ swim too.",
+          "options": [
+            "can",
+            "could"
+          ],
+          "answer": "could",
+          "full": "When I was five, I could swim too.",
+          "hint": "When I was five refers to ability in the past.",
+          "explain": "Could is the past form of can and shows past ability.",
+          "difficulty": "lower-medium"
+        }
+      ]
+    },
+    {
+      "id": "y4-foundation-portal",
+      "title": "Tomorrow Portal",
+      "topic": "am / is / are going to · future plans",
+      "type": "portal",
+      "color": "#bea1fa",
+      "icon": "portal",
+      "x": 80,
+      "y": 27,
+      "subtitle": "Make a plan for tomorrow",
+      "guide": "Read each plan. Tap the correct block to open tomorrow's portal!",
+      "taskLabel": "Plan portal opened",
+      "reminder": "For a plan, use am, is or are + going to + a verb. I am going to plant. She is going to plant. We are going to plant.",
+      "tasks": [
+        {
+          "prompt": "Tomorrow, I ___ going to draw a cat.",
+          "options": [
+            "am",
+            "are"
+          ],
+          "answer": "am",
+          "full": "Tomorrow, I am going to draw a cat.",
+          "hint": "Use am with I.",
+          "explain": "I am going to describes a future plan.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "Tomorrow, she ___ going to visit her aunt.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": "is",
+          "full": "Tomorrow, she is going to visit her aunt.",
+          "hint": "Use is with she.",
+          "explain": "She is going to describes her future plan.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "We have a plan for Saturday. We ___ going to play football.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": "are",
+          "full": "We are going to play football.",
+          "hint": "Use are with we.",
+          "explain": "Use We are going to for a shared future plan.",
+          "difficulty": "lower-medium"
+        },
+        {
+          "prompt": "Ali has a ticket for tomorrow. He is going ___ travel by bus.",
+          "options": [
+            "to",
+            "at"
+          ],
+          "answer": "to",
+          "full": "He is going to travel by bus.",
+          "hint": "The pattern is going to plus a base verb.",
+          "explain": "Use going to travel, not going at travel.",
+          "difficulty": "lower-medium"
+        },
+        {
+          "prompt": "They have a picnic plan. They are going to ___ sandwiches.",
+          "options": [
+            "make",
+            "making",
+            "made"
+          ],
+          "answer": "make",
+          "full": "They are going to make sandwiches.",
+          "hint": "After going to, use the base form of the verb.",
+          "explain": "Make is the base verb used after going to.",
+          "difficulty": "lower-medium"
+        }
+      ]
+    },
+    {
+      "id": "y4-foundation-rescue",
+      "title": "Reason Rescue",
+      "topic": "Why? · because · give a reason",
+      "type": "rune",
+      "color": "#ff9c95",
+      "icon": "cat",
+      "x": 42,
+      "y": 22,
+      "subtitle": "Explain how to help the cat",
+      "guide": "Read the cat's clue. Choose a reason to help the rescue team!",
+      "taskLabel": "Rescue reason explained",
+      "reminder": "Why asks for a reason. Because introduces a reason: We help the cat because it is cold.",
+      "tasks": [
+        {
+          "prompt": "I drink water ___ I am thirsty.",
+          "options": [
+            "because",
+            "or"
+          ],
+          "answer": "because",
+          "full": "I drink water because I am thirsty.",
+          "hint": "Being thirsty is the reason for drinking water.",
+          "explain": "Because links the action to its reason.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "She wears a coat ___ it is cold.",
+          "options": [
+            "and",
+            "because"
+          ],
+          "answer": "because",
+          "full": "She wears a coat because it is cold.",
+          "hint": "The cold weather is the reason.",
+          "explain": "Use because to give the reason for wearing a coat.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "Why are you eating? I am eating ___ I am hungry.",
+          "options": [
+            "because",
+            "but"
+          ],
+          "answer": "because",
+          "full": "I am eating because I am hungry.",
+          "hint": "A Why question asks for a reason.",
+          "explain": "Because I am hungry answers the Why question.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "It is raining. Why is Ali using an umbrella?",
+          "options": [
+            "Because it is raining.",
+            "Because it is sunny."
+          ],
+          "answer": "Because it is raining.",
+          "full": "Ali is using an umbrella because it is raining.",
+          "hint": "Choose the reason that matches the rain.",
+          "explain": "The rain explains why Ali is using an umbrella.",
+          "difficulty": "lower-medium"
+        },
+        {
+          "prompt": "Mia wants to read. The room is dark. Why does she turn on the light?",
+          "options": [
+            "Because she needs to see the book.",
+            "Because the book is wet."
+          ],
+          "answer": "Because she needs to see the book.",
+          "full": "Mia turns on the light because she needs to see the book.",
+          "hint": "A light helps Mia see in a dark room.",
+          "explain": "The reason connects the dark room with reading the book.",
+          "difficulty": "lower-medium"
+        }
+      ]
+    },
+    {
+      "id": "y4-foundation-castle",
+      "title": "Tower Castle",
+      "topic": "taller than · shorter than · bigger than · smaller than",
+      "type": "compare",
+      "color": "#e5b3f0",
+      "icon": "castle",
+      "x": 89,
+      "y": 73,
+      "subtitle": "Compare the castle objects",
+      "guide": "Look at the labels and sizes. Tap the object that matches the comparison!",
+      "taskLabel": "Castle comparison solved",
+      "reminder": "Taller and shorter compare heights. Bigger and smaller compare sizes. Than tells us which other object to compare with.",
+      "tasks": [
+        {
+          "prompt": "Tap the taller tower.",
+          "objects": [
+            {
+              "id": "a",
+              "label": "Tower A",
+              "size": 80
+            },
+            {
+              "id": "b",
+              "label": "Tower B",
+              "size": 150
+            }
+          ],
+          "objectType": "tower",
+          "answer": "b",
+          "full": "Tower B is taller than Tower A.",
+          "hint": "Look for the tower that reaches higher.",
+          "explain": "Tower B reaches higher, so it is taller.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "Tap the shorter tower.",
+          "objects": [
+            {
+              "id": "a",
+              "label": "Tower A",
+              "size": 140
+            },
+            {
+              "id": "b",
+              "label": "Tower B",
+              "size": 75
+            }
+          ],
+          "objectType": "tower",
+          "answer": "b",
+          "full": "Tower B is shorter than Tower A.",
+          "hint": "The shorter tower does not reach as high.",
+          "explain": "Tower B is lower than Tower A, so it is shorter.",
+          "difficulty": "low"
+        },
+        {
+          "prompt": "Tower A is on the left. Tap the tower that is taller than Tower A.",
+          "objects": [
+            {
+              "id": "a",
+              "label": "Tower A",
+              "size": 85
+            },
+            {
+              "id": "b",
+              "label": "Tower B",
+              "size": 145
+            }
+          ],
+          "objectType": "tower",
+          "answer": "b",
+          "full": "Tower B is taller than Tower A.",
+          "hint": "Compare the two heights. Tower B reaches higher.",
+          "explain": "Taller than compares the heights of two towers.",
+          "difficulty": "lower-medium"
+        },
+        {
+          "prompt": "Tower B is on the right. Tap the tower that is shorter than Tower B.",
+          "objects": [
+            {
+              "id": "a",
+              "label": "Tower A",
+              "size": 90
+            },
+            {
+              "id": "b",
+              "label": "Tower B",
+              "size": 150
+            }
+          ],
+          "objectType": "tower",
+          "answer": "a",
+          "full": "Tower A is shorter than Tower B.",
+          "hint": "Look for a tower lower than Tower B.",
+          "explain": "Tower A is shorter because it does not reach as high as Tower B.",
+          "difficulty": "lower-medium"
+        },
+        {
+          "prompt": "Look at both towers. Tap the bigger tower.",
+          "objects": [
+            {
+              "id": "a",
+              "label": "Tower A",
+              "size": 150
+            },
+            {
+              "id": "b",
+              "label": "Tower B",
+              "size": 85
+            }
+          ],
+          "objectType": "tower",
+          "answer": "a",
+          "full": "Tower A is bigger than Tower B.",
+          "hint": "The bigger tower is shown at a larger size.",
+          "explain": "Bigger than compares the sizes of the two towers.",
+          "difficulty": "lower-medium"
+        }
+      ]
+    }
+  ],
+  "rules": [
+    [
+      "shop",
+      "Food and amounts",
+      "many apples · much water · some oranges · not any milk",
+      "Use many for countable things and much for an amount. Use some in these positive sentences and any after not.",
+      "How many apples are there? There is not any milk."
+    ],
+    [
+      "bridge",
+      "Whose things?",
+      "my bag · her hat · the kite is his · the book is mine",
+      "My and her come before nouns. Mine and his can stand alone. Add apostrophe s to a name to show ownership.",
+      "It is Ali's bag. The blue book is mine."
+    ],
+    [
+      "train",
+      "Routines and now",
+      "I walk · Ali plays · she is reading · they are eating",
+      "Use the present simple for routines. Use am, is or are with an ing verb for an action now.",
+      "We drink water every day. She is reading now."
+    ],
+    [
+      "boat",
+      "Likes and wishes",
+      "like reading · enjoys playing · want to swim",
+      "Use an ing form after enjoy. After want or wants, use to and a base verb.",
+      "She enjoys playing games. He wants to eat."
+    ],
+    [
+      "pickaxe",
+      "Past actions and ability",
+      "helped · watched · visited · went · could",
+      "Yesterday and last night refer to the past. Could shows ability in the past.",
+      "Yesterday, we went to the zoo. I could swim when I was five."
+    ],
+    [
+      "portal",
+      "Future plans",
+      "I am going to · she is going to · we are going to",
+      "Use am, is or are going to, then a base verb.",
+      "We are going to make sandwiches."
+    ],
+    [
+      "cat",
+      "Give a reason",
+      "Why? · because",
+      "Because tells us the reason for an action. Match the reason to the situation.",
+      "She wears a coat because it is cold."
+    ],
+    [
+      "castle",
+      "Compare towers",
+      "taller than · shorter than · bigger than",
+      "Compare the height or size of the two objects.",
+      "Tower B is taller than Tower A."
+    ]
+  ],
+  "curriculum": {
+    "document": "KSSR (Semakan 2017) Standards-Based English Language Curriculum, Sekolah Kebangsaan, Year 4; Bahagian Pembangunan Kurikulum, Ministry of Education Malaysia, April 2018",
+    "title": "English Language Year 4 (SK) DSKP — Primary Year 4 Syllabus",
+    "url": "https://bpk.moe.gov.my/kurikulum/kssr/kssr-tahun-3-1/138-003-dskp-kssr-semakan-2017-bi-sk-thn4-print/file",
+    "grammarPages": "Printed syllabus pages 45–47 (PDF pages 59–61); earlier grammar in Appendix 1, printed pages 53–54 (PDF pages 67–68). Relevant learning standards: printed pages 26, 31 and 35–36 (PDF pages 40, 45 and 49–50).",
+    "learningStandards": [
+      "4.2.1: Language for giving reasons for simple opinions, supported here by because sentences.",
+      "4.2.3: Language for describing basic daily routines, supported here by guided sentence ordering.",
+      "4.2.4: Suitable language for describing people and objects, supported here by ownership and comparison statements.",
+      "4.3.1: Capital letters and sentence punctuation, practised here in guided word ordering; the full standard concerns writing at discourse level.",
+      "2.1.2: Language for describing past experiences; classroom speaking practice is needed to assess the full standard.",
+      "3.2.2: Reading for specific details is supported by short clues; the full standard expects simple texts of one or two paragraphs."
+    ],
+    "note": "Original 4B foundation practice: exactly 20 low and 20 lower-medium activities. Short direct prompts, mostly two-choice blocks and short word banks reduce reading load; the second level adds a small context or grammar choice. Selected Year 4 grammar includes quantity, possession, verb patterns, past actions and could, going to, because and comparisons; present simple and continuous are explicitly recycled in the Year 4 syllabus. Difficulty labels are teacher-facing design categories, not PBD or CEFR performance judgements.",
+    "mirrorUrl": "https://fliphtml5.com/juojb/vqkc/DSKP_KSSR_Semakan_2017_Bahasa_Inggeris_Tahun_4/60/",
+    "reviewedAt": "2026-10-18"
+  },
+  "difficultyDistribution": {
+    "low": 20,
+    "lower-medium": 20
+  }
+}

@@ -29,12 +29,14 @@ Untuk mengubah soalan atau UI pada masa akan datang, jalankan `node scripts/buil
 | 2K — 2 Ibnu Khaldun | 37 | Noor Afiq bin Noor Othman | Tahun 2, aras rendah |
 | 2S — 2 Ibnu Sina | 36 | Noor Afiq bin Noor Othman | Tahun 2, aras sederhana dan tinggi |
 | 3B — 3 Ibnu Battutah | 26 | Sujatha a/p Rajamanikam | Tahun 3, aras rendah dan sederhana rendah |
+| 3K — 3 Ibnu Khaldun | 31 | Mohd Hasrul Asraf bin Othman | Tahun 3, aras sederhana dan sederhana tinggi |
+| 4B — 4 Ibnu Battutah | 25 | Mohd Hasrul Asraf bin Othman | Tahun 4, aras rendah dan sederhana rendah |
 | 4K — 4 Ibnu Khaldun | 30 | Nurul Izzati binti Abu Jais | Tahun 4, aras sederhana rendah |
 | 5S — 5 Ibnu Sina | 38 | Sujatha a/p Rajamanikam | Tahun 5, aras tinggi |
 | 6B — 6 Ibnu Battutah | 15 | Mohd Hasrul Asraf bin Othman | Tahun 6, aras rendah dan sederhana rendah |
 | 6S — 6 Ibnu Sina | 34 | Nurul Izzati binti Abu Jais | Tahun 6, aras tinggi; 20/40 KBAT |
 
-Jumlah **281 murid dalam sembilan kelas**. Setiap kelas mempunyai 8 misi dan 40 aktiviti. Terdapat lapan set berbeza: 2B dan 2K berkongsi set aras rendah, manakala 2S menggunakan set sendiri; 6B dan 6S juga berasingan. Soalan dan handbook bertukar mengikut kelas. Senarai nama ialah enrolmen aktif 2026 daripada database SPBT, disahkan pada 14 Oktober 2026. Tiada nama ditaip bebas. Perubahan enrolmen perlu diselaraskan semula dalam `src/roster.json`.
+Jumlah **337 murid dalam sebelas kelas**. Setiap kelas mempunyai 8 misi dan 40 aktiviti. Terdapat sepuluh set berbeza: 2B dan 2K berkongsi set aras rendah, manakala 2S menggunakan set sendiri; 6B dan 6S juga berasingan. 3K dan 4B mempunyai set tersendiri, berasingan daripada 3B dan 4K. Soalan dan handbook bertukar mengikut kelas. Senarai nama ialah enrolmen aktif 2026 daripada database SPBT. Sembilan kelas asal disahkan pada 14 Oktober 2026; 31 murid 3K dan 25 murid 4B disahkan pada 18 Oktober 2026. Tiada nama ditaip bebas. Perubahan enrolmen perlu diselaraskan semula dalam `src/roster.json`.
 
 Pemilihan nama ialah pengenalan murid untuk aktiviti kelas. Murid tidak memerlukan kata laluan. Rekod disimpan berasingan menggunakan ID murid rasmi.
 
@@ -50,7 +52,7 @@ Sumber logo: https://i.postimg.cc/3RF9M05N/Logo-SKSA.png. PNG asal disertakan ta
 
 ## Dashboard guru
 
-Login guru menggunakan IC 12 digit berdaftar dalam Supabase. Sujatha mendapat pilihan 5S dan 3B, Sukhairi mendapat 1S dan 2B, Izzati mendapat 6S dan 4K, Noor Afiq mendapat 2K dan 2S, dan Asraf hanya 6B. Server memeriksa kelas untuk membaca keputusan, import latihan lama dan reset; menukar URL tidak memberi akses kepada kelas guru lain. Tugasan dan data SPBT tidak diubah.
+Login guru menggunakan IC 12 digit berdaftar dalam Supabase. Sujatha mendapat pilihan 5S dan 3B, Sukhairi mendapat 1S dan 2B, Izzati mendapat 6S dan 4K, Noor Afiq mendapat 2K dan 2S, dan Asraf mendapat 6B, 4B dan 3K. Server memeriksa kelas untuk membaca keputusan, import latihan lama dan reset; menukar URL tidak memberi akses kepada kelas guru lain. Tugasan dan data SPBT tidak diubah.
 
 Dashboard memaparkan nama penuh, status, jumlah aktiviti selesai, jawapan betul pada cubaan pertama, petunjuk yang digunakan, XP, pecahan misi dan masa simpan terakhir. Untuk 6S, ia juga menunjukkan aktiviti penaakulan yang selesai daripada 20 aktiviti KBAT; maklumat itu turut disertakan dalam CSV. Ia refresh setiap 15 saat. **Download CSV** memuat turun laporan kelas yang dipilih.
 
@@ -69,13 +71,15 @@ Semua soalan ialah aktiviti asal. Setiap tahun merujuk DSKP KSSR Bahasa Inggeris
 - Tahun 5: grammar dalam situasi, membaiki mesej, soalan/rutin, arahan tersusun, cerita lampau, ramalan/janji/rancangan, can/can't dan perbandingan dengan petunjuk.
 - Tahun 6: 6B disemak terhadap DSKP Tahun 6, termasuk kebenaran mengukuhkan grammar Tahun 1–5. Teks/ jawapan/ID misi asal dikekalkan supaya progress lama serasi. 6S menggunakan set Tahun 6 yang berasingan dengan **tepat 20 aktiviti KBAT daripada 40**.
 
+Dua set tambahan menggunakan 40 soalan masing-masing: 4B mempunyai 20 aras rendah dan 20 sederhana rendah; 3K mempunyai 20 aras sederhana dan 20 sederhana tinggi. Aras ini ialah kategori reka bentuk latihan, bukan Tahap Penguasaan PBD atau aras CEFR. Semua ID murid, ID misi dan bank soalan sembilan kelas asal dikekalkan.
+
 KBAT 6S berasaskan analisis dan penilaian situasi/petunjuk mengikut penerangan HOTS dalam DSKP Tahun 6, bukan ditentukan oleh panjang ayat. Setiap aktiviti KBAT ditanda dalam data kandungan dengan aras kognitif dan rasional; 20 lagi ialah latihan grammar langsung. UI murid menggunakan label English **Think it through** dan laporan guru menggunakan **Reasoning**.
 
 Ini latihan grammar bagi topik dan standard terpilih. Markah game bukan penentuan automatik Tahap Penguasaan PBD atau penilaian penuh semua kemahiran DSKP.
 
 ## Struktur kod
 
-- `src/`: UI, ilustrasi SVG asal, roster dan lapan set aktiviti bagi sembilan kelas.
+- `src/`: UI, ilustrasi SVG asal, roster dan sepuluh set aktiviti bagi sebelas kelas.
 - `api/index.js`: Vercel API yang menghubungkan game kepada backend sekolah.
 - `vercel.json`: konfigurasi routing dan build Vercel.
 - `worker/api.js`: API bersama; `worker/index.js` dijana semasa build.
@@ -96,4 +100,4 @@ npm run build:vercel
 npm test
 ```
 
-`npm run build` menyediakan artifact bagi hosting Sites. Kedua-dua build menjana kandungan daripada fail JSON sumber. Ujian menggunakan data sintetik dan database in-memory; tidak mereset murid sebenar. Semakan meliputi semua aktiviti dan sembilan kelas, lima akses guru, set berbeza dalam tahun yang sama, nisbah KBAT 6S, login/sesi/logout, import, konflik antara peranti, reset, offline dan adapter Vercel. Semakan visual melalui browser automatik tidak tersedia dalam persekitaran ini.
+`npm run build` menyediakan artifact bagi hosting Sites. Kedua-dua build menjana kandungan daripada fail JSON sumber. Ujian menggunakan data sintetik dan database in-memory; tidak mereset murid sebenar. Semakan meliputi semua aktiviti dan sebelas kelas, lima akses guru, set berbeza dalam tahun yang sama, nisbah KBAT 6S, login/sesi/logout, import, konflik antara peranti, reset, offline dan adapter Vercel. Semakan visual melalui browser automatik tidak tersedia dalam persekitaran ini.

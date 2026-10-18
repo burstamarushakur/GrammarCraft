@@ -8,6 +8,8 @@ Latihan grammar terpilih bagi KSSR Bahasa Inggeris SK Tahun 1–6. Setiap kelas 
 | y2-low | 2 | 2B, 2K | 40 | [DSKP](https://bpk.moe.gov.my/kurikulum/kssr/kssr-tahun-2/96-50-dskp-kssr-semakan-tahun-2-bahasa-inggeris-cefr-sk-v2/file) — Printed p. 48 (meaning-led grammar); pp. 54–56 (routines, counting, clothes, ability, suggestions, location). PDF pp. 62, 68–70. |
 | y2-challenge | 2 | 2S | 40 | [DSKP](https://bpk.moe.gov.my/kurikulum/kssr/kssr-tahun-2/96-50-dskp-kssr-semakan-tahun-2-bahasa-inggeris-cefr-sk-v2/file) — Printed p. 48 (meaning-led grammar); pp. 54–56 (routines, counting, clothes, ability, suggestions, location). PDF pp. 62, 68–70. |
 | y3-supported | 3 | 3B | 40 | [DSKP](https://bpk.moe.gov.my/kurikulum/kssr/kssr-tahun-3/102-001-dskp-kssr-semakan-2017-bi-sk-thn3-print/file) — Printed pages 43–45 (PDF pages 57–59); recycled Year 1–2 structures in Appendix 2 |
+| y3-challenge | 3 | 3K | 40 | [DSKP](https://bpk.moe.gov.my/kurikulum/kssr/kssr-tahun-3/102-001-dskp-kssr-semakan-2017-bi-sk-thn3-print/file) — Printed pages 43–45 (PDF pages 57–59); recycled Year 1–2 structures in Appendix 2 |
+| y4-foundation | 4 | 4B | 40 | [DSKP](https://bpk.moe.gov.my/kurikulum/kssr/kssr-tahun-3-1/138-003-dskp-kssr-semakan-2017-bi-sk-thn4-print/file) — Printed syllabus pages 45–47 (PDF pages 59–61); earlier grammar in Appendix 1, printed pages 53–54 (PDF pages 67–68). Relevant learning standards: printed pages 26, 31 and 35–36 (PDF pages 40, 45 and 49–50). |
 | y4-supported | 4 | 4K | 40 | [DSKP](https://bpk.moe.gov.my/kurikulum/kssr/kssr-tahun-3-1/138-003-dskp-kssr-semakan-2017-bi-sk-thn4-print/file) — Printed syllabus pages 45–47 (PDF pages 59–61); earlier grammar in Appendix 1, printed pages 53–54 (PDF pages 67–68). Relevant learning standards: printed pages 26, 31 and 35–36 (PDF pages 40, 45 and 49–50). |
 | y5-high | 5 | 5S | 40 | [DSKP](https://www.teacherfiera.com/wp-content/uploads/2020/04/DSKP-ENGLISH-YEAR-5-SK-30-12-2020-Latest.pdf) — Printed syllabus pages 45–46; PDF pages 59–60 |
 | y6-supported | 6 | 6B | 40 | [DSKP](https://www.teacherfiera.com/wp-content/uploads/2020/04/2.-DSKP-KSSR-Semakan-2017-Bahasa-Inggeris-Tahun-6-SK_ISBN.pdf) — Printed syllabus pages 44–46; PDF pages 58–60. Earlier grammar: printed pages 52–53; PDF pages 66–67. |
@@ -72,6 +74,44 @@ Original supported practice for pupils needing short, scaffolded tasks. Content 
 | Linking Portal | and · or · but |
 | Animal Rescue | in · on · under · behind · between |
 | Size Castle | taller · shorter · bigger · smaller |
+
+## y3-challenge
+
+Original 3K practice: exactly 20 medium and 20 upper-medium activities within Year 3 SK language. Medium items apply a grammar pattern to a short familiar context. Upper-medium items add connected clues, pronoun reference, question word order, contrast or two comparisons; they do not introduce a higher-year grammar syllabus. Selected Year 3 grammar: irregular plurals, subject/object/possessive pronouns, frequency adverbs, conjunctions, past simple, prepositions and short-adjective comparisons. Present simple and continuous recycle Year 2 language as permitted. Difficulty labels are design categories, not PBD or CEFR levels.
+
+Dokumen KPM disemak pada 2026-10-18; [salinan dokumen yang boleh dibaca](https://anyflip.com/pzxi/hnnp/basic/51-77).
+
+medium: 20/40 · upper-medium: 20/40
+
+| Misi | Fokus grammar |
+|---|---|
+| Clue Market | Irregular plurals · there is / are · how many |
+| Ownership Bridge | her · our · us · them · ownership clues |
+| Routine Train | always · sometimes · never · often · how often |
+| Action River | Actions now · statements · negatives · questions |
+| Story Mine | Past stories · went · found · were · broke · put |
+| Choice Portal | and · or · but · match meaning to clues |
+| Hideout Rescue | in · on · under · behind · between |
+| Clue Castle | Comparisons · one clue · two clues |
+
+## y4-foundation
+
+Original 4B foundation practice: exactly 20 low and 20 lower-medium activities. Short direct prompts, mostly two-choice blocks and short word banks reduce reading load; the second level adds a small context or grammar choice. Selected Year 4 grammar includes quantity, possession, verb patterns, past actions and could, going to, because and comparisons; present simple and continuous are explicitly recycled in the Year 4 syllabus. Difficulty labels are teacher-facing design categories, not PBD or CEFR performance judgements.
+
+Dokumen KPM disemak pada 2026-10-18; [salinan dokumen yang boleh dibaca](https://fliphtml5.com/juojb/vqkc/DSKP_KSSR_Semakan_2017_Bahasa_Inggeris_Tahun_4/60/).
+
+low: 20/40 · lower-medium: 20/40
+
+| Misi | Fokus grammar |
+|---|---|
+| Picnic Market | much · many · some · any · there is / are |
+| My Things Bridge | my · her · his · mine · 's |
+| Daily Train | Simple routines · actions now |
+| Wish River | like / enjoy / love + ing · want + to |
+| Memory Mine | Past actions · helped · went · saw · could |
+| Tomorrow Portal | am / is / are going to · future plans |
+| Reason Rescue | Why? · because · give a reason |
+| Tower Castle | taller than · shorter than · bigger than · smaller than |
 
 ## y4-supported
 

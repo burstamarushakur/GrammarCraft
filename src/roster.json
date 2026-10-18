@@ -53,6 +53,22 @@
       "studentCount": 26
     },
     {
+      "code": "3K",
+      "name": "3 IBNU KHALDUN",
+      "year": 3,
+      "packId": "y3-challenge",
+      "levelLabel": "Challenge",
+      "studentCount": 31
+    },
+    {
+      "code": "4B",
+      "name": "4 IBNU BATTUTAH",
+      "year": 4,
+      "packId": "y4-foundation",
+      "levelLabel": "Step by step",
+      "studentCount": 25
+    },
+    {
       "code": "4K",
       "name": "4 IBNU KHALDUN",
       "year": 4,
@@ -1482,6 +1498,290 @@
       "id": "131d2c90-c84c-433f-8848-2bad995d8786",
       "full_name": "SITI NURNAFISAH BINTI MOHD NAZRI",
       "classCode": "6S"
+    },
+    {
+      "id": "274b9ebc-eea6-4b52-94db-4cfa2e9106fc",
+      "full_name": "ADAM MUHAIMIN BIN MOHD FARID",
+      "classCode": "3K"
+    },
+    {
+      "id": "f7c07f95-fac5-4776-8469-888ff58d5ea7",
+      "full_name": "AMMAR RAYHAN BIN MUHAMMAD FAUZI",
+      "classCode": "3K"
+    },
+    {
+      "id": "c43b4edb-e19e-48f3-bc2b-a3af83929c70",
+      "full_name": "DAYINI DELISHA BINTI MOHD SUFIAN",
+      "classCode": "3K"
+    },
+    {
+      "id": "af74f641-504d-4e5d-b8e0-73bc2c0ef57b",
+      "full_name": "MEDINA SOFIA BINTI AHMAD SUHAIMI",
+      "classCode": "3K"
+    },
+    {
+      "id": "5d59eaa0-3e82-4152-8c3d-44668dcc7087",
+      "full_name": "MUHAMMAD AFIQ HAKIM BIN ALIFF",
+      "classCode": "3K"
+    },
+    {
+      "id": "4a194e30-ded5-4758-90f5-a663f123a0c0",
+      "full_name": "MUHAMMAD AISY UMAR BIN MOHAMAAD SYAFIQ",
+      "classCode": "3K"
+    },
+    {
+      "id": "988b4a3d-d8d7-4874-ad74-9c6d8468de3f",
+      "full_name": "MUHAMMAD ANIQ AISY BIN MUHAMAD NASHRAN",
+      "classCode": "3K"
+    },
+    {
+      "id": "65c9157c-09cd-4e7a-b4af-68a5e347c104",
+      "full_name": "MUHAMMAD AREFF AMSYAR BIN YUSMOHAMMADHIDAYAT",
+      "classCode": "3K"
+    },
+    {
+      "id": "54770890-3a59-45e7-8a01-013f12635538",
+      "full_name": "MUHAMMAD DARIS ARYAN BIN ZAMZIEDIE",
+      "classCode": "3K"
+    },
+    {
+      "id": "ef7439a1-a2ff-4bd5-92fc-15f51059e551",
+      "full_name": "MUHAMMAD EIRFAN AFFENDI BIN MUHAMAD ARIFF AFFENDI",
+      "classCode": "3K"
+    },
+    {
+      "id": "918dfba6-c358-4bee-95d7-bd1da25c2610",
+      "full_name": "MUHAMMAD FAREED KHIR BIN ABDUL SYAKUR",
+      "classCode": "3K"
+    },
+    {
+      "id": "134e6754-5b81-42f1-b24e-a6b96b7eb58e",
+      "full_name": "MUHAMMAD FIKRI RIZMAN BIN MOHAMAD RAZUAN",
+      "classCode": "3K"
+    },
+    {
+      "id": "9e75204c-134d-4150-a735-3e0ae818b10a",
+      "full_name": "MUHAMMAD FIRAS HANIF BIN MOHD FIRDAUS",
+      "classCode": "3K"
+    },
+    {
+      "id": "d49f89a7-2a55-49f6-8561-c8fa5bf1f2f9",
+      "full_name": "MUHAMMAD HARRAZ BIN MOHD HADI",
+      "classCode": "3K"
+    },
+    {
+      "id": "274c47f4-a59c-4575-bd05-02ffc52ccbb5",
+      "full_name": "MUHAMMAD WILSAM WAFIE BIN MOHD NASRI",
+      "classCode": "3K"
+    },
+    {
+      "id": "54f53cab-25db-46d7-9185-8441de9d655c",
+      "full_name": "MUHAMMAD ZAKWAN AQIL BIN JOHARI",
+      "classCode": "3K"
+    },
+    {
+      "id": "370db715-fb45-47c2-b7e7-34918d1a0f95",
+      "full_name": "NAURAH SAFIYYAH BINTI MUHAMMAD HAZIQ",
+      "classCode": "3K"
+    },
+    {
+      "id": "384f9e52-bfbc-4b86-9fd4-36403a4f6262",
+      "full_name": "NOOR SYAFIQAH AISYAH BINTI ABDUL RAZAK",
+      "classCode": "3K"
+    },
+    {
+      "id": "d35c6626-41a6-413c-9815-febbcb68941e",
+      "full_name": "NUR ALISHA MAISARAH BINTI MOHD IZWAN",
+      "classCode": "3K"
+    },
+    {
+      "id": "ff03e5d4-9fff-4e60-94e9-c13a692c56b0",
+      "full_name": "NUR ARISA DAFINA BINTI MOHAMMAD AZWAN",
+      "classCode": "3K"
+    },
+    {
+      "id": "6f39b1fe-8142-46c9-8ff0-062229a5fa32",
+      "full_name": "NUR DAMIA QISTINA BINTI MOHAMMAD EZZUDDIN",
+      "classCode": "3K"
+    },
+    {
+      "id": "328b9666-8a67-4710-83eb-19aef8c98c99",
+      "full_name": "NUR SAFFIYA ZALIKHA BINTI ABDULLAH",
+      "classCode": "3K"
+    },
+    {
+      "id": "b5087d54-d92f-4e6b-a3c4-956f06167aef",
+      "full_name": "NUR WAFA IRDINA BINTI MUHAMMAD QAYYUM",
+      "classCode": "3K"
+    },
+    {
+      "id": "a7b93653-75f8-4163-848a-a7977e75872e",
+      "full_name": "NUR ZARA ISHANA BINTI MOHAMED NIZAM",
+      "classCode": "3K"
+    },
+    {
+      "id": "62e3e263-4bd0-407c-ab04-ec245cd6e07e",
+      "full_name": "NUR ZARA ZALIKHA BINTI ABDUL HADI",
+      "classCode": "3K"
+    },
+    {
+      "id": "bb33b775-82d3-485b-bb4e-fda316befd7f",
+      "full_name": "NURHANIA SYAKIRA BINTI MOHD NAZRI",
+      "classCode": "3K"
+    },
+    {
+      "id": "b36eaba6-40d2-4fcf-b1e7-2b369aea3cf6",
+      "full_name": "PUTRA IZZUE ISKANDAR BIN ARBAIN",
+      "classCode": "3K"
+    },
+    {
+      "id": "35e81c3c-0d98-4abe-b192-637bec73237b",
+      "full_name": "PUTRI QISHA IRDINA BINTI SHAHRIZAL",
+      "classCode": "3K"
+    },
+    {
+      "id": "2fe110f7-7c20-4fe0-aedb-9e9b37f8cb39",
+      "full_name": "SUMAYYAH BINTI MUHAMMAD LUQMAN",
+      "classCode": "3K"
+    },
+    {
+      "id": "0fef8b1d-21bd-42ca-8637-c8a3ecb9aeee",
+      "full_name": "UMAR ZIYAD BIN AMIRUL AFIQ",
+      "classCode": "3K"
+    },
+    {
+      "id": "7e4fb545-5cff-46e8-bb16-4c3e0ad88b54",
+      "full_name": "UWAIS HARIS BIN AHMAD FADZLI",
+      "classCode": "3K"
+    },
+    {
+      "id": "b8236a85-0a28-47c5-a3e5-e9b86c2bc1aa",
+      "full_name": "ADIB DANISH BIN HAIRULNIZAM",
+      "classCode": "4B"
+    },
+    {
+      "id": "c0d20024-4cb9-4e48-8b2a-1c787df8e900",
+      "full_name": "AHMAD ADAM BIN RUZAINI",
+      "classCode": "4B"
+    },
+    {
+      "id": "7b4ea8ce-10d6-45ae-95ec-2ccdc51b0d1b",
+      "full_name": "ALTAF NAQUDDIN BIN MOHD.HAFIZ",
+      "classCode": "4B"
+    },
+    {
+      "id": "98eb8ae7-24d9-4d6b-9bb6-eee38532a01f",
+      "full_name": "MIA MAISARAH BINTI MOHD HANAFI",
+      "classCode": "4B"
+    },
+    {
+      "id": "592a20f3-cd59-48d0-90de-117519b85a61",
+      "full_name": "MUHAMMAD ADAM BIN ZAINUDDIN",
+      "classCode": "4B"
+    },
+    {
+      "id": "2df42069-732b-47a2-a90e-ec064774f751",
+      "full_name": "MUHAMMAD ADIB BIN SUKRI",
+      "classCode": "4B"
+    },
+    {
+      "id": "ad688f04-8ab0-4e80-bc40-fbf97c3d67f3",
+      "full_name": "MUHAMMAD AIDIL AIMAN BIN RAMDAN",
+      "classCode": "4B"
+    },
+    {
+      "id": "c806bdc6-28b1-48bb-9848-102294fdc324",
+      "full_name": "MUHAMMAD AISY BIN MOHAMAD AIMAN RUSYDI",
+      "classCode": "4B"
+    },
+    {
+      "id": "cd4f2731-ba9a-4972-8985-0176e65a51f5",
+      "full_name": "MUHAMMAD AMSYAR HARRAZ BIN MUSTAFA",
+      "classCode": "4B"
+    },
+    {
+      "id": "d25c225a-9063-4b8e-bd3d-89144d0946b2",
+      "full_name": "MUHAMMAD ARYAN DARWISY BIN MOHAMED RAFFI",
+      "classCode": "4B"
+    },
+    {
+      "id": "2ec0bbb5-5e5f-472e-853d-a3bd3e71876e",
+      "full_name": "MUHAMMAD DANIAL AKASHAH BIN ABDULLAH",
+      "classCode": "4B"
+    },
+    {
+      "id": "2d882d75-9d95-4689-b817-bc75c4bb12f9",
+      "full_name": "MUHAMMAD HASIF AKRAM BIN KHAIRUL",
+      "classCode": "4B"
+    },
+    {
+      "id": "9bd75c19-2f06-4419-8474-b6a28018bb25",
+      "full_name": "MUHAMMAD HAZIQ AMMAR BIN MUHAMMAD SYAFIQ",
+      "classCode": "4B"
+    },
+    {
+      "id": "0400907e-b9e0-4a11-98a1-40fa412a36e8",
+      "full_name": "MUHAMMAD IMAN UKAIL BIN NORSYAWAL",
+      "classCode": "4B"
+    },
+    {
+      "id": "b3a764d2-ca96-4dc2-919e-c45d06804eee",
+      "full_name": "MUHAMMAD MIRZA BIN MUHAMMAD TAJUDDIN",
+      "classCode": "4B"
+    },
+    {
+      "id": "2b066d60-9c20-486b-bde5-909043573526",
+      "full_name": "MUHAMMAD SAYF ARYAN BIN MUHAMMAD NAZRIN ABDULLAH",
+      "classCode": "4B"
+    },
+    {
+      "id": "164781ac-8b14-4bdd-bdc4-7cdd04400c28",
+      "full_name": "MUHAMMAD ZULHARRAZ BIN MOHAMAD FAKHRUL RADZI",
+      "classCode": "4B"
+    },
+    {
+      "id": "298d524a-fdcc-4d4e-90cb-c29f5e720b87",
+      "full_name": "NUR ALIA ZULAIKHA BINTI ZAINORDIN",
+      "classCode": "4B"
+    },
+    {
+      "id": "7eabaaff-e4fa-49af-8870-9be5d88dd09a",
+      "full_name": "NUR ARESHA SURAYA BINTI NOR AZLAN",
+      "classCode": "4B"
+    },
+    {
+      "id": "6f5c8de2-4260-4a39-9d1f-9dda0a9b9a42",
+      "full_name": "NUR HAWA HUMAIRAH BINTI MOHD RIZAL",
+      "classCode": "4B"
+    },
+    {
+      "id": "883092ce-15ed-4dec-9ecf-560124992cae",
+      "full_name": "NUR IQLIMA AIRA BINTI MUHAMMAD MUHYIDDIN",
+      "classCode": "4B"
+    },
+    {
+      "id": "c1338c8e-6a26-44c1-80cb-3bc4ac626ce3",
+      "full_name": "NUR KHAIRA HANANIA BINTI SALIM",
+      "classCode": "4B"
+    },
+    {
+      "id": "d95630c6-15ce-49f5-8ca9-6fabf904b336",
+      "full_name": "NUR RAISHA MIKAYLA BINTI MOHD FAZIL",
+      "classCode": "4B"
+    },
+    {
+      "id": "b2a5b409-648b-4bbb-b248-ce4aa4d85010",
+      "full_name": "NUR ZAFIRAH BINTI MOHD HAFIZAN",
+      "classCode": "4B"
+    },
+    {
+      "id": "ce29f82a-dbd1-4d53-a16f-218c2d5a10be",
+      "full_name": "ZARIF NAUFAL BIN ABDULLAH",
+      "classCode": "4B"
     }
-  ]
+  ],
+  "classVerifiedAt": {
+    "3K": "2026-10-18",
+    "4B": "2026-10-18"
+  }
 }

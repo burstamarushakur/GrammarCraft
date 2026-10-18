@@ -5,7 +5,7 @@ export const TEST_OTHER_IC='900101019999';
 export const TEST_TOKEN='a'.repeat(64);
 export const TEST_OTHER_TOKEN='b'.repeat(64);
 export const TEST_COOKIE='__Host-grammar_teacher='+TEST_TOKEN;
-export const authEnv=(auth=schoolAuth())=>({TEACHER_ID:TEST_TEACHER_ID,SPBT_PUBLISHABLE_KEY:'test-publishable-key',TEACHER_ACCESS:[{id:TEST_TEACHER_ID,classes:['6B']},{id:'sujatha',classes:['5S','3B']},{id:'sukhairi',classes:['1S','2B']},{id:'izzati',classes:['6S','4K']},{id:'noor-afiq',classes:['2K','2S']}],AUTH:async(payload,token)=>{const response=await auth.fetch('https://school-auth.test',{body:JSON.stringify(payload),headers:{'x-spbt-token':token||''}});const data=await response.json();if(!response.ok){const error=new Error(data.error);error.status=response.status;throw error;}return data;}});
+export const authEnv=(auth=schoolAuth())=>({TEACHER_ID:TEST_TEACHER_ID,SPBT_PUBLISHABLE_KEY:'test-publishable-key',TEACHER_ACCESS:[{id:TEST_TEACHER_ID,classes:['6B','4B','3K']},{id:'sujatha',classes:['5S','3B']},{id:'sukhairi',classes:['1S','2B']},{id:'izzati',classes:['6S','4K']},{id:'noor-afiq',classes:['2K','2S']}],AUTH:async(payload,token)=>{const response=await auth.fetch('https://school-auth.test',{body:JSON.stringify(payload),headers:{'x-spbt-token':token||''}});const data=await response.json();if(!response.ok){const error=new Error(data.error);error.status=response.status;throw error;}return data;}});
 export function schoolAuth(){
  const sessions=new Map([[TEST_TOKEN,{id:TEST_TEACHER_ID,full_name:'Class Teacher',admin:true}]]),calls=[];let active=true,available=true;
  return{sessions,calls,setActive:v=>active=v,setAvailable:v=>available=v,
