@@ -382,7 +382,7 @@ function mount(config){
  window.addEventListener("keydown",onKeyboardDown,{capture:true});window.addEventListener("keyup",onKeyboardUp,{capture:true});
  window.addEventListener("blur",onBlur);
  if(pending===-1){
-  launchStage(7);st.stage.enemies.forEach(e=>e.defeated=true);st.progress.completed=40;st.phase="victory";stageClear();
+  launchStage(7);st.stage.enemies.forEach(e=>e.defeated=true);st.phase="running";stageClear();
  }else launchStage(pending);
  prev=0;animation=requestAnimationFrame(frame);
 }
