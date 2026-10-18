@@ -14,4 +14,7 @@ for(const year of [1,2,3,4,5,6]){
 }
 if(total!==240)throw new Error('Expected exactly 240 questions');
 execFileSync(process.execPath,['--check','public/app.js']);
+execFileSync(process.execPath,['--check','public/visuals.js']);
+const html=readFileSync(new URL('./public/index.html',import.meta.url),'utf8');
+if(!html.includes('visuals.js')||!html.includes('app.js'))throw new Error('RPG visual engine is not loaded in HTML');
 console.log('English Quest RPG: 240 valid questions, 48 quests, client syntax OK.');
