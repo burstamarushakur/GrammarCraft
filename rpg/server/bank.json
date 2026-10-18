@@ -1,0 +1,2897 @@
+{
+  "version": 1,
+  "grades": {
+    "1": [
+      {
+        "topic": "Articles: a / an",
+        "questions": [
+          {
+            "prompt": "I can see ___ apple.",
+            "answer": "an",
+            "options": [
+              "an",
+              "a",
+              "the",
+              "any"
+            ],
+            "hint": "Use an before a vowel sound."
+          },
+          {
+            "prompt": "She has ___ pencil.",
+            "answer": "a",
+            "options": [
+              "a",
+              "an",
+              "are",
+              "any"
+            ],
+            "hint": "Pencil begins with a consonant sound."
+          },
+          {
+            "prompt": "This is ___ elephant.",
+            "answer": "an",
+            "options": [
+              "an",
+              "a",
+              "is",
+              "are"
+            ],
+            "hint": "Elephant starts with a vowel sound."
+          },
+          {
+            "prompt": "He wants ___ orange.",
+            "answer": "an",
+            "options": [
+              "an",
+              "a",
+              "am",
+              "is"
+            ],
+            "hint": "Orange starts with a vowel sound."
+          },
+          {
+            "prompt": "That is ___ bag.",
+            "answer": "a",
+            "options": [
+              "a",
+              "an",
+              "some",
+              "are"
+            ],
+            "hint": "Bag begins with a consonant sound."
+          }
+        ]
+      },
+      {
+        "topic": "Articles: a / an",
+        "questions": [
+          {
+            "prompt": "It is ___ umbrella.",
+            "answer": "an",
+            "options": [
+              "an",
+              "a",
+              "am",
+              "are"
+            ],
+            "hint": "Umbrella begins with a vowel sound."
+          },
+          {
+            "prompt": "I have ___ egg.",
+            "answer": "an",
+            "options": [
+              "an",
+              "a",
+              "some",
+              "is"
+            ],
+            "hint": "Egg starts with a vowel sound."
+          },
+          {
+            "prompt": "She sees ___ cat.",
+            "answer": "a",
+            "options": [
+              "a",
+              "an",
+              "is",
+              "are"
+            ],
+            "hint": "Cat starts with a consonant sound."
+          },
+          {
+            "prompt": "This is ___ ice cream.",
+            "answer": "an",
+            "options": [
+              "an",
+              "a",
+              "my",
+              "are"
+            ],
+            "hint": "Ice starts with a vowel sound."
+          },
+          {
+            "prompt": "There is ___ frog.",
+            "answer": "a",
+            "options": [
+              "a",
+              "an",
+              "am",
+              "any"
+            ],
+            "hint": "Frog starts with a consonant sound."
+          }
+        ]
+      },
+      {
+        "topic": "Verb to be: am / is / are",
+        "questions": [
+          {
+            "prompt": "I ___ happy today.",
+            "answer": "am",
+            "options": [
+              "am",
+              "is",
+              "are",
+              "be"
+            ],
+            "hint": "Use am after I."
+          },
+          {
+            "prompt": "He ___ my brother.",
+            "answer": "is",
+            "options": [
+              "is",
+              "am",
+              "are",
+              "be"
+            ],
+            "hint": "Use is after he."
+          },
+          {
+            "prompt": "They ___ friends.",
+            "answer": "are",
+            "options": [
+              "are",
+              "is",
+              "am",
+              "be"
+            ],
+            "hint": "Use are after they."
+          },
+          {
+            "prompt": "She ___ in Year One.",
+            "answer": "is",
+            "options": [
+              "is",
+              "are",
+              "am",
+              "be"
+            ],
+            "hint": "Use is after she."
+          },
+          {
+            "prompt": "You ___ very kind.",
+            "answer": "are",
+            "options": [
+              "are",
+              "is",
+              "am",
+              "be"
+            ],
+            "hint": "Use are after you."
+          }
+        ]
+      },
+      {
+        "topic": "Verb to be: am / is / are",
+        "questions": [
+          {
+            "prompt": "We ___ at school.",
+            "answer": "are",
+            "options": [
+              "are",
+              "is",
+              "am",
+              "be"
+            ],
+            "hint": "Use are after we."
+          },
+          {
+            "prompt": "My dog ___ small.",
+            "answer": "is",
+            "options": [
+              "is",
+              "are",
+              "am",
+              "be"
+            ],
+            "hint": "One dog takes is."
+          },
+          {
+            "prompt": "I ___ seven years old.",
+            "answer": "am",
+            "options": [
+              "am",
+              "is",
+              "are",
+              "be"
+            ],
+            "hint": "I goes with am."
+          },
+          {
+            "prompt": "The boys ___ playing.",
+            "answer": "are",
+            "options": [
+              "are",
+              "is",
+              "am",
+              "be"
+            ],
+            "hint": "Boys is plural, so use are."
+          },
+          {
+            "prompt": "It ___ a sunny day.",
+            "answer": "is",
+            "options": [
+              "is",
+              "am",
+              "are",
+              "be"
+            ],
+            "hint": "It goes with is."
+          }
+        ]
+      },
+      {
+        "topic": "Subject pronouns",
+        "questions": [
+          {
+            "prompt": "___ am a pupil.",
+            "answer": "I",
+            "options": [
+              "I",
+              "He",
+              "She",
+              "They"
+            ],
+            "hint": "Only I works with am."
+          },
+          {
+            "prompt": "Ali is a boy. ___ is kind.",
+            "answer": "He",
+            "options": [
+              "He",
+              "She",
+              "It",
+              "They"
+            ],
+            "hint": "He refers to a boy."
+          },
+          {
+            "prompt": "Sara is my friend. ___ is nice.",
+            "answer": "She",
+            "options": [
+              "She",
+              "He",
+              "We",
+              "It"
+            ],
+            "hint": "She refers to Sara."
+          },
+          {
+            "prompt": "My cat is asleep. ___ is tired.",
+            "answer": "It",
+            "options": [
+              "It",
+              "He",
+              "We",
+              "They"
+            ],
+            "hint": "It refers to an animal here."
+          },
+          {
+            "prompt": "Mira and I read. ___ are happy.",
+            "answer": "We",
+            "options": [
+              "We",
+              "He",
+              "She",
+              "I"
+            ],
+            "hint": "We means I and another person."
+          }
+        ]
+      },
+      {
+        "topic": "Subject pronouns",
+        "questions": [
+          {
+            "prompt": "Rani and Mei are sisters. ___ play.",
+            "answer": "They",
+            "options": [
+              "They",
+              "She",
+              "He",
+              "It"
+            ],
+            "hint": "Use they for two people."
+          },
+          {
+            "prompt": "___ are my teacher.",
+            "answer": "You",
+            "options": [
+              "You",
+              "I",
+              "He",
+              "She"
+            ],
+            "hint": "Use you when speaking to someone."
+          },
+          {
+            "prompt": "Ahmad likes football. ___ plays daily.",
+            "answer": "He",
+            "options": [
+              "He",
+              "They",
+              "She",
+              "We"
+            ],
+            "hint": "He refers to Ahmad."
+          },
+          {
+            "prompt": "The books are new. ___ are blue.",
+            "answer": "They",
+            "options": [
+              "They",
+              "It",
+              "He",
+              "She"
+            ],
+            "hint": "Use they for many books."
+          },
+          {
+            "prompt": "Mother and Father cook. ___ are busy.",
+            "answer": "They",
+            "options": [
+              "They",
+              "He",
+              "She",
+              "It"
+            ],
+            "hint": "Use they for two people."
+          }
+        ]
+      },
+      {
+        "topic": "Prepositions of place",
+        "questions": [
+          {
+            "prompt": "The fish is ___ the water.",
+            "answer": "in",
+            "options": [
+              "in",
+              "on",
+              "under",
+              "between"
+            ],
+            "hint": "A fish swims in water."
+          },
+          {
+            "prompt": "The cup is ___ the table.",
+            "answer": "on",
+            "options": [
+              "on",
+              "in",
+              "behind",
+              "between"
+            ],
+            "hint": "A cup rests on a table."
+          },
+          {
+            "prompt": "The shoes are ___ the bed.",
+            "answer": "under",
+            "options": [
+              "under",
+              "in",
+              "on",
+              "above"
+            ],
+            "hint": "Under means below."
+          },
+          {
+            "prompt": "The ball is ___ the box.",
+            "answer": "in",
+            "options": [
+              "in",
+              "on",
+              "under",
+              "over"
+            ],
+            "hint": "A ball inside a box is in it."
+          },
+          {
+            "prompt": "The clock is ___ the wall.",
+            "answer": "on",
+            "options": [
+              "on",
+              "in",
+              "under",
+              "between"
+            ],
+            "hint": "A clock hangs on a wall."
+          }
+        ]
+      },
+      {
+        "topic": "Prepositions of place",
+        "questions": [
+          {
+            "prompt": "The bird flies ___ the tree.",
+            "answer": "above",
+            "options": [
+              "above",
+              "under",
+              "in",
+              "between"
+            ],
+            "hint": "Above means higher than."
+          },
+          {
+            "prompt": "The cat hides ___ the sofa.",
+            "answer": "behind",
+            "options": [
+              "behind",
+              "in",
+              "on",
+              "above"
+            ],
+            "hint": "Behind means at the back."
+          },
+          {
+            "prompt": "The mouse is ___ the chair.",
+            "answer": "under",
+            "options": [
+              "under",
+              "on",
+              "above",
+              "between"
+            ],
+            "hint": "Under means beneath."
+          },
+          {
+            "prompt": "The pen is ___ my bag.",
+            "answer": "in",
+            "options": [
+              "in",
+              "on",
+              "above",
+              "behind"
+            ],
+            "hint": "Inside a bag uses in."
+          },
+          {
+            "prompt": "The picture is ___ the desk.",
+            "answer": "above",
+            "options": [
+              "above",
+              "in",
+              "under",
+              "between"
+            ],
+            "hint": "Above means higher than."
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "topic": "Present continuous",
+        "questions": [
+          {
+            "prompt": "Look! Ali ___ running.",
+            "answer": "is",
+            "options": [
+              "is",
+              "am",
+              "are",
+              "do"
+            ],
+            "hint": "Use is with Ali and -ing."
+          },
+          {
+            "prompt": "I ___ reading now.",
+            "answer": "am",
+            "options": [
+              "am",
+              "is",
+              "are",
+              "do"
+            ],
+            "hint": "Use am with I and -ing."
+          },
+          {
+            "prompt": "They ___ singing.",
+            "answer": "are",
+            "options": [
+              "are",
+              "is",
+              "am",
+              "does"
+            ],
+            "hint": "Use are with they."
+          },
+          {
+            "prompt": "She is ___ a picture.",
+            "answer": "drawing",
+            "options": [
+              "drawing",
+              "draw",
+              "draws",
+              "drew"
+            ],
+            "hint": "After is, use verb-ing."
+          },
+          {
+            "prompt": "We are ___ football.",
+            "answer": "playing",
+            "options": [
+              "playing",
+              "play",
+              "plays",
+              "played"
+            ],
+            "hint": "After are, use verb-ing."
+          }
+        ]
+      },
+      {
+        "topic": "Present continuous",
+        "questions": [
+          {
+            "prompt": "The bird is ___ in the sky.",
+            "answer": "flying",
+            "options": [
+              "flying",
+              "fly",
+              "flies",
+              "flew"
+            ],
+            "hint": "Use flying for action now."
+          },
+          {
+            "prompt": "My sisters ___ dancing.",
+            "answer": "are",
+            "options": [
+              "are",
+              "is",
+              "am",
+              "was"
+            ],
+            "hint": "Plural sisters takes are."
+          },
+          {
+            "prompt": "Dad ___ cooking dinner.",
+            "answer": "is",
+            "options": [
+              "is",
+              "are",
+              "am",
+              "do"
+            ],
+            "hint": "Dad is one person."
+          },
+          {
+            "prompt": "I am ___ my homework.",
+            "answer": "doing",
+            "options": [
+              "doing",
+              "do",
+              "does",
+              "did"
+            ],
+            "hint": "Am goes with verb-ing."
+          },
+          {
+            "prompt": "Are you ___ TV?",
+            "answer": "watching",
+            "options": [
+              "watching",
+              "watch",
+              "watches",
+              "watched"
+            ],
+            "hint": "Use watching after are."
+          }
+        ]
+      },
+      {
+        "topic": "Present simple",
+        "questions": [
+          {
+            "prompt": "She ___ to school every day.",
+            "answer": "walks",
+            "options": [
+              "walks",
+              "walk",
+              "walking",
+              "walked"
+            ],
+            "hint": "She takes -s in present simple."
+          },
+          {
+            "prompt": "I ___ breakfast at seven.",
+            "answer": "eat",
+            "options": [
+              "eat",
+              "eats",
+              "eating",
+              "ate"
+            ],
+            "hint": "I takes base verb eat."
+          },
+          {
+            "prompt": "They ___ football on Friday.",
+            "answer": "play",
+            "options": [
+              "play",
+              "plays",
+              "playing",
+              "played"
+            ],
+            "hint": "They takes base verb play."
+          },
+          {
+            "prompt": "My brother ___ milk.",
+            "answer": "likes",
+            "options": [
+              "likes",
+              "like",
+              "liking",
+              "liked"
+            ],
+            "hint": "He or she takes verb-s."
+          },
+          {
+            "prompt": "___ you like apples?",
+            "answer": "Do",
+            "options": [
+              "Do",
+              "Does",
+              "Are",
+              "Is"
+            ],
+            "hint": "Do starts questions with you."
+          }
+        ]
+      },
+      {
+        "topic": "Present simple",
+        "questions": [
+          {
+            "prompt": "He ___ not like fish.",
+            "answer": "does",
+            "options": [
+              "does",
+              "do",
+              "is",
+              "are"
+            ],
+            "hint": "Does not with he."
+          },
+          {
+            "prompt": "We ___ English on Monday.",
+            "answer": "study",
+            "options": [
+              "study",
+              "studies",
+              "studying",
+              "studied"
+            ],
+            "hint": "We takes study."
+          },
+          {
+            "prompt": "Does she ___ the piano?",
+            "answer": "play",
+            "options": [
+              "play",
+              "plays",
+              "playing",
+              "played"
+            ],
+            "hint": "After does, use base verb."
+          },
+          {
+            "prompt": "Cats ___ milk.",
+            "answer": "drink",
+            "options": [
+              "drink",
+              "drinks",
+              "drinking",
+              "drank"
+            ],
+            "hint": "Plural cats takes drink."
+          },
+          {
+            "prompt": "My mother ___ early.",
+            "answer": "wakes",
+            "options": [
+              "wakes",
+              "wake",
+              "waking",
+              "woke"
+            ],
+            "hint": "She takes wakes."
+          }
+        ]
+      },
+      {
+        "topic": "There is / There are",
+        "questions": [
+          {
+            "prompt": "___ a book on the desk.",
+            "answer": "There is",
+            "options": [
+              "There is",
+              "There are",
+              "They is",
+              "They are"
+            ],
+            "hint": "One book: there is."
+          },
+          {
+            "prompt": "___ three birds outside.",
+            "answer": "There are",
+            "options": [
+              "There are",
+              "There is",
+              "They is",
+              "It are"
+            ],
+            "hint": "Three birds: there are."
+          },
+          {
+            "prompt": "___ a mouse in the room.",
+            "answer": "There is",
+            "options": [
+              "There is",
+              "There are",
+              "These are",
+              "Those is"
+            ],
+            "hint": "One mouse is singular."
+          },
+          {
+            "prompt": "___ two cups on the shelf.",
+            "answer": "There are",
+            "options": [
+              "There are",
+              "There is",
+              "It is",
+              "This is"
+            ],
+            "hint": "Two cups is plural."
+          },
+          {
+            "prompt": "___ one chair near the door.",
+            "answer": "There is",
+            "options": [
+              "There is",
+              "There are",
+              "They are",
+              "Those are"
+            ],
+            "hint": "One chair: there is."
+          }
+        ]
+      },
+      {
+        "topic": "There is / There are",
+        "questions": [
+          {
+            "prompt": "___ five pencils in my bag.",
+            "answer": "There are",
+            "options": [
+              "There are",
+              "There is",
+              "It has",
+              "There am"
+            ],
+            "hint": "Plural pencils take are."
+          },
+          {
+            "prompt": "___ some rice in the bowl.",
+            "answer": "There is",
+            "options": [
+              "There is",
+              "There are",
+              "They are",
+              "We are"
+            ],
+            "hint": "Rice is uncountable."
+          },
+          {
+            "prompt": "___ an orange on the plate.",
+            "answer": "There is",
+            "options": [
+              "There is",
+              "There are",
+              "Those are",
+              "They is"
+            ],
+            "hint": "An orange is singular."
+          },
+          {
+            "prompt": "___ many flowers in the garden.",
+            "answer": "There are",
+            "options": [
+              "There are",
+              "There is",
+              "It is",
+              "There am"
+            ],
+            "hint": "Many flowers are plural."
+          },
+          {
+            "prompt": "___ a cat under the bed.",
+            "answer": "There is",
+            "options": [
+              "There is",
+              "There are",
+              "There am",
+              "These is"
+            ],
+            "hint": "One cat uses there is."
+          }
+        ]
+      },
+      {
+        "topic": "Noun phrases",
+        "questions": [
+          {
+            "prompt": "Choose the correct noun phrase.",
+            "answer": "a red bag",
+            "options": [
+              "a red bag",
+              "red a bag",
+              "bag red a",
+              "a bag red"
+            ],
+            "hint": "Adjective comes before the noun."
+          },
+          {
+            "prompt": "Choose the correct phrase.",
+            "answer": "two small cats",
+            "options": [
+              "two small cats",
+              "small two cats",
+              "cats small two",
+              "two cats small"
+            ],
+            "hint": "Number + adjective + noun."
+          },
+          {
+            "prompt": "Which phrase names one blue pencil?",
+            "answer": "a blue pencil",
+            "options": [
+              "a blue pencil",
+              "blue a pencil",
+              "pencil blue a",
+              "a pencil blue"
+            ],
+            "hint": "Use a + adjective + noun."
+          },
+          {
+            "prompt": "Choose the correct phrase.",
+            "answer": "three green apples",
+            "options": [
+              "three green apples",
+              "green three apples",
+              "apples green three",
+              "three apples green"
+            ],
+            "hint": "Number comes first."
+          },
+          {
+            "prompt": "Which phrase describes the car?",
+            "answer": "a big car",
+            "options": [
+              "a big car",
+              "big a car",
+              "car a big",
+              "a car big"
+            ],
+            "hint": "Use a big car."
+          }
+        ]
+      },
+      {
+        "topic": "Noun phrases",
+        "questions": [
+          {
+            "prompt": "Which phrase is correct?",
+            "answer": "a yellow kite",
+            "options": [
+              "a yellow kite",
+              "yellow a kite",
+              "kite yellow a",
+              "yellow kite a"
+            ],
+            "hint": "Use a + adjective + noun."
+          },
+          {
+            "prompt": "Choose the correct noun phrase.",
+            "answer": "four long rulers",
+            "options": [
+              "four long rulers",
+              "long four rulers",
+              "rulers four long",
+              "four rulers long"
+            ],
+            "hint": "Number + adjective + noun."
+          },
+          {
+            "prompt": "Which phrase names one old house?",
+            "answer": "an old house",
+            "options": [
+              "an old house",
+              "a old house",
+              "old an house",
+              "house an old"
+            ],
+            "hint": "Old starts with a vowel sound."
+          },
+          {
+            "prompt": "Choose the correct phrase.",
+            "answer": "a happy child",
+            "options": [
+              "a happy child",
+              "happy a child",
+              "child happy a",
+              "a child happy"
+            ],
+            "hint": "Adjective goes before the noun."
+          },
+          {
+            "prompt": "Which phrase names two white rabbits?",
+            "answer": "two white rabbits",
+            "options": [
+              "two white rabbits",
+              "white two rabbits",
+              "two rabbits white",
+              "rabbits white two"
+            ],
+            "hint": "Number + adjective + noun."
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "topic": "Past simple: was / were",
+        "questions": [
+          {
+            "prompt": "Yesterday I ___ at home.",
+            "answer": "was",
+            "options": [
+              "was",
+              "were",
+              "am",
+              "are"
+            ],
+            "hint": "I takes was in the past."
+          },
+          {
+            "prompt": "The children ___ excited.",
+            "answer": "were",
+            "options": [
+              "were",
+              "was",
+              "is",
+              "am"
+            ],
+            "hint": "Plural children take were."
+          },
+          {
+            "prompt": "She ___ sick last week.",
+            "answer": "was",
+            "options": [
+              "was",
+              "were",
+              "are",
+              "am"
+            ],
+            "hint": "She takes was."
+          },
+          {
+            "prompt": "We ___ late yesterday.",
+            "answer": "were",
+            "options": [
+              "were",
+              "was",
+              "is",
+              "am"
+            ],
+            "hint": "We takes were."
+          },
+          {
+            "prompt": "It ___ rainy yesterday.",
+            "answer": "was",
+            "options": [
+              "was",
+              "were",
+              "are",
+              "am"
+            ],
+            "hint": "It takes was."
+          }
+        ]
+      },
+      {
+        "topic": "Past simple: regular / irregular",
+        "questions": [
+          {
+            "prompt": "Yesterday Ali ___ to school.",
+            "answer": "went",
+            "options": [
+              "went",
+              "go",
+              "goes",
+              "going"
+            ],
+            "hint": "Past of go is went."
+          },
+          {
+            "prompt": "She ___ a cake last night.",
+            "answer": "baked",
+            "options": [
+              "baked",
+              "bake",
+              "bakes",
+              "baking"
+            ],
+            "hint": "Regular past adds -ed."
+          },
+          {
+            "prompt": "We ___ football yesterday.",
+            "answer": "played",
+            "options": [
+              "played",
+              "play",
+              "plays",
+              "playing"
+            ],
+            "hint": "Past of play is played."
+          },
+          {
+            "prompt": "My father ___ a fish.",
+            "answer": "caught",
+            "options": [
+              "caught",
+              "catch",
+              "catches",
+              "catching"
+            ],
+            "hint": "Past of catch is caught."
+          },
+          {
+            "prompt": "They ___ dinner early.",
+            "answer": "ate",
+            "options": [
+              "ate",
+              "eat",
+              "eats",
+              "eating"
+            ],
+            "hint": "Past of eat is ate."
+          }
+        ]
+      },
+      {
+        "topic": "Irregular plurals",
+        "questions": [
+          {
+            "prompt": "One child, two ___.",
+            "answer": "children",
+            "options": [
+              "children",
+              "childs",
+              "childes",
+              "child"
+            ],
+            "hint": "Child has irregular plural children."
+          },
+          {
+            "prompt": "One foot, two ___.",
+            "answer": "feet",
+            "options": [
+              "feet",
+              "foots",
+              "footes",
+              "foot"
+            ],
+            "hint": "Foot changes to feet."
+          },
+          {
+            "prompt": "One mouse, two ___.",
+            "answer": "mice",
+            "options": [
+              "mice",
+              "mouses",
+              "mouse",
+              "mices"
+            ],
+            "hint": "Mouse changes to mice."
+          },
+          {
+            "prompt": "One man, two ___.",
+            "answer": "men",
+            "options": [
+              "men",
+              "mans",
+              "man",
+              "mens"
+            ],
+            "hint": "Man changes to men."
+          },
+          {
+            "prompt": "One tooth, two ___.",
+            "answer": "teeth",
+            "options": [
+              "teeth",
+              "tooths",
+              "tooth",
+              "teeths"
+            ],
+            "hint": "Tooth changes to teeth."
+          }
+        ]
+      },
+      {
+        "topic": "Irregular plurals",
+        "questions": [
+          {
+            "prompt": "One woman, three ___.",
+            "answer": "women",
+            "options": [
+              "women",
+              "womans",
+              "woman",
+              "womens"
+            ],
+            "hint": "Woman changes to women."
+          },
+          {
+            "prompt": "One goose, two ___.",
+            "answer": "geese",
+            "options": [
+              "geese",
+              "gooses",
+              "goose",
+              "geeses"
+            ],
+            "hint": "Goose changes to geese."
+          },
+          {
+            "prompt": "One person, many ___.",
+            "answer": "people",
+            "options": [
+              "people",
+              "persons",
+              "peoples",
+              "person"
+            ],
+            "hint": "People is the common plural."
+          },
+          {
+            "prompt": "One sheep, four ___.",
+            "answer": "sheep",
+            "options": [
+              "sheep",
+              "sheeps",
+              "sheepes",
+              "sheepies"
+            ],
+            "hint": "Sheep stays the same."
+          },
+          {
+            "prompt": "One fish, five ___.",
+            "answer": "fish",
+            "options": [
+              "fish",
+              "fishs",
+              "fisheses",
+              "fishies"
+            ],
+            "hint": "Fish commonly stays the same."
+          }
+        ]
+      },
+      {
+        "topic": "Comparative adjectives",
+        "questions": [
+          {
+            "prompt": "An elephant is ___ than a mouse.",
+            "answer": "bigger",
+            "options": [
+              "bigger",
+              "big",
+              "biggest",
+              "more big"
+            ],
+            "hint": "Use bigger + than."
+          },
+          {
+            "prompt": "My pencil is ___ than yours.",
+            "answer": "shorter",
+            "options": [
+              "shorter",
+              "short",
+              "shortest",
+              "shorting"
+            ],
+            "hint": "Use shorter to compare two."
+          },
+          {
+            "prompt": "Today is ___ than yesterday.",
+            "answer": "hotter",
+            "options": [
+              "hotter",
+              "hot",
+              "hottest",
+              "more hot"
+            ],
+            "hint": "Double t in hotter."
+          },
+          {
+            "prompt": "This box is ___ than that box.",
+            "answer": "heavier",
+            "options": [
+              "heavier",
+              "heavy",
+              "heaviest",
+              "heavyer"
+            ],
+            "hint": "Heavy changes to heavier."
+          },
+          {
+            "prompt": "A rabbit is ___ than a turtle.",
+            "answer": "faster",
+            "options": [
+              "faster",
+              "fast",
+              "fastest",
+              "most fast"
+            ],
+            "hint": "Use faster than."
+          }
+        ]
+      },
+      {
+        "topic": "Comparative adjectives",
+        "questions": [
+          {
+            "prompt": "The blue bag is ___ than the red bag.",
+            "answer": "smaller",
+            "options": [
+              "smaller",
+              "small",
+              "smallest",
+              "smalling"
+            ],
+            "hint": "Smaller compares two things."
+          },
+          {
+            "prompt": "My sister is ___ than me.",
+            "answer": "taller",
+            "options": [
+              "taller",
+              "tall",
+              "tallest",
+              "tallest than"
+            ],
+            "hint": "Use taller than."
+          },
+          {
+            "prompt": "This story is ___ than that one.",
+            "answer": "better",
+            "options": [
+              "better",
+              "gooder",
+              "best",
+              "good"
+            ],
+            "hint": "Good changes to better."
+          },
+          {
+            "prompt": "This road is ___ than that road.",
+            "answer": "longer",
+            "options": [
+              "longer",
+              "long",
+              "longest",
+              "longing"
+            ],
+            "hint": "Longer compares two roads."
+          },
+          {
+            "prompt": "This exam is ___ than before.",
+            "answer": "easier",
+            "options": [
+              "easier",
+              "easyer",
+              "easiest",
+              "easy"
+            ],
+            "hint": "Easy changes to easier."
+          }
+        ]
+      },
+      {
+        "topic": "Adverbs of frequency",
+        "questions": [
+          {
+            "prompt": "I ___ brush my teeth every morning.",
+            "answer": "always",
+            "options": [
+              "always",
+              "never",
+              "yesterday",
+              "slowly"
+            ],
+            "hint": "Every morning suggests always."
+          },
+          {
+            "prompt": "She ___ goes swimming: one day each week.",
+            "answer": "sometimes",
+            "options": [
+              "sometimes",
+              "always",
+              "never",
+              "tomorrow"
+            ],
+            "hint": "Sometimes means on some occasions."
+          },
+          {
+            "prompt": "He ___ eats meat because he is vegetarian.",
+            "answer": "never",
+            "options": [
+              "never",
+              "always",
+              "often",
+              "today"
+            ],
+            "hint": "Never means not at any time."
+          },
+          {
+            "prompt": "We ___ go to the library on most weekends.",
+            "answer": "often",
+            "options": [
+              "often",
+              "never",
+              "yesterday",
+              "now"
+            ],
+            "hint": "Often means many times."
+          },
+          {
+            "prompt": "I ___ drink water with meals.",
+            "answer": "usually",
+            "options": [
+              "usually",
+              "yesterday",
+              "quickly",
+              "tomorrow"
+            ],
+            "hint": "Usually means most times."
+          }
+        ]
+      },
+      {
+        "topic": "Adverbs of frequency",
+        "questions": [
+          {
+            "prompt": "___ means at no time.",
+            "answer": "Never",
+            "options": [
+              "Never",
+              "Always",
+              "Often",
+              "Usually"
+            ],
+            "hint": "Never means not ever."
+          },
+          {
+            "prompt": "___ means every time.",
+            "answer": "Always",
+            "options": [
+              "Always",
+              "Sometimes",
+              "Rarely",
+              "Never"
+            ],
+            "hint": "Always means every time."
+          },
+          {
+            "prompt": "Choose the correct sentence.",
+            "answer": "She often reads books.",
+            "options": [
+              "She often reads books.",
+              "She reads often books.",
+              "Often she books reads.",
+              "Reads she often books."
+            ],
+            "hint": "Adverb usually comes before the main verb."
+          },
+          {
+            "prompt": "Choose the correct sentence.",
+            "answer": "I am usually early.",
+            "options": [
+              "I am usually early.",
+              "I usually am early.",
+              "I early usually am.",
+              "Usually am I early."
+            ],
+            "hint": "Frequency adverbs follow be verbs."
+          },
+          {
+            "prompt": "Choose the correct sentence.",
+            "answer": "We sometimes play chess.",
+            "options": [
+              "We sometimes play chess.",
+              "We play sometimes chess.",
+              "Sometimes chess we play.",
+              "We chess sometimes play."
+            ],
+            "hint": "Sometimes comes before play."
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "topic": "Past simple",
+        "questions": [
+          {
+            "prompt": "Last Sunday we ___ a museum.",
+            "answer": "visited",
+            "options": [
+              "visited",
+              "visit",
+              "visiting",
+              "visits"
+            ],
+            "hint": "Use past simple for last Sunday."
+          },
+          {
+            "prompt": "He ___ his keys yesterday.",
+            "answer": "lost",
+            "options": [
+              "lost",
+              "lose",
+              "loses",
+              "losing"
+            ],
+            "hint": "Past of lose is lost."
+          },
+          {
+            "prompt": "They ___ home at six yesterday.",
+            "answer": "came",
+            "options": [
+              "came",
+              "come",
+              "comes",
+              "coming"
+            ],
+            "hint": "Past of come is came."
+          },
+          {
+            "prompt": "I ___ a new book last week.",
+            "answer": "bought",
+            "options": [
+              "bought",
+              "buy",
+              "buys",
+              "buying"
+            ],
+            "hint": "Past of buy is bought."
+          },
+          {
+            "prompt": "Sara ___ her room last night.",
+            "answer": "cleaned",
+            "options": [
+              "cleaned",
+              "clean",
+              "cleans",
+              "cleaning"
+            ],
+            "hint": "Cleaned is regular past."
+          }
+        ]
+      },
+      {
+        "topic": "Going to",
+        "questions": [
+          {
+            "prompt": "I ___ visit my grandma tomorrow.",
+            "answer": "am going to",
+            "options": [
+              "am going to",
+              "is going to",
+              "are going to",
+              "was going"
+            ],
+            "hint": "Use am going to after I."
+          },
+          {
+            "prompt": "She ___ study tonight.",
+            "answer": "is going to",
+            "options": [
+              "is going to",
+              "are going to",
+              "am going to",
+              "going"
+            ],
+            "hint": "She takes is going to."
+          },
+          {
+            "prompt": "They ___ play tomorrow.",
+            "answer": "are going to",
+            "options": [
+              "are going to",
+              "is going to",
+              "am going to",
+              "were going"
+            ],
+            "hint": "They takes are going to."
+          },
+          {
+            "prompt": "We are going to ___ a film.",
+            "answer": "watch",
+            "options": [
+              "watch",
+              "watched",
+              "watching",
+              "watches"
+            ],
+            "hint": "Base verb follows going to."
+          },
+          {
+            "prompt": "___ he going to swim?",
+            "answer": "Is",
+            "options": [
+              "Is",
+              "Are",
+              "Am",
+              "Do"
+            ],
+            "hint": "Use Is with he."
+          }
+        ]
+      },
+      {
+        "topic": "Much / many",
+        "questions": [
+          {
+            "prompt": "How ___ pencils do you have?",
+            "answer": "many",
+            "options": [
+              "many",
+              "much",
+              "any",
+              "little"
+            ],
+            "hint": "Use many for countable plural nouns."
+          },
+          {
+            "prompt": "How ___ milk is in the jug?",
+            "answer": "much",
+            "options": [
+              "much",
+              "many",
+              "few",
+              "several"
+            ],
+            "hint": "Use much for uncountable milk."
+          },
+          {
+            "prompt": "There are ___ apples in the basket.",
+            "answer": "many",
+            "options": [
+              "many",
+              "much",
+              "little",
+              "a"
+            ],
+            "hint": "Apples are countable."
+          },
+          {
+            "prompt": "I do not have ___ time.",
+            "answer": "much",
+            "options": [
+              "much",
+              "many",
+              "several",
+              "few"
+            ],
+            "hint": "Time is uncountable here."
+          },
+          {
+            "prompt": "How ___ chairs are in the room?",
+            "answer": "many",
+            "options": [
+              "many",
+              "much",
+              "a",
+              "little"
+            ],
+            "hint": "Chairs are countable."
+          }
+        ]
+      },
+      {
+        "topic": "Some / any",
+        "questions": [
+          {
+            "prompt": "I have ___ oranges.",
+            "answer": "some",
+            "options": [
+              "some",
+              "any",
+              "much",
+              "an"
+            ],
+            "hint": "Some is usual in positive statements."
+          },
+          {
+            "prompt": "Do you have ___ water?",
+            "answer": "any",
+            "options": [
+              "any",
+              "some",
+              "many",
+              "a"
+            ],
+            "hint": "Any is common in questions."
+          },
+          {
+            "prompt": "There are not ___ eggs.",
+            "answer": "any",
+            "options": [
+              "any",
+              "some",
+              "an",
+              "much"
+            ],
+            "hint": "Use any in negatives."
+          },
+          {
+            "prompt": "She bought ___ rice.",
+            "answer": "some",
+            "options": [
+              "some",
+              "any",
+              "many",
+              "an"
+            ],
+            "hint": "Rice is uncountable; some fits."
+          },
+          {
+            "prompt": "Are there ___ bananas?",
+            "answer": "any",
+            "options": [
+              "any",
+              "some",
+              "much",
+              "a"
+            ],
+            "hint": "Any is common in questions."
+          }
+        ]
+      },
+      {
+        "topic": "Possessive nouns",
+        "questions": [
+          {
+            "prompt": "This is ___ pencil. (Ali)",
+            "answer": "Ali's",
+            "options": [
+              "Ali's",
+              "Alis",
+              "Ali",
+              "Alis'"
+            ],
+            "hint": "One owner: Ali's."
+          },
+          {
+            "prompt": "The ___ toys are new. (children)",
+            "answer": "children's",
+            "options": [
+              "children's",
+              "childrens",
+              "childrens'",
+              "children"
+            ],
+            "hint": "Children is irregular plural."
+          },
+          {
+            "prompt": "These are the ___ books. (girls)",
+            "answer": "girls'",
+            "options": [
+              "girls'",
+              "girl's",
+              "girls",
+              "girl"
+            ],
+            "hint": "Plural girls ends in s, use apostrophe after s."
+          },
+          {
+            "prompt": "That is ___ bicycle. (Sara)",
+            "answer": "Sara's",
+            "options": [
+              "Sara's",
+              "Saras",
+              "Sara",
+              "Saras'"
+            ],
+            "hint": "One owner: Sara's."
+          },
+          {
+            "prompt": "The ___ bowl is empty. (cat)",
+            "answer": "cat's",
+            "options": [
+              "cat's",
+              "cats'",
+              "cats",
+              "cat"
+            ],
+            "hint": "One cat owns the bowl."
+          }
+        ]
+      },
+      {
+        "topic": "Past simple: questions",
+        "questions": [
+          {
+            "prompt": "___ you go to the park yesterday?",
+            "answer": "Did",
+            "options": [
+              "Did",
+              "Do",
+              "Does",
+              "Are"
+            ],
+            "hint": "Did asks about the past."
+          },
+          {
+            "prompt": "Did she ___ her homework?",
+            "answer": "finish",
+            "options": [
+              "finish",
+              "finished",
+              "finishes",
+              "finishing"
+            ],
+            "hint": "Use base verb after did."
+          },
+          {
+            "prompt": "He ___ not attend class yesterday.",
+            "answer": "did",
+            "options": [
+              "did",
+              "does",
+              "do",
+              "is"
+            ],
+            "hint": "Did not refers to past."
+          },
+          {
+            "prompt": "Where ___ you go last week?",
+            "answer": "did",
+            "options": [
+              "did",
+              "do",
+              "does",
+              "are"
+            ],
+            "hint": "Past question uses did."
+          },
+          {
+            "prompt": "They ___ watch TV yesterday.",
+            "answer": "didn't",
+            "options": [
+              "didn't",
+              "doesn't",
+              "don't",
+              "aren't"
+            ],
+            "hint": "Did not = didn't."
+          }
+        ]
+      },
+      {
+        "topic": "Going to: plans",
+        "questions": [
+          {
+            "prompt": "We are going to ___ a picnic.",
+            "answer": "have",
+            "options": [
+              "have",
+              "had",
+              "having",
+              "has"
+            ],
+            "hint": "Base verb after going to."
+          },
+          {
+            "prompt": "I am going to ___ my room.",
+            "answer": "tidy",
+            "options": [
+              "tidy",
+              "tidied",
+              "tidies",
+              "tidying"
+            ],
+            "hint": "Base verb after going to."
+          },
+          {
+            "prompt": "Is Maya going to ___ the race?",
+            "answer": "join",
+            "options": [
+              "join",
+              "joined",
+              "joins",
+              "joining"
+            ],
+            "hint": "Base verb after going to."
+          },
+          {
+            "prompt": "They ___ going to travel tomorrow.",
+            "answer": "are",
+            "options": [
+              "are",
+              "is",
+              "am",
+              "was"
+            ],
+            "hint": "They takes are."
+          },
+          {
+            "prompt": "He isn't going to ___ late.",
+            "answer": "arrive",
+            "options": [
+              "arrive",
+              "arrives",
+              "arrived",
+              "arriving"
+            ],
+            "hint": "Use base form after to."
+          }
+        ]
+      },
+      {
+        "topic": "Quantities and possession",
+        "questions": [
+          {
+            "prompt": "Whose cap is this? It is ___.",
+            "answer": "mine",
+            "options": [
+              "mine",
+              "my",
+              "me",
+              "I"
+            ],
+            "hint": "Mine replaces my cap."
+          },
+          {
+            "prompt": "There isn't ___ sugar left.",
+            "answer": "much",
+            "options": [
+              "much",
+              "many",
+              "few",
+              "several"
+            ],
+            "hint": "Sugar is uncountable."
+          },
+          {
+            "prompt": "Are there ___ students here?",
+            "answer": "any",
+            "options": [
+              "any",
+              "much",
+              "an",
+              "a"
+            ],
+            "hint": "Any fits a plural question."
+          },
+          {
+            "prompt": "How ___ water should we take?",
+            "answer": "much",
+            "options": [
+              "much",
+              "many",
+              "few",
+              "several"
+            ],
+            "hint": "Water is uncountable."
+          },
+          {
+            "prompt": "Those are the ___ bags. (boys)",
+            "answer": "boys'",
+            "options": [
+              "boys'",
+              "boy's",
+              "boys",
+              "boies"
+            ],
+            "hint": "Plural boys needs apostrophe after s."
+          }
+        ]
+      }
+    ],
+    "5": [
+      {
+        "topic": "Comparatives and superlatives",
+        "questions": [
+          {
+            "prompt": "Mount Kinabalu is ___ than this hill.",
+            "answer": "higher",
+            "options": [
+              "higher",
+              "highest",
+              "high",
+              "most high"
+            ],
+            "hint": "Use higher when comparing two."
+          },
+          {
+            "prompt": "This is the ___ bag in the shop.",
+            "answer": "biggest",
+            "options": [
+              "biggest",
+              "bigger",
+              "big",
+              "more big"
+            ],
+            "hint": "The indicates superlative."
+          },
+          {
+            "prompt": "My story is ___ than yours.",
+            "answer": "more interesting",
+            "options": [
+              "more interesting",
+              "most interesting",
+              "interesting",
+              "interestinger"
+            ],
+            "hint": "Long adjectives use more."
+          },
+          {
+            "prompt": "Ali is the ___ runner in his team.",
+            "answer": "fastest",
+            "options": [
+              "fastest",
+              "faster",
+              "fast",
+              "most fast"
+            ],
+            "hint": "The + fastest is superlative."
+          },
+          {
+            "prompt": "This is the ___ answer of all.",
+            "answer": "best",
+            "options": [
+              "best",
+              "better",
+              "good",
+              "goodest"
+            ],
+            "hint": "Good changes to best."
+          }
+        ]
+      },
+      {
+        "topic": "Comparatives and superlatives",
+        "questions": [
+          {
+            "prompt": "A train is ___ than a bicycle.",
+            "answer": "faster",
+            "options": [
+              "faster",
+              "fastest",
+              "fast",
+              "most fast"
+            ],
+            "hint": "Two things use comparative."
+          },
+          {
+            "prompt": "Of all the houses, this is the ___.",
+            "answer": "smallest",
+            "options": [
+              "smallest",
+              "smaller",
+              "small",
+              "more small"
+            ],
+            "hint": "Of all calls for superlative."
+          },
+          {
+            "prompt": "This book is ___ than that one.",
+            "answer": "better",
+            "options": [
+              "better",
+              "best",
+              "good",
+              "goodest"
+            ],
+            "hint": "Good comparative is better."
+          },
+          {
+            "prompt": "Who is the ___ student in the class?",
+            "answer": "tallest",
+            "options": [
+              "tallest",
+              "taller",
+              "tall",
+              "more tall"
+            ],
+            "hint": "The tallest describes a group."
+          },
+          {
+            "prompt": "The blue dress is ___ than the pink one.",
+            "answer": "more beautiful",
+            "options": [
+              "more beautiful",
+              "most beautiful",
+              "beautifulest",
+              "beautifuller"
+            ],
+            "hint": "Use more for long adjectives."
+          }
+        ]
+      },
+      {
+        "topic": "Future: will / won't",
+        "questions": [
+          {
+            "prompt": "I think it ___ rain tomorrow.",
+            "answer": "will",
+            "options": [
+              "will",
+              "was",
+              "does",
+              "did"
+            ],
+            "hint": "Will expresses a future prediction."
+          },
+          {
+            "prompt": "Don't worry. I ___ help you.",
+            "answer": "will",
+            "options": [
+              "will",
+              "am",
+              "was",
+              "does"
+            ],
+            "hint": "Will can express a promise."
+          },
+          {
+            "prompt": "They ___ be late; they left early.",
+            "answer": "won't",
+            "options": [
+              "won't",
+              "don't",
+              "wasn't",
+              "aren't"
+            ],
+            "hint": "Won't means will not."
+          },
+          {
+            "prompt": "___ you call me tomorrow?",
+            "answer": "Will",
+            "options": [
+              "Will",
+              "Did",
+              "Do",
+              "Are"
+            ],
+            "hint": "Will asks about the future."
+          },
+          {
+            "prompt": "He will ___ his homework later.",
+            "answer": "finish",
+            "options": [
+              "finish",
+              "finished",
+              "finishes",
+              "finishing"
+            ],
+            "hint": "Base verb after will."
+          }
+        ]
+      },
+      {
+        "topic": "Future: predictions",
+        "questions": [
+          {
+            "prompt": "In the future, robots ___ help people.",
+            "answer": "will",
+            "options": [
+              "will",
+              "did",
+              "are",
+              "were"
+            ],
+            "hint": "Prediction uses will."
+          },
+          {
+            "prompt": "I think our team ___ win.",
+            "answer": "will",
+            "options": [
+              "will",
+              "was",
+              "is",
+              "did"
+            ],
+            "hint": "Prediction uses will."
+          },
+          {
+            "prompt": "She won't ___ tomorrow.",
+            "answer": "come",
+            "options": [
+              "come",
+              "came",
+              "comes",
+              "coming"
+            ],
+            "hint": "Base verb after won't."
+          },
+          {
+            "prompt": "___ they travel next year?",
+            "answer": "Will",
+            "options": [
+              "Will",
+              "Do",
+              "Did",
+              "Was"
+            ],
+            "hint": "Use will for predictions."
+          },
+          {
+            "prompt": "I promise I ___ forget.",
+            "answer": "won't",
+            "options": [
+              "won't",
+              "don't",
+              "didn't",
+              "wasn't"
+            ],
+            "hint": "Won't = will not."
+          }
+        ]
+      },
+      {
+        "topic": "Conjunctions",
+        "questions": [
+          {
+            "prompt": "I was hungry, ___ I ate rice.",
+            "answer": "so",
+            "options": [
+              "so",
+              "but",
+              "or",
+              "although"
+            ],
+            "hint": "So shows the result."
+          },
+          {
+            "prompt": "He is small, ___ he is strong.",
+            "answer": "but",
+            "options": [
+              "but",
+              "so",
+              "and",
+              "or"
+            ],
+            "hint": "But shows contrast."
+          },
+          {
+            "prompt": "Would you like tea ___ juice?",
+            "answer": "or",
+            "options": [
+              "or",
+              "so",
+              "but",
+              "because"
+            ],
+            "hint": "Or presents a choice."
+          },
+          {
+            "prompt": "She sings ___ dances well.",
+            "answer": "and",
+            "options": [
+              "and",
+              "but",
+              "or",
+              "so"
+            ],
+            "hint": "And joins two actions."
+          },
+          {
+            "prompt": "It was raining, ___ we stayed inside.",
+            "answer": "so",
+            "options": [
+              "so",
+              "or",
+              "but",
+              "and"
+            ],
+            "hint": "So shows the outcome."
+          }
+        ]
+      },
+      {
+        "topic": "Conjunctions",
+        "questions": [
+          {
+            "prompt": "I like apples ___ oranges.",
+            "answer": "and",
+            "options": [
+              "and",
+              "but",
+              "so",
+              "or"
+            ],
+            "hint": "And adds information."
+          },
+          {
+            "prompt": "He wanted to play, ___ he was sick.",
+            "answer": "but",
+            "options": [
+              "but",
+              "and",
+              "so",
+              "or"
+            ],
+            "hint": "But shows contrast."
+          },
+          {
+            "prompt": "Do you prefer cats ___ dogs?",
+            "answer": "or",
+            "options": [
+              "or",
+              "and",
+              "so",
+              "but"
+            ],
+            "hint": "Or offers a choice."
+          },
+          {
+            "prompt": "The bus was late, ___ I missed the bell.",
+            "answer": "so",
+            "options": [
+              "so",
+              "or",
+              "but",
+              "and"
+            ],
+            "hint": "So signals result."
+          },
+          {
+            "prompt": "Sara is clever ___ helpful.",
+            "answer": "and",
+            "options": [
+              "and",
+              "so",
+              "or",
+              "but"
+            ],
+            "hint": "And joins qualities."
+          }
+        ]
+      },
+      {
+        "topic": "Object pronouns",
+        "questions": [
+          {
+            "prompt": "Please give the book to ___. (I)",
+            "answer": "me",
+            "options": [
+              "me",
+              "I",
+              "my",
+              "mine"
+            ],
+            "hint": "Me is object of to."
+          },
+          {
+            "prompt": "I saw Ali. I waved at ___.",
+            "answer": "him",
+            "options": [
+              "him",
+              "he",
+              "his",
+              "they"
+            ],
+            "hint": "Him is the object form of he."
+          },
+          {
+            "prompt": "This is Lina. Please help ___.",
+            "answer": "her",
+            "options": [
+              "her",
+              "she",
+              "hers",
+              "he"
+            ],
+            "hint": "Her is the object form of she."
+          },
+          {
+            "prompt": "My parents called ___. (we)",
+            "answer": "us",
+            "options": [
+              "us",
+              "we",
+              "our",
+              "ours"
+            ],
+            "hint": "Us is the object form of we."
+          },
+          {
+            "prompt": "The teacher asked ___ to sit. (they)",
+            "answer": "them",
+            "options": [
+              "them",
+              "they",
+              "their",
+              "theirs"
+            ],
+            "hint": "Them is object of they."
+          }
+        ]
+      },
+      {
+        "topic": "Object pronouns",
+        "questions": [
+          {
+            "prompt": "He is talking to ___. (you)",
+            "answer": "you",
+            "options": [
+              "you",
+              "your",
+              "yours",
+              "we"
+            ],
+            "hint": "You is also the object form."
+          },
+          {
+            "prompt": "I found the bag and carried ___.",
+            "answer": "it",
+            "options": [
+              "it",
+              "its",
+              "they",
+              "them"
+            ],
+            "hint": "It refers to one bag."
+          },
+          {
+            "prompt": "These are my friends. I like ___.",
+            "answer": "them",
+            "options": [
+              "them",
+              "they",
+              "their",
+              "theirs"
+            ],
+            "hint": "Them refers to plural friends."
+          },
+          {
+            "prompt": "Mum gave ___ a present. (she)",
+            "answer": "her",
+            "options": [
+              "her",
+              "she",
+              "hers",
+              "he"
+            ],
+            "hint": "Her is the object pronoun."
+          },
+          {
+            "prompt": "Can you hear ___? (I)",
+            "answer": "me",
+            "options": [
+              "me",
+              "I",
+              "my",
+              "mine"
+            ],
+            "hint": "Me receives the action."
+          }
+        ]
+      }
+    ],
+    "6": [
+      {
+        "topic": "Past continuous",
+        "questions": [
+          {
+            "prompt": "I ___ sleeping when the phone rang.",
+            "answer": "was",
+            "options": [
+              "was",
+              "were",
+              "am",
+              "is"
+            ],
+            "hint": "I takes was + -ing for past continuous."
+          },
+          {
+            "prompt": "They ___ playing when it rained.",
+            "answer": "were",
+            "options": [
+              "were",
+              "was",
+              "are",
+              "is"
+            ],
+            "hint": "They takes were."
+          },
+          {
+            "prompt": "She was ___ dinner when I arrived.",
+            "answer": "cooking",
+            "options": [
+              "cooking",
+              "cook",
+              "cooks",
+              "cooked"
+            ],
+            "hint": "Use verb-ing after was."
+          },
+          {
+            "prompt": "We ___ studying at eight last night.",
+            "answer": "were",
+            "options": [
+              "were",
+              "was",
+              "are",
+              "is"
+            ],
+            "hint": "We takes were."
+          },
+          {
+            "prompt": "He was walking when he ___ a snake.",
+            "answer": "saw",
+            "options": [
+              "saw",
+              "see",
+              "sees",
+              "seeing"
+            ],
+            "hint": "Short interruption in past simple."
+          }
+        ]
+      },
+      {
+        "topic": "Present perfect",
+        "questions": [
+          {
+            "prompt": "Have you ___ been to Melaka?",
+            "answer": "ever",
+            "options": [
+              "ever",
+              "never",
+              "yesterday",
+              "tomorrow"
+            ],
+            "hint": "Ever asks about lifetime experience."
+          },
+          {
+            "prompt": "I have ___ my homework.",
+            "answer": "finished",
+            "options": [
+              "finished",
+              "finish",
+              "finishing",
+              "finishes"
+            ],
+            "hint": "Present perfect uses past participle."
+          },
+          {
+            "prompt": "She has lived here ___ 2020.",
+            "answer": "since",
+            "options": [
+              "since",
+              "for",
+              "during",
+              "at"
+            ],
+            "hint": "Since names the start time."
+          },
+          {
+            "prompt": "We have studied English ___ six years.",
+            "answer": "for",
+            "options": [
+              "for",
+              "since",
+              "at",
+              "on"
+            ],
+            "hint": "For expresses a duration."
+          },
+          {
+            "prompt": "He ___ never eaten sushi.",
+            "answer": "has",
+            "options": [
+              "has",
+              "have",
+              "is",
+              "was"
+            ],
+            "hint": "He takes has + participle."
+          }
+        ]
+      },
+      {
+        "topic": "First conditional",
+        "questions": [
+          {
+            "prompt": "If it rains, we ___ indoors.",
+            "answer": "will stay",
+            "options": [
+              "will stay",
+              "stayed",
+              "staying",
+              "stay yesterday"
+            ],
+            "hint": "If + present, will + verb."
+          },
+          {
+            "prompt": "If you study, you ___ the test.",
+            "answer": "will pass",
+            "options": [
+              "will pass",
+              "passed",
+              "passes yesterday",
+              "passing"
+            ],
+            "hint": "Will + base verb shows result."
+          },
+          {
+            "prompt": "If she ___ early, she will catch the bus.",
+            "answer": "leaves",
+            "options": [
+              "leaves",
+              "left",
+              "leaving",
+              "will leave"
+            ],
+            "hint": "Present simple after if."
+          },
+          {
+            "prompt": "We will play if the weather ___ good.",
+            "answer": "is",
+            "options": [
+              "is",
+              "was",
+              "will be",
+              "be"
+            ],
+            "hint": "If clause uses present simple."
+          },
+          {
+            "prompt": "If they win, they ___ happy.",
+            "answer": "will be",
+            "options": [
+              "will be",
+              "were",
+              "was",
+              "being"
+            ],
+            "hint": "Future result uses will be."
+          }
+        ]
+      },
+      {
+        "topic": "Passive voice",
+        "questions": [
+          {
+            "prompt": "The letter ___ written by Sara yesterday.",
+            "answer": "was",
+            "options": [
+              "was",
+              "were",
+              "is",
+              "are"
+            ],
+            "hint": "One letter in the past uses was written."
+          },
+          {
+            "prompt": "The cakes ___ baked every day.",
+            "answer": "are",
+            "options": [
+              "are",
+              "is",
+              "was",
+              "be"
+            ],
+            "hint": "Plural cakes in present use are baked."
+          },
+          {
+            "prompt": "Rice ___ grown in many countries.",
+            "answer": "is",
+            "options": [
+              "is",
+              "are",
+              "am",
+              "were"
+            ],
+            "hint": "Rice is singular/uncountable."
+          },
+          {
+            "prompt": "The windows were ___ yesterday.",
+            "answer": "cleaned",
+            "options": [
+              "cleaned",
+              "clean",
+              "cleans",
+              "cleaning"
+            ],
+            "hint": "Passive requires past participle."
+          },
+          {
+            "prompt": "The song ___ sung by the choir.",
+            "answer": "was",
+            "options": [
+              "was",
+              "were",
+              "did",
+              "have"
+            ],
+            "hint": "One song in past passive uses was."
+          }
+        ]
+      },
+      {
+        "topic": "Reported speech",
+        "questions": [
+          {
+            "prompt": "Direct: 'I am tired.' Report: He said he ___ tired.",
+            "answer": "was",
+            "options": [
+              "was",
+              "am",
+              "were",
+              "be"
+            ],
+            "hint": "Am often changes to was."
+          },
+          {
+            "prompt": "Direct: 'I like tea.' Report: She said she ___ tea.",
+            "answer": "liked",
+            "options": [
+              "liked",
+              "like",
+              "likes",
+              "liking"
+            ],
+            "hint": "Present simple often shifts to past."
+          },
+          {
+            "prompt": "Direct: 'We are ready.' Report: They said they ___ ready.",
+            "answer": "were",
+            "options": [
+              "were",
+              "are",
+              "was",
+              "be"
+            ],
+            "hint": "Are shifts to were in past reporting."
+          },
+          {
+            "prompt": "Direct: 'I can swim.' Report: He said he ___ swim.",
+            "answer": "could",
+            "options": [
+              "could",
+              "can",
+              "will",
+              "must"
+            ],
+            "hint": "Can shifts to could."
+          },
+          {
+            "prompt": "Direct: 'I will come.' Report: She said she ___ come.",
+            "answer": "would",
+            "options": [
+              "would",
+              "will",
+              "can",
+              "may"
+            ],
+            "hint": "Will often shifts to would."
+          }
+        ]
+      },
+      {
+        "topic": "Modal verbs",
+        "questions": [
+          {
+            "prompt": "You ___ wear a seat belt in a car.",
+            "answer": "must",
+            "options": [
+              "must",
+              "might",
+              "could",
+              "may"
+            ],
+            "hint": "Must expresses a strong obligation."
+          },
+          {
+            "prompt": "You ___ see a doctor if you feel sick.",
+            "answer": "should",
+            "options": [
+              "should",
+              "mustn't",
+              "can't",
+              "won't"
+            ],
+            "hint": "Should gives advice."
+          },
+          {
+            "prompt": "It ___ rain; take an umbrella just in case.",
+            "answer": "might",
+            "options": [
+              "might",
+              "must",
+              "has to",
+              "did"
+            ],
+            "hint": "Might shows possibility."
+          },
+          {
+            "prompt": "Pupils ___ run in the science lab.",
+            "answer": "mustn't",
+            "options": [
+              "mustn't",
+              "may",
+              "should",
+              "could"
+            ],
+            "hint": "Mustn't means prohibited."
+          },
+          {
+            "prompt": "___ I borrow your pen, please?",
+            "answer": "May",
+            "options": [
+              "May",
+              "Mustn't",
+              "Did",
+              "Was"
+            ],
+            "hint": "May is polite permission."
+          }
+        ]
+      },
+      {
+        "topic": "Past continuous + present perfect",
+        "questions": [
+          {
+            "prompt": "When I called, they ___ watching TV.",
+            "answer": "were",
+            "options": [
+              "were",
+              "was",
+              "are",
+              "have"
+            ],
+            "hint": "They takes were in the past."
+          },
+          {
+            "prompt": "She has worked here ___ January.",
+            "answer": "since",
+            "options": [
+              "since",
+              "for",
+              "yesterday",
+              "ago"
+            ],
+            "hint": "Since identifies a start."
+          },
+          {
+            "prompt": "I have lived here ___ three years.",
+            "answer": "for",
+            "options": [
+              "for",
+              "since",
+              "in",
+              "from"
+            ],
+            "hint": "For is a duration."
+          },
+          {
+            "prompt": "He ___ cycling when it started to rain.",
+            "answer": "was",
+            "options": [
+              "was",
+              "were",
+              "is",
+              "has"
+            ],
+            "hint": "He takes was cycling."
+          },
+          {
+            "prompt": "Have you ever ___ a horse?",
+            "answer": "ridden",
+            "options": [
+              "ridden",
+              "rode",
+              "ride",
+              "riding"
+            ],
+            "hint": "Present perfect uses past participle."
+          }
+        ]
+      },
+      {
+        "topic": "Conditionals, passive and modals",
+        "questions": [
+          {
+            "prompt": "If I am late, I ___ call you.",
+            "answer": "will",
+            "options": [
+              "will",
+              "would",
+              "did",
+              "was"
+            ],
+            "hint": "First conditional uses will."
+          },
+          {
+            "prompt": "The bridge was ___ in 2010.",
+            "answer": "built",
+            "options": [
+              "built",
+              "build",
+              "building",
+              "builds"
+            ],
+            "hint": "Passive uses past participle built."
+          },
+          {
+            "prompt": "If he ___ carefully, he will succeed.",
+            "answer": "works",
+            "options": [
+              "works",
+              "worked",
+              "will work",
+              "working"
+            ],
+            "hint": "After if use present simple."
+          },
+          {
+            "prompt": "You ___ be quiet in the library.",
+            "answer": "should",
+            "options": [
+              "should",
+              "might",
+              "can",
+              "may"
+            ],
+            "hint": "Should expresses advice."
+          },
+          {
+            "prompt": "The homework ___ checked by the teacher yesterday.",
+            "answer": "was",
+            "options": [
+              "was",
+              "is",
+              "are",
+              "were"
+            ],
+            "hint": "Singular homework in past uses was."
+          }
+        ]
+      }
+    ]
+  }
+}
