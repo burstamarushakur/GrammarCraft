@@ -39,11 +39,11 @@
  function renderHome(){
   state.page="home";document.title="English Quest RPG • Choose Your Class";
   const year=cls()?.year,topics=cls()?.questTopics||[];
-  root.innerHTML=`<section class="hero"><div class="panel glow"><p class="eyebrow">The legend of the eight language crystals</p><h1>ENGLISH <em>QUEST</em><br>RPG ADVENTURE</h1><p class="hero-description">Explore a colourful fantasy world, meet 8 characters, complete 8 quests and save the kingdom with English skills aligned to your Year 1–6 DSKP.</p><div class="inven"><span class="item">🗺️ Explore</span><span class="item">💬 NPC Dialogues</span><span class="item">⚔️ 40 Challenges</span><span class="item">💎 Collect Crystals</span><span class="item">🏆 XP & Coins</span></div><p class="subline" style="margin-top:17px">You must choose YOUR OWN name. Your teacher can see your progress automatically.</p></div><div class="hero-art home-world" aria-label="Preview of the playable pixel fantasy village"><canvas id="preview-world" width="960" height="640" aria-hidden="true"></canvas><div class="home-world-banner">🌿 THE CRYSTAL KINGDOM <span>8 magical quests await</span></div></div></section>
+  root.innerHTML=`<section class="hero"><div class="panel glow"><p class="eyebrow">English DSKP · Eight Island Stages</p><h1>ENGLISH <em>ISLAND</em><br>QUEST</h1><p class="hero-description">Run and jump across eight tropical islands! Defeat enemies by answering Year 1–6 English questions. Collect fruit, beat the boss and save your progress online.</p><div class="inven"><span class="item">🏃 Run & Jump</span><span class="item">🐌 Enemy Battles</span><span class="item">⚔️ 40 Challenges</span><span class="item">🏝️ 8 Islands</span><span class="item">🏆 XP & Bosses</span></div><p class="subline" style="margin-top:17px">You must choose YOUR OWN name. Your teacher can see your progress automatically.</p></div><div class="hero-art home-world" aria-label="Preview of the side-scrolling island platformer"><canvas id="preview-world" width="1280" height="720" aria-hidden="true"></canvas><div class="home-world-banner">🏝️ THE ISLAND ADVENTURE <span>Run · Jump · Defeat enemies</span></div></div></section>
   <div class="banner"><h2>✦ BEGIN YOUR HERO'S JOURNEY ✦</h2><p class="muted">Select your class, select your OWN name, then pick a character.</p></div>
   <section class="columns"><div class="panel"><p class="eyebrow">Step 01</p><h2>Choose your class</h2><div class="choices">${classSelect()}</div></div>
   <div class="panel"><p class="eyebrow">Step 02</p><h2>Choose your OWN name</h2>${state.classCode?`<p class="subline">${h(cls().name)} · ${h(cls().teacher)} · ${h(cls().level)} level</p><label class="field-label" for="student">FULL NAME FROM YOUR CLASS LIST</label><select class="field" id="student">${pupilSelect()}</select><p class="eyebrow">Step 03 · Choose your character</p><div class="avatar-options">${HEROES.map((x,i)=>`<button type="button" class="avatar-btn ${i===state.hero?"selected":""}" data-act="hero" data-hero="${i}" title="${h(x.name)}"><img class="avatar-art" src="${RPGArt.portrait(i,true)}" alt="${h(x.name)}"><span>${h(x.name)}</span></button>`).join("")}</div>${topics.length?`<p class="subline"><strong>DSKP topics:</strong> ${h([...new Set(topics)].join(" · "))}</p>`:""}<div class="required-message">⚠️ IMPORTANT: Select YOUR OWN name only. Do not select another pupil's name.</div><button class="btn wide green" data-act="start" ${!state.studentId?"disabled":""}>⚔️ START MY ADVENTURE</button>`:`<p class="muted">Choose a class on the left to see the official pupil list.</p><div class="required-message">Your name must match your own class. No typing someone else's name.</div>`}</div></section>`;
-  const pv=document.getElementById("preview-world");if(pv){const ctx=pv.getContext("2d");if(ctx)RPGArt.drawWorld(ctx,{px:3,py:5,hero:state.hero,progress:{missions:Array.from({length:8},()=>({completed:0})),completed:0}},TREE,NPC,i=>i===0);}
+  const pv=document.getElementById("preview-world");if(pv)window.EnglishIsland.drawPreview(pv,state.hero);
  }
  function badgeInventory(){
   const n=state.progress?.missionsComplete||0;
@@ -53,13 +53,17 @@
  function nearby(n){return Math.abs(state.px-n.x)+Math.abs(state.py-n.y)<=2;}
  function renderGame(){
   if(!state.player)return renderHome();
-  state.page="game";const p=state.progress,c=state.player.classInfo;
-  document.title="English Quest RPG · "+state.player.pupil.name;
-  root.innerHTML=`<div class="quest-title"><div><p class="eyebrow">The Crystal Kingdom · Year ${c.year} · ${h(c.level)}</p><h2>⚔️ ${h(state.player.pupil.name)}</h2><p>${h(c.code)} · ${h(c.teacher)} · Move with WASD / arrows or the buttons below</p></div><div style="margin-left:auto"><button class="btn outlined small" data-act="leave">🏠 Main menu</button></div></div>
-  <div class="hud"><div class="hud-info"><span class="hud-chip hearts">♥ ♥ ♥</span><span class="hud-chip">⭐ Level <strong>${p.level}</strong></span><span class="hud-chip">✨ XP <strong>${p.xp}</strong></span><span class="hud-chip">🪙 Coins <strong>${p.coins}</strong></span><span class="hud-chip">💎 <strong>${p.missionsComplete}/8</strong></span></div><span class="save-label">☁️ ${h(p.updatedAt?"Progress saved online":"Ready to begin")}</span></div>
-  <div class="adventure-layout"><div><div class="world-shell"><div class="world-emblem" aria-hidden="true">✧ REALM OF CRYSTALS ✧</div><canvas id="world" class="world" width="960" height="640" aria-label="Top-down explorable RPG world with eight characters"></canvas><div class="world-overlay">🗺️ CRYSTAL KINGDOM · 8 NPC QUESTS</div></div><div class="world-bottom"><div><p class="game-tip">🎮 <b>HOW TO PLAY:</b> Move towards a glowing character, press <b>SPACE / ENTER</b> or tap them when nearby. Complete 5 challenges to earn each crystal. Cross the wooden bridge to reach the castle.</p><button class="btn small green" data-act="talk">💬 TALK TO NEAREST NPC</button><p class="game-tip">Walk around trees and cross the bridge. The next unlocked NPC has a bright yellow ring.</p></div><div class="dpad" aria-label="Move character"><button class="up" data-act="move" data-dx="0" data-dy="-1" aria-label="Up">▲</button><button class="left" data-act="move" data-dx="-1" data-dy="0" aria-label="Left">◀</button><button class="down" data-act="move" data-dx="0" data-dy="1" aria-label="Down">▼</button><button class="right" data-act="move" data-dx="1" data-dy="0" aria-label="Right">▶</button></div></div></div>
-  <aside class="sidebar"><div class="panel"><h3>📜 Quest Journal</h3><div class="progressbar"><span style="width:${p.percent}%"></span></div><p class="subline">${p.completed}/40 tasks · ${p.percent}% · ${p.firstTry} first-try correct</p><div class="quest-list">${p.missions.map((m,i)=>`<button class="quest-row ${m.completed===5?"done":unlocked(i)?"active":"locked"}" data-act="locate" data-quest="${i}"><span class="npc-list-portrait"><img src="${RPGArt.portrait(i)}" alt=""></span><span><b>${i+1}. ${h(NPC[i].name)}</b><small>${h(m.topic)} · ${m.completed}/5</small></span></button>`).join("")}</div></div><div class="panel"><h3>🎒 Inventory</h3><div class="inven">${badgeInventory()}</div><p class="inventory-note" style="margin-top:12px">Crystals are earned only once. Repeating a solved challenge cannot add XP.</p></div><div class="panel"><h3>📊 Your progress</h3><p>${p.completed} completed · ${p.wrong} wrong attempts</p><p class="subline">Your teacher sees your class progress automatically. No need to tell the teacher you are done.</p></div></aside></div>`;
-  draw();
+  state.page="platformer";
+  document.title="English Island Quest · "+state.player.pupil.name;
+  window.EnglishIsland.mount({
+   name:state.player.pupil.name,
+   year:state.player.classInfo.year,
+   classCode:state.player.classInfo.code,
+   hero:state.hero,progress:state.progress,records:state.records,
+   api:(path,body)=>api(path,body,state.token),
+   onProgress:(progress,records)=>{state.progress=progress;state.records=records;},
+   onExit:()=>leave()
+  });
  }
  function tileBlocked(x,y){
   if(x<0||x>=24||y<0||y>=16)return true;
@@ -133,14 +137,14 @@
  async function start(){
   if(state.busy)return;
   if(!state.classCode||!state.studentId){toast("Select your own name from your class first.");return;}
-  state.busy=true;loading("Entering the Crystal Kingdom...");
+  state.busy=true;window.EnglishIsland.prepareLaunch();loading("Entering the Island Adventure...");
   try{
    const result=await api("student/start",{studentId:state.studentId,classCode:state.classCode});
    state.player=result;state.token=result.token;state.records=result.records;state.progress=result.progress;state.px=3;state.py=5;renderGame();close();
-   toast("Welcome, "+result.pupil.name+"! Find Elder Rowan to begin.");
-  }catch(e){close();renderHome();toast(e.message);}finally{state.busy=false;}
+   toast("Welcome to English Island, "+result.pupil.name+"! Run and jump to defeat enemies.");
+  }catch(e){window.EnglishIsland.destroy();close();renderHome();toast(e.message);}finally{state.busy=false;}
  }
- function leave(){close();state.player=null;state.token=null;state.records={};state.progress=null;state.studentId="";renderHome();}
+ function leave(){window.EnglishIsland.destroy();close();state.player=null;state.token=null;state.records={};state.progress=null;state.studentId="";renderHome();}
  async function openTeacher(){
   close();state.page="teacher";if(!state.teacherToken){renderTeacher();return;}
   try{const d=await api("teacher/me",undefined,state.teacherToken);state.teacher=d.teacher;state.teacherClass=state.teacherClass||d.teacher.classes[0].code;await teacherLoad();}
@@ -204,7 +208,7 @@
   if(act==="begin-quest")await loadQuestion();
   if(act==="answer")await answer(el.dataset.answer);
   if(act==="next-question")await loadQuestion();
-  if(act==="teacher-back"){close();if(state.player)renderGame();else renderHome();}
+  if(act==="teacher-back"){close();if(state.player){state.player=null;window.EnglishIsland.destroy();}renderHome();}
   if(act==="teacher-class"){state.teacherClass=el.dataset.class;state.teacherRows=[];renderTeacher();await teacherLoad();}
   if(act==="teacher-refresh")await teacherLoad();
   if(act==="teacher-view")teacherView(el.dataset.student);
