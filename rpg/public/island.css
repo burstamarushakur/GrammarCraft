@@ -139,3 +139,18 @@ body.island-active{overflow:hidden!important;overscroll-behavior:none}
  #island-game .island-load{max-width:80%}
 }
 @media(prefers-reduced-motion:reduce){#island-game .island-spinner,#island-game .island-load-palm{animation:none}}
+
+
+/* Credit remains readable within the landscape gameplay viewport without blocking controls. */
+#island-game .island-creator-credit{position:absolute;z-index:3;bottom:5px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:1px;width:max-content;max-width:57%;padding:6px 17px 5px;background:linear-gradient(180deg,#16445dea,#102e4cf0);border:2px solid #f7d47f;border-bottom:4px solid #a1713c;border-radius:12px 12px 4px 4px;box-shadow:0 3px 10px #0e263b88,inset 0 1px #fff7d855;pointer-events:none;text-align:center;white-space:nowrap}
+#island-game .island-creator-credit>span{font-weight:1000;font-size:clamp(8px,.9vw,12px);letter-spacing:.09em;color:#c9f0ec}
+#island-game .island-creator-credit strong{font-weight:1000;font-size:clamp(15px,1.9vw,25px);line-height:1.07;letter-spacing:.07em;color:#ffe393;text-shadow:0 2px #64462b}
+#island-game .island-creator-credit small{font-size:clamp(8px,.85vw,11px);font-weight:900;color:#fff8df;letter-spacing:.02em}
+#island-game .island-overlay-credit{position:absolute;right:12px;bottom:7px;z-index:4;pointer-events:none;border-radius:6px;padding:5px 9px;background:#102e48f0;border:1px solid #e6be77;font-weight:1000;font-size:clamp(10px,1vw,13px);color:#ffe8a5;text-shadow:0 1px #573c30;letter-spacing:.03em}
+@media(max-height:520px){
+ #island-game .island-creator-credit{bottom:4px;padding:3px 8px 2px;border-width:1px;border-bottom-width:2px;gap:0;border-radius:6px}
+ #island-game .island-creator-credit>span{font-size:8px}
+ #island-game .island-creator-credit strong{font-size:clamp(13px,1.8vw,18px)}
+ #island-game .island-creator-credit small{font-size:8px}
+ #island-game .island-overlay-credit{bottom:3px;right:5px;font-size:9px;padding:2px 5px}
+}

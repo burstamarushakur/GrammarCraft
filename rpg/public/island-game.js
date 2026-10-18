@@ -56,7 +56,7 @@ function gameDom(){
   </div>
   <div id="island-toast" class="island-toast" aria-live="polite"></div>
   <div id="island-dialog" class="island-dialog" role="dialog" aria-modal="true" aria-label="Adventure options"></div>
-  <div class="island-footer-hint">⭐ DSKP YEAR <span id="island-year">1</span> · <span id="island-class">CLASS</span> · COLLECT FRUIT · DEFEAT ENEMIES WITH ENGLISH</div>
+  <div class="island-creator-credit" aria-label="Permainan dibina oleh Cikgu Asraf"><span>✦ GAME DIBINA OLEH ✦</span><strong>CIKGU ASRAF</strong><small>SK SUNGAI ABONG · YEAR <span id="island-year">1</span> · <span id="island-class">CLASS</span></small></div>
   </div></div>`;
 }
 function by(id){return app?.querySelector("#"+id);}
@@ -67,7 +67,7 @@ function message(textValue,ms=2500){
 }
 function modal(html,type=""){
  const el=by("island-dialog");if(!el)return;
- el.innerHTML=`<div class="island-dialog-backdrop"></div><div class="island-dialog-box ${type}"><div class="island-modal-stars" aria-hidden="true">✦ ★ ✦</div>${html}</div>`;
+ el.innerHTML=`<div class="island-dialog-backdrop"></div><div class="island-dialog-box ${type}"><div class="island-modal-stars" aria-hidden="true">✦ ★ ✦</div>${html}</div><div class="island-overlay-credit">© DIBINA OLEH CIKGU ASRAF</div>`;
  el.classList.add("open");releaseControls();
 }
 function hideModal(){const d=by("island-dialog");if(d){d.classList.remove("open");d.innerHTML="";}}
