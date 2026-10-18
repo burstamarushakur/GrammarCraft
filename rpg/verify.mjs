@@ -15,6 +15,10 @@ for(const year of [1,2,3,4,5,6]){
 if(total!==240)throw new Error('Expected exactly 240 questions');
 execFileSync(process.execPath,['--check','public/app.js']);
 execFileSync(process.execPath,['--check','public/visuals.js']);
+execFileSync(process.execPath,['--check','public/island-art.js']);
+execFileSync(process.execPath,['--check','public/island-game.js']);
 const html=readFileSync(new URL('./public/index.html',import.meta.url),'utf8');
-if(!html.includes('visuals.js')||!html.includes('app.js'))throw new Error('RPG visual engine is not loaded in HTML');
-console.log('English Quest RPG: 240 valid questions, 48 quests, client syntax OK.');
+if(!html.includes('visuals.js')||!html.includes('app.js')||!html.includes('island-art.js')||!html.includes('island-game.js')||!html.includes('island.css'))throw new Error('RPG visual engine is not loaded in HTML');
+const island=readFileSync(new URL('./public/island-game.js',import.meta.url),'utf8');
+for(const hook of ['prepareLaunch','student/question','student/answer','screen.orientation','pointerdown','keydown','checkpoint','victory','landscape'])if(!island.includes(hook)&&!(hook==='landscape'&&html.includes('island.css')))throw new Error('Missing island game integration: '+hook);
+console.log('English Island Quest: 240 questions / 48 quests, keyboard/touch, server answer endpoints, island renderer syntax OK.');
