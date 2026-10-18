@@ -1,0 +1,10 @@
+{
+  "name": "english-quest-rpg-sksa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A separate English RPG adventure powered by DSKP KSSR Year 1–6 and SKSA school roster",
+  "engines": {
+    "node": "24.x"
+  }
+}
