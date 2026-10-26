@@ -1,0 +1,490 @@
+{
+  "version": 1,
+  "grade": 3,
+  "dskp": "KSSR Bahasa Melayu Tahun 3 (SK), Standard Pembelajaran 4.1.1(i): simpulan bahasa",
+  "description": "40 soalan aras tinggi berasaskan situasi, konteks, perwatakan, perasaan dan inferens.",
+  "grades": {
+    "3": [
+      {
+        "topic": "Misi 1 · Sikap Terpuji",
+        "questions": [
+          {
+            "prompt": "Setiap kali selepas makan, Farah membantu ibunya membasuh pinggan tanpa disuruh. Simpulan bahasa manakah paling tepat menggambarkan Farah?",
+            "answer": "ringan tulang",
+            "options": [
+              "ringan tulang",
+              "berat tulang",
+              "panjang tangan",
+              "besar kepala"
+            ],
+            "hint": "Ringan tulang bermaksud rajin bekerja atau suka menolong."
+          },
+          {
+            "prompt": "Amir membawa sekotak dodol ketika pulang dari Melaka untuk neneknya. Apakah simpulan bahasa bagi dodol yang dibawanya itu?",
+            "answer": "buah tangan",
+            "options": [
+              "buah tangan",
+              "buah hati",
+              "anak emas",
+              "besar hati"
+            ],
+            "hint": "Buah tangan ialah hadiah atau oleh-oleh yang dibawa ketika melawat."
+          },
+          {
+            "prompt": "Seorang murid terlihat kawannya jatuh, lalu segera bertanya khabar dan mendapatkan bantuan. Murid itu menunjukkan sikap ____.",
+            "answer": "ambil berat",
+            "options": [
+              "ambil berat",
+              "lepas tangan",
+              "besar kepala",
+              "tangkai jering"
+            ],
+            "hint": "Ambil berat bermaksud memberikan perhatian dan mengambil tahu."
+          },
+          {
+            "prompt": "Keluarga Hana berjimat membeli barang keperluan kerana ayahnya belum menerima gaji. Mereka terpaksa ____.",
+            "answer": "ikat perut",
+            "options": [
+              "ikat perut",
+              "makan angin",
+              "cakap besar",
+              "panjang tangan"
+            ],
+            "hint": "Ikat perut bermaksud berjimat dengan mengurangkan perbelanjaan atau makan."
+          },
+          {
+            "prompt": "Rafiq berasa sangat gembira apabila lukisannya dipilih mewakili sekolah. Simpulan bahasa paling sesuai ialah ____.",
+            "answer": "besar hati",
+            "options": [
+              "besar hati",
+              "kecil hati",
+              "makan hati",
+              "hati batu"
+            ],
+            "hint": "Besar hati bermaksud gembira atau bangga."
+          }
+        ]
+      },
+      {
+        "topic": "Misi 2 · Fahami Perasaan",
+        "questions": [
+          {
+            "prompt": "Aina tersinggung apabila rakannya mengejek hasil lukisannya di hadapan kelas. Apakah perasaan Aina menurut simpulan bahasa?",
+            "answer": "kecil hati",
+            "options": [
+              "kecil hati",
+              "besar hati",
+              "hati emas",
+              "panjang akal"
+            ],
+            "hint": "Kecil hati bermaksud tersinggung atau berasa sedih."
+          },
+          {
+            "prompt": "Walaupun sudah dinasihati berkali-kali, watak dalam cerita itu tetap enggan berubah. Apakah simpulan bahasa yang tepat?",
+            "answer": "hati batu",
+            "options": [
+              "hati batu",
+              "hati emas",
+              "buah hati",
+              "ringan tulang"
+            ],
+            "hint": "Hati batu merujuk kepada orang yang sukar menerima nasihat."
+          },
+          {
+            "prompt": "Nenek menjaga cucunya yang sakit dengan penuh kasih sayang. Cucu itu ialah ____ nenek.",
+            "answer": "buah hati",
+            "options": [
+              "buah hati",
+              "buah tangan",
+              "anak emas",
+              "ulat buku"
+            ],
+            "hint": "Buah hati bermaksud orang yang amat disayangi."
+          },
+          {
+            "prompt": "Puan Lim tetap memaafkan jiran yang tidak sengaja memecahkan pasu bunganya. Dia seorang yang ____.",
+            "answer": "hati emas",
+            "options": [
+              "hati emas",
+              "hati batu",
+              "mata duitan",
+              "mulut murai"
+            ],
+            "hint": "Hati emas menggambarkan sifat baik hati dan mulia."
+          },
+          {
+            "prompt": "Dina sering berasa sedih kerana usahanya tidak dihargai walaupun dia telah melakukan tugas dengan baik. Keadaan itu disebut ____.",
+            "answer": "makan hati",
+            "options": [
+              "makan hati",
+              "makan angin",
+              "besar hati",
+              "panjang akal"
+            ],
+            "hint": "Makan hati bermaksud menanggung perasaan sedih atau kecewa."
+          }
+        ]
+      },
+      {
+        "topic": "Misi 3 · Ilmu dan Kebolehan",
+        "questions": [
+          {
+            "prompt": "Cikgu belum sempat menerangkan cara baharu, tetapi Nadia sudah memahami langkah penyelesaian. Nadia mempunyai ____.",
+            "answer": "otak cair",
+            "options": [
+              "otak cair",
+              "kaki bangku",
+              "mulut murai",
+              "berat tulang"
+            ],
+            "hint": "Otak cair bermaksud cepat faham atau mudah mempelajari sesuatu."
+          },
+          {
+            "prompt": "Setiap waktu rehat, Hakim membaca buku cerita di sudut bacaan. Rakannya menggelarnya ____.",
+            "answer": "ulat buku",
+            "options": [
+              "ulat buku",
+              "kaki bangku",
+              "panjang tangan",
+              "mata duitan"
+            ],
+            "hint": "Ulat buku bermaksud seseorang yang sangat gemar membaca."
+          },
+          {
+            "prompt": "Walaupun Badrul rajin berlatih menendang bola, dia masih sering tersasar jauh daripada gol. Dalam cerita ringan, dia digelar ____.",
+            "answer": "kaki bangku",
+            "options": [
+              "kaki bangku",
+              "otak cair",
+              "ringan tulang",
+              "hati emas"
+            ],
+            "hint": "Kaki bangku bermaksud tidak pandai bermain bola."
+          },
+          {
+            "prompt": "Ketika jambatan kecil rosak, Siti mencadangkan laluan selamat menggunakan jalan kampung. Dia seorang yang ____.",
+            "answer": "panjang akal",
+            "options": [
+              "panjang akal",
+              "keras kepala",
+              "makan hati",
+              "berat mulut"
+            ],
+            "hint": "Panjang akal bermaksud bijak mencari ikhtiar atau jalan penyelesaian."
+          },
+          {
+            "prompt": "Seorang murid membaca soalan dengan teliti lalu mencari kaedah lain setelah cara pertama gagal. Pilih simpulan bahasa yang paling sesuai.",
+            "answer": "panjang akal",
+            "options": [
+              "panjang akal",
+              "besar kepala",
+              "kaki bangku",
+              "mulut murai"
+            ],
+            "hint": "Panjang akal menunjukkan kebijaksanaan mencari penyelesaian."
+          }
+        ]
+      },
+      {
+        "topic": "Misi 4 · Sikap dan Perangai",
+        "questions": [
+          {
+            "prompt": "Iman bercerita tanpa henti hingga rakannya sukar mencelah. Simpulan bahasa paling tepat ialah ____.",
+            "answer": "mulut murai",
+            "options": [
+              "mulut murai",
+              "berat mulut",
+              "ulat buku",
+              "hati emas"
+            ],
+            "hint": "Mulut murai bermaksud suka bercakap banyak."
+          },
+          {
+            "prompt": "Selepas memenangi pertandingan, Faris mula memandang rendah kepada rakan sepasukannya. Faris telah menjadi ____.",
+            "answer": "besar kepala",
+            "options": [
+              "besar kepala",
+              "besar hati",
+              "ringan tulang",
+              "kecil hati"
+            ],
+            "hint": "Besar kepala bermaksud sombong atau angkuh."
+          },
+          {
+            "prompt": "Jam tangan seorang murid hilang. Dalam cerita, watak yang suka mencuri barang orang dipanggil ____.",
+            "answer": "panjang tangan",
+            "options": [
+              "panjang tangan",
+              "ringan tangan",
+              "hati emas",
+              "ulat buku"
+            ],
+            "hint": "Panjang tangan bermaksud suka mencuri."
+          },
+          {
+            "prompt": "Walaupun guru sudah menunjukkan bukti, watak itu tetap tidak mahu mengakui kesilapannya. Dia ____.",
+            "answer": "keras kepala",
+            "options": [
+              "keras kepala",
+              "otak cair",
+              "besar hati",
+              "ringan tulang"
+            ],
+            "hint": "Keras kepala bermaksud degil atau enggan menerima nasihat."
+          },
+          {
+            "prompt": "Tuan kedai sentiasa memberikan makanan percuma kepada keluarga yang memerlukan. Dia terkenal sebagai seorang yang ____.",
+            "answer": "murah hati",
+            "options": [
+              "murah hati",
+              "mata duitan",
+              "tangkai jering",
+              "besar kepala"
+            ],
+            "hint": "Murah hati bermaksud suka memberi atau membantu."
+          }
+        ]
+      },
+      {
+        "topic": "Misi 5 · Keluarga dan Tanggungjawab",
+        "questions": [
+          {
+            "prompt": "Dalam cerita itu, anak sulung lebih diberikan perhatian dan pujian berbanding adik-beradiknya. Dia dianggap ____.",
+            "answer": "anak emas",
+            "options": [
+              "anak emas",
+              "anak buah",
+              "buah tangan",
+              "kaki bangku"
+            ],
+            "hint": "Anak emas ialah orang yang lebih disayangi atau diutamakan."
+          },
+          {
+            "prompt": "Amin dan adiknya ialah saudara kandung. Simpulan bahasa bagi hubungan mereka ialah ____.",
+            "answer": "darah daging",
+            "options": [
+              "darah daging",
+              "anak emas",
+              "buah tangan",
+              "makan angin"
+            ],
+            "hint": "Darah daging merujuk kepada keluarga atau keturunan sendiri."
+          },
+          {
+            "prompt": "Ketika semua orang membersihkan kelas, seorang murid hanya duduk dan tidak mahu membantu. Dia ____.",
+            "answer": "berat tulang",
+            "options": [
+              "berat tulang",
+              "ringan tulang",
+              "hati emas",
+              "panjang akal"
+            ],
+            "hint": "Berat tulang bermaksud malas bekerja."
+          },
+          {
+            "prompt": "Mula-mula Razman bersetuju menjaga pokok kelas, tetapi apabila pokok layu dia menolak semua tanggungjawab. Dia ____.",
+            "answer": "lepas tangan",
+            "options": [
+              "lepas tangan",
+              "ambil berat",
+              "murah hati",
+              "ikat perut"
+            ],
+            "hint": "Lepas tangan bermaksud tidak mahu bertanggungjawab."
+          },
+          {
+            "prompt": "Dalam cerita, lelaki itu cepat marah lalu memukul orang tanpa berfikir. Simpulan bahasa yang menggambarkannya ialah ____.",
+            "answer": "naik tangan",
+            "options": [
+              "naik tangan",
+              "ringan tulang",
+              "panjang akal",
+              "buah hati"
+            ],
+            "hint": "Naik tangan bermaksud memukul seseorang."
+          }
+        ]
+      },
+      {
+        "topic": "Misi 6 · Cabaran dan Pilihan",
+        "questions": [
+          {
+            "prompt": "Kumpulan mereka telah mencuba tiga cara, tetapi tiada satu pun berjaya. Mereka seolah-olah menemui ____.",
+            "answer": "jalan buntu",
+            "options": [
+              "jalan buntu",
+              "jalan keluar",
+              "makan angin",
+              "buah tangan"
+            ],
+            "hint": "Jalan buntu ialah keadaan tiada penyelesaian yang kelihatan."
+          },
+          {
+            "prompt": "Rina mencadangkan cara baharu untuk menyelesaikan masalah jadual kelas. Cadangannya menjadi ____.",
+            "answer": "jalan keluar",
+            "options": [
+              "jalan keluar",
+              "jalan buntu",
+              "anak emas",
+              "makan hati"
+            ],
+            "hint": "Jalan keluar bermaksud penyelesaian bagi sesuatu masalah."
+          },
+          {
+            "prompt": "Walaupun kalah dua kali, Danish terus berusaha dan enggan ____.",
+            "answer": "putus asa",
+            "options": [
+              "putus asa",
+              "ambil berat",
+              "besar hati",
+              "makan angin"
+            ],
+            "hint": "Putus asa bermaksud hilang harapan dan tidak mahu berusaha lagi."
+          },
+          {
+            "prompt": "Selepas peperiksaan, keluarga Suresh pergi bersiar-siar ke pantai untuk berehat. Mereka pergi ____.",
+            "answer": "makan angin",
+            "options": [
+              "makan angin",
+              "makan hati",
+              "ikat perut",
+              "cari makan"
+            ],
+            "hint": "Makan angin bermaksud bersiar-siar atau melancong."
+          },
+          {
+            "prompt": "Di hadapan ramai orang, Nisa berani mengemukakan soalan dan pendapat dengan sopan. Dia seorang yang ____.",
+            "answer": "ringan mulut",
+            "options": [
+              "ringan mulut",
+              "berat mulut",
+              "mulut murai",
+              "besar kepala"
+            ],
+            "hint": "Ringan mulut bermaksud mudah atau gemar berbicara, bukan semestinya bercakap tanpa henti."
+          }
+        ]
+      },
+      {
+        "topic": "Misi 7 · Baca Bukti dalam Cerita",
+        "questions": [
+          {
+            "prompt": "Watak itu mendakwa mampu menang semua perlumbaan tetapi tidak pernah membuktikannya. Sikapnya disebut ____.",
+            "answer": "cakap besar",
+            "options": [
+              "cakap besar",
+              "besar hati",
+              "hati emas",
+              "panjang akal"
+            ],
+            "hint": "Cakap besar ialah bercakap dengan sombong atau bermegah-megah."
+          },
+          {
+            "prompt": "Ibu bapa bekerja setiap hari untuk memperoleh wang menyara keluarga. Mereka keluar ____.",
+            "answer": "cari makan",
+            "options": [
+              "cari makan",
+              "makan angin",
+              "makan hati",
+              "ikat perut"
+            ],
+            "hint": "Cari makan bermaksud bekerja mencari rezeki."
+          },
+          {
+            "prompt": "Walaupun mampu membeli makanan untuk kawannya, watak itu enggan membelanjakan sesen pun. Dia ____.",
+            "answer": "tangkai jering",
+            "options": [
+              "tangkai jering",
+              "murah hati",
+              "ringan tulang",
+              "besar hati"
+            ],
+            "hint": "Tangkai jering bermaksud sangat kedekut."
+          },
+          {
+            "prompt": "Naim ingin menjadi ketua pasukan tetapi belum berani menyatakan hasratnya. Namun, dia memang ____ untuk menyandang jawatan itu.",
+            "answer": "ada hati",
+            "options": [
+              "ada hati",
+              "hati batu",
+              "kecil hati",
+              "hati emas"
+            ],
+            "hint": "Ada hati bermaksud mempunyai keinginan atau hasrat."
+          },
+          {
+            "prompt": "Watak itu hanya mahu membantu apabila dijanjikan wang. Dia terlalu ____.",
+            "answer": "mata duitan",
+            "options": [
+              "mata duitan",
+              "hati emas",
+              "ringan tulang",
+              "otak cair"
+            ],
+            "hint": "Mata duitan bermaksud terlalu mementingkan wang."
+          }
+        ]
+      },
+      {
+        "topic": "Misi 8 · Pertarungan Ketua Pulau",
+        "questions": [
+          {
+            "prompt": "Dalam sebuah cerita, Arif rajin membantu gurunya dan juga bijak mencari penyelesaian apabila bahan hilang. Gabungan simpulan bahasa yang tepat ialah ____.",
+            "answer": "ringan tulang dan panjang akal",
+            "options": [
+              "ringan tulang dan panjang akal",
+              "berat tulang dan keras kepala",
+              "mulut murai dan kaki bangku",
+              "besar kepala dan panjang tangan"
+            ],
+            "hint": "Ringan tulang = rajin membantu; panjang akal = bijak mencari jalan."
+          },
+          {
+            "prompt": "Sebuah keluarga hanya berbelanja untuk keperluan asas, namun anak-anak tetap gigih belajar. Simpulan bahasa bagi tindakan berjimat itu ialah ____.",
+            "answer": "ikat perut",
+            "options": [
+              "ikat perut",
+              "putus asa",
+              "makan angin",
+              "cakap besar"
+            ],
+            "hint": "Ikat perut menggambarkan berjimat, bukan menyerah kalah."
+          },
+          {
+            "prompt": "Hana menyangka kawan baiknya tidak menghargai bantuannya. Dia diam kerana tersinggung. Pilih simpulan bahasa paling tepat, bukan yang bermaksud gembira.",
+            "answer": "kecil hati",
+            "options": [
+              "kecil hati",
+              "besar hati",
+              "murah hati",
+              "hati emas"
+            ],
+            "hint": "Kecil hati bermaksud tersinggung; besar hati bermaksud gembira."
+          },
+          {
+            "prompt": "Dalam cerita itu, Zaki suka memberikan bantuan tetapi sahabatnya suka mengambil barang tanpa izin untuk memilikinya. Pilihan yang tepat mengikut turutan ialah ____.",
+            "answer": "murah hati dan panjang tangan",
+            "options": [
+              "murah hati dan panjang tangan",
+              "mata duitan dan ringan tulang",
+              "besar kepala dan hati emas",
+              "hati batu dan ulat buku"
+            ],
+            "hint": "Murah hati = suka memberi; panjang tangan = suka mencuri."
+          },
+          {
+            "prompt": "Pasukan murid menemui jalan buntu. Mereka tidak berputus asa, lalu mencari satu jalan keluar. Apakah nilai utama dalam tindakan mereka?",
+            "answer": "tabah dan bijak menyelesaikan masalah",
+            "options": [
+              "tabah dan bijak menyelesaikan masalah",
+              "suka bermegah-megah",
+              "malas menerima tanggungjawab",
+              "hanya mementingkan diri sendiri"
+            ],
+            "hint": "Jalan buntu menunjukkan kesukaran; jalan keluar menunjukkan penyelesaian."
+          }
+        ]
+      }
+    ]
+  }
+}
