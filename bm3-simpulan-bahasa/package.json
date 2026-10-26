@@ -1,0 +1,10 @@
+{
+  "name": "pulau-simpulan-bahasa-3s",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Adventure Island-style Malay idiom platformer for Year 3 class 3S at SK Sungai Abong",
+  "scripts": {
+    "test": "node verify.mjs"
+  }
+}
