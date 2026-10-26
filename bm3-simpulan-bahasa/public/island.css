@@ -1,0 +1,165 @@
+
+/* ENGLISH ISLAND QUEST — an immersive 2D side-scrolling game. */
+body.island-active{overflow:hidden!important;overscroll-behavior:none}
+#island-game{--edge:#432b27;--gold:#ffda75;--blue:#61c3fa;position:fixed;inset:0;z-index:9999;width:100vw;height:100dvh;overflow:hidden;background:#071e35;color:#fff5de;font-family:Nunito,system-ui,sans-serif;touch-action:none;user-select:none;-webkit-user-select:none}
+#island-game *{box-sizing:border-box}
+#island-game button{font:inherit;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+#island-game .island-rotor{width:100%;height:100%;position:relative;overflow:hidden;background:radial-gradient(circle at 50% 48%,#69ccdf,#132c52);display:flex;align-items:center;justify-content:center}
+#island-game .island-stage{width:100%;height:100%;position:relative;overflow:hidden;background:#175e80}
+#island-game #island-canvas{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:fill;image-rendering:pixelated;touch-action:none}
+#island-game .island-hud{position:absolute;left:0;right:0;top:0;height:clamp(53px,12vh,86px);display:flex;align-items:center;justify-content:space-around;gap:6px;padding:6px clamp(8px,1.8vw,24px);background:linear-gradient(#102943ee,#15314abd 80%,transparent);text-shadow:0 2px 2px #15233f;color:#fff}
+#island-game .island-hud>div{white-space:nowrap;flex:0 1 auto;min-width:0}
+#island-game .island-logo{display:flex;flex-direction:column;transform:rotate(-2deg);text-align:center;filter:drop-shadow(2px 3px 0 #593522);letter-spacing:.025em}
+#island-game .island-logo span{font-weight:1000;font-size:clamp(9px,1.7vw,22px);line-height:1.05;color:#ffe3a1;white-space:nowrap}
+#island-game .island-logo b{font-weight:1000;line-height:1.05;color:#6cdeff;font-size:clamp(10px,1.65vw,21px);-webkit-text-stroke:.5px #173e5e}
+#island-game .island-hearts{color:#ff6984;font-size:clamp(12px,2.1vw,27px);letter-spacing:2px;filter:drop-shadow(1px 1px 1px #6a2630)}
+#island-game .island-hero-info{display:flex;align-items:center;gap:7px;font-weight:1000;flex-wrap:wrap;line-height:1.1;font-size:clamp(10px,1.1vw,15px)}
+#island-game .island-hero-info b{color:#ffe589}
+#island-game .island-stage-chip{min-width:145px;padding:5px 11px;background:linear-gradient(#c69358,#825735);border:2px solid #f2ca76;box-shadow:0 4px #603f36;border-radius:9px;display:flex;flex-direction:column;text-align:center}
+#island-game .island-stage-chip span{font-size:clamp(8px,1vw,13px);font-weight:1000;color:#fff1b5}
+#island-game .island-stage-chip b{font-size:clamp(9px,1.15vw,16px);letter-spacing:.04em}
+#island-game .island-coin,#island-game .island-fruit{font-size:clamp(12px,1.45vw,19px);background:#133451ab;border:2px solid #5f94b8;border-radius:9px;padding:5px 8px;font-weight:1000}
+#island-game .island-top-button{display:grid;place-items:center;flex:0 0 clamp(28px,2.8vw,39px);height:clamp(29px,2.8vw,39px);background:linear-gradient(#357fac,#224c7d);border:2px solid #a5ddf8;border-bottom:4px solid #163a62;color:white;border-radius:7px;font-size:clamp(13px,1.2vw,21px);box-shadow:0 2px 0 #12334f}
+#island-game .island-top-button:hover{filter:brightness(1.18)}
+#island-game .island-meter{position:absolute;top:clamp(56px,12.8vh,90px);left:50%;transform:translateX(-50%);width:min(31vw,325px);height:19px;border:2px solid #f9e2a0;border-radius:20px;background:#193954cc;box-shadow:0 3px 0 #15273b;overflow:hidden}
+#island-game .island-meter-fill{height:100%;width:0;background:linear-gradient(90deg,#39c88f,#a6f6a2,#fae39d);transition:width .35s}
+#island-game .island-meter-label{position:absolute;inset:0;display:grid;place-items:center;color:#fcfbde;font-size:10px;font-weight:1000;text-shadow:0 1px #193853}
+#island-game .island-tutorial-chip{position:absolute;top:clamp(83px,17vh,123px);left:12px;padding:5px 10px;border:1px solid #d0f3db80;background:#092e468f;color:#fff9da;font-weight:900;letter-spacing:.04em;font-size:clamp(8px,.9vw,12px);border-radius:5px;pointer-events:none;text-shadow:0 1px #153b4c}
+#island-game .island-footer-hint{position:absolute;bottom:3px;left:50%;transform:translateX(-50%);background:#102a41b4;border-radius:10px 10px 0 0;padding:4px 15px;color:#f9efbf;letter-spacing:.06em;text-align:center;font-weight:1000;font-size:clamp(8px,.83vw,11px);white-space:nowrap;pointer-events:none}
+#island-game .island-touch-controls{position:absolute;left:0;right:0;bottom:clamp(20px,5vh,45px);display:flex;align-items:flex-end;justify-content:space-between;padding:0 clamp(18px,4vw,70px);pointer-events:none;z-index:2}
+#island-game .island-move-pad{display:flex;gap:12px}
+#island-game .island-move-pad button,#island-game .island-jump-button{pointer-events:auto;border:4px solid #a6defb;background:linear-gradient(#4b90bfdd,#204f80f0);box-shadow:inset 0 3px #e7f8ff7a,0 6px 0 #122d56a8,0 8px 18px #0c2a4280;border-radius:18px;color:#fffdf1;text-shadow:1px 2px 0 #1b3e5d;display:grid;place-items:center;width:clamp(67px,7.5vw,104px);height:clamp(66px,7.5vw,102px);font-size:clamp(26px,3.4vw,45px);font-weight:1000}
+#island-game .island-move-pad button.down,#island-game .island-jump-button.down{transform:translateY(4px);background:#317ba1;box-shadow:inset 0 3px #a3dcfd,0 2px #102f59}
+#island-game .island-jump-button{width:clamp(79px,8vw,118px);height:clamp(80px,8vw,117px);border-radius:50%;background:linear-gradient(#f8ca60ee,#d97842ef);border-color:#ffe3aa;color:#fffcdf}
+#island-game .island-jump-button span{line-height:1.2}
+#island-game .island-jump-button small{font-size:clamp(10px,1vw,15px);line-height:1;margin-top:-14px;letter-spacing:.08em}
+#island-game .island-toast{position:absolute;bottom:clamp(130px,17vh,155px);left:50%;transform:translateX(-50%) translateY(14px);opacity:0;transition:transform .2s,opacity .2s;pointer-events:none;z-index:4;width:max-content;max-width:72%;padding:10px 17px;border:3px solid #f7e0a0;border-radius:12px;background:#163b57e8;color:#fff9c5;text-align:center;font-weight:1000;box-shadow:0 6px 0 #102b4080;font-size:clamp(11px,1.15vw,17px)}
+#island-game .island-toast.visible{opacity:1;transform:translateX(-50%) translateY(0)}
+#island-game .island-dialog{display:none;position:absolute;inset:0;z-index:20;align-items:center;justify-content:center;padding:clamp(7px,1.7vh,22px);touch-action:pan-y}
+#island-game .island-dialog.open{display:flex}
+#island-game .island-dialog-backdrop{position:absolute;inset:0;background:#071a2ecb;backdrop-filter:blur(3px)}
+#island-game .island-dialog-box{width:min(100%,760px);max-height:100%;overflow-y:auto;overscroll-behavior:contain;touch-action:pan-y;position:relative;z-index:1;border:5px solid #f1d397;border-bottom:9px solid #957040;border-radius:21px;padding:clamp(12px,2.5vw,26px);background:linear-gradient(160deg,#fff1c7,#f4dbaa);box-shadow:0 0 0 5px #2a5474,0 18px 48px #071b2bd8,inset 0 3px #fffcef;color:#2b3e4e;text-align:center}
+#island-game .island-dialog-box h1{font-size:clamp(20px,2.4vw,34px);line-height:1.08;font-weight:1000;margin:5px 0 12px;color:#a44735;text-shadow:1px 2px #fff6d9}
+#island-game .island-dialog-box h2{font-size:clamp(17px,2vw,25px);color:#315c6f;font-weight:1000;margin:8px 0}
+#island-game .island-dialog-box p{font-size:clamp(11px,1.15vw,15px);margin:9px 0;color:#384e5b;line-height:1.45;font-weight:800}
+#island-game .island-modal-stars{font-size:17px;color:#bc8840;letter-spacing:15px}
+#island-game .island-heading{font-size:clamp(12px,1.7vw,21px);font-weight:1000;color:#266c83;letter-spacing:.1em}
+#island-game .island-instructions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}
+#island-game .island-instructions>div{padding:12px 11px;border:2px solid #d3ad6a;background:#fff8e3;border-radius:11px;text-align:left;display:flex;flex-direction:column;gap:3px}
+#island-game .island-instructions strong{color:#af5c38;font-size:clamp(11px,1.25vw,16px);font-weight:1000}
+#island-game .island-instructions span{font-size:clamp(11px,1vw,14px);color:#3a5664;font-weight:800}
+#island-game .island-topic{background:linear-gradient(110deg,#277da5,#235c83);color:#fff4d0;font-weight:1000;border-radius:8px;padding:9px;box-shadow:0 4px #153853;font-size:clamp(11px,1.3vw,16px)}
+#island-game .island-important{padding:9px 12px;border-radius:10px;background:#ebd7a2;border:2px solid #d6b16a;color:#79512d!important}
+#island-game .island-dialog-actions{display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;margin-top:15px}
+#island-game .island-primary,#island-game .island-secondary{padding:10px 19px;border:3px solid #ffe3a1;border-bottom:5px solid #9a6f39;background:linear-gradient(#49c889,#2a9975);color:#fff9d5;box-shadow:0 3px #153e4c;border-radius:12px;font-size:clamp(12px,1.4vw,18px);font-weight:1000}
+#island-game .island-secondary{background:linear-gradient(#4d85a4,#285476);border-color:#c7eafa;border-bottom-color:#214764}
+#island-game .island-primary:hover,#island-game .island-secondary:hover{filter:brightness(1.12)}
+#island-game .island-primary:active,#island-game .island-secondary:active{transform:translateY(3px)}
+#island-game .island-enemy-title{margin:-24px -24px 10px;position:relative;background:linear-gradient(100deg,#9a333c,#ec6257,#a53642);color:#fff6c8;border:4px solid #ffdf91;border-radius:12px 12px 3px 3px;padding:9px 12px;font-size:clamp(17px,2vw,29px);font-weight:1000;letter-spacing:.02em;text-shadow:2px 2px #602c34;box-shadow:0 4px #5f2f30}
+#island-game .island-dialog-box.quiz{max-width:790px}
+#island-game .island-quiz-header{display:flex;gap:9px;justify-content:space-between;align-items:center;color:#805233;font-weight:1000;text-align:left;font-size:clamp(10px,1.1vw,14px)}
+#island-game .island-enemy-panel{display:flex;align-items:center;justify-content:center;gap:17px;background:#fff9e9;border:3px solid #d7b375;border-radius:10px;margin:8px 0;padding:6px}
+#island-game .island-enemy-image{font-size:clamp(27px,3vw,43px);filter:drop-shadow(0 3px 2px #6b513b70)}
+#island-game .island-enemy-panel strong{display:block;color:#b3513b;font-weight:1000}
+#island-game .island-enemy-panel small{display:block;color:#476376;font-weight:800}
+#island-game .island-enemy-health{color:#ea6b6f;letter-spacing:5px}
+#island-game .island-question{padding:clamp(10px,2vw,23px);color:#233953;background:#fffdf3;border:3px solid #d1a45f;border-radius:13px;box-shadow:inset 0 2px #fff8cb,0 4px #a27a4a;line-height:1.3;font-size:clamp(17px,2vw,25px);font-weight:1000;text-align:center;margin:11px 0}
+#island-game .island-answer-tip{margin:3px 0 8px!important;font-size:clamp(10px,1.1vw,13px)!important}
+#island-game .island-answers{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+#island-game .island-answer{width:100%;text-align:left;display:flex;gap:9px;align-items:center;min-height:54px;padding:7px;border:3px solid #9ed1f1;border-bottom:5px solid #205070;border-radius:10px;background:linear-gradient(#368dc4,#2471ad);color:#fffaf1;font-size:clamp(11px,1.25vw,17px);font-weight:1000;box-shadow:inset 0 2px #c1effc56;line-height:1.14}
+#island-game .island-answer span{display:grid;flex:0 0 clamp(28px,3vw,39px);width:clamp(28px,3vw,39px);height:clamp(28px,3vw,39px);place-items:center;border:2px solid #aeddfa;border-radius:7px;background:#1e628e;color:#c8f2ff;font-size:clamp(12px,1.5vw,19px)}
+#island-game .island-answer b{overflow-wrap:anywhere}
+#island-game .island-answer:hover:not(:disabled),#island-game .island-answer.chosen{background:linear-gradient(#258fbd,#1c5c8f);border-color:#f4dd7e}
+#island-game .island-answer:disabled{opacity:.62}
+#island-game .island-feedback{margin:9px 0 0;padding:7px 11px;border-radius:8px;background:#e6f6e2;border:2px solid #71bc96;color:#275744;font-size:clamp(11px,1.2vw,14px);font-weight:900}
+#island-game .island-feedback.wrong{background:#fff1db;border-color:#e9a471;color:#a15138}
+#island-game .island-quiz-bottom,#island-game .island-saving{font-size:clamp(9px,1vw,12px);font-weight:900;margin-top:9px;color:#537183}
+#island-game .island-spinner,#island-game .island-load-palm{font-size:55px;animation:island-levitate 1.2s ease-in-out infinite alternate}
+@keyframes island-levitate{to{transform:translateY(-12px) rotate(5deg)}}
+#island-game .island-clear-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+#island-game .island-clear-stats>div{background:#fff9e6;border:2px solid #deb978;border-radius:11px;padding:13px 4px}
+#island-game .island-clear-stats b{display:block;color:#b2623c;font-size:clamp(21px,2.1vw,30px)}
+#island-game .island-clear-stats small{font-size:clamp(9px,1vw,12px);font-weight:1000}
+#island-game .island-load{padding:28px 30px;text-align:center;background:#193e58d9;border:4px solid #e9c481;border-radius:18px;color:#ffe4a1}
+#island-game .island-load h2{font-size:clamp(20px,4vw,42px);margin:8px}
+#island-game .island-load p{color:#c9f7f6;font-size:16px}
+@media(max-width:950px){
+ #island-game .island-hero-info #island-player-label{display:none}
+ #island-game .island-move-pad button{width:64px;height:64px}
+ #island-game .island-jump-button{width:77px;height:77px}
+ #island-game .island-stage-chip{min-width:105px}
+ #island-game .island-logo span{font-size:11px}
+ #island-game .island-logo b{font-size:12px}
+ #island-game .island-hearts{font-size:15px}
+ #island-game .island-hud{padding:4px 7px;gap:4px}
+}
+@media(max-height:520px){
+ #island-game .island-hud{height:44px;padding:3px 6px}
+ #island-game .island-coin,#island-game .island-fruit{padding:2px 4px}
+ #island-game .island-top-button{height:30px;width:30px;flex-basis:30px;font-size:13px}
+ #island-game .island-stage-chip{padding:2px 6px}
+ #island-game .island-meter{top:48px;height:14px;width:min(290px,30vw)}
+ #island-game .island-meter-label{font-size:8px}
+ #island-game .island-tutorial-chip{top:67px;font-size:9px}
+ #island-game .island-touch-controls{bottom:15px;padding:0 12px}
+ #island-game .island-move-pad{gap:8px}
+ #island-game .island-move-pad button{width:59px;height:59px;border-radius:12px;font-size:24px;border-width:3px}
+ #island-game .island-jump-button{width:70px;height:70px;font-size:29px;border-width:3px}
+ #island-game .island-jump-button small{font-size:10px;margin-top:-12px}
+ #island-game .island-toast{bottom:95px;font-size:10px;max-width:70%}
+ #island-game .island-dialog-box{max-width:680px;padding:9px 16px 8px;border-width:3px;border-bottom-width:5px;border-radius:12px}
+ #island-game .island-dialog-box h1{font-size:19px;margin:2px 0 7px}
+ #island-game .island-dialog-box p{font-size:10px;margin:5px 0}
+ #island-game .island-heading{font-size:14px}
+ #island-game .island-modal-stars{display:none}
+ #island-game .island-enemy-title{margin:-9px -16px 5px;font-size:15px;border-width:2px;padding:4px}
+ #island-game .island-quiz-header{font-size:9px}
+ #island-game .island-enemy-panel{display:none}
+ #island-game .island-question{padding:7px;margin:7px 0 5px;font-size:17px;border-width:2px}
+ #island-game .island-answer-tip{font-size:9px!important;margin:2px 0 4px!important}
+ #island-game .island-answers{gap:4px 7px}
+ #island-game .island-answer{min-height:37px;font-size:11px;padding:2px 5px;border-width:2px;border-bottom-width:3px}
+ #island-game .island-answer span{flex-basis:25px;width:25px;height:27px;border-width:1px;font-size:12px}
+ #island-game .island-feedback{padding:4px;font-size:10px;margin-top:5px}
+ #island-game .island-quiz-bottom,#island-game .island-saving{font-size:8px;margin-top:4px}
+ #island-game .island-instructions{gap:7px;margin:6px 0}
+ #island-game .island-instructions>div{padding:5px 8px;gap:1px}
+ #island-game .island-instructions strong{font-size:11px}
+ #island-game .island-instructions span{font-size:10px}
+ #island-game .island-important{padding:4px;font-size:10px}
+ #island-game .island-dialog-actions{margin-top:6px;gap:7px}
+ #island-game .island-primary,#island-game .island-secondary{font-size:11px;padding:5px 10px;border-width:2px;border-bottom-width:3px}
+ #island-game .island-topic{padding:4px;font-size:11px}
+ #island-game .island-footer-hint{font-size:8px;padding:2px 4px}
+}
+@media (orientation:portrait) and (max-width:950px){
+ /* When browsers (notably iOS Safari) deny screen.orientation.lock, rotate the GAME ONLY.
+    The class/name menu remains portrait because this element does not exist until START. */
+ #island-game .island-rotor{position:absolute;left:100vw;top:0;width:100dvh;height:100vw;transform-origin:top left;transform:rotate(90deg);}
+ #island-game .island-load{max-width:80%}
+}
+@media(prefers-reduced-motion:reduce){#island-game .island-spinner,#island-game .island-load-palm{animation:none}}
+
+
+/* Credit remains readable within the landscape gameplay viewport without blocking controls. */
+#island-game .island-creator-credit{position:absolute;z-index:3;bottom:5px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:1px;width:max-content;max-width:57%;padding:6px 17px 5px;background:linear-gradient(180deg,#16445dea,#102e4cf0);border:2px solid #f7d47f;border-bottom:4px solid #a1713c;border-radius:12px 12px 4px 4px;box-shadow:0 3px 10px #0e263b88,inset 0 1px #fff7d855;pointer-events:none;text-align:center;white-space:nowrap}
+#island-game .island-creator-credit>span{font-weight:1000;font-size:clamp(8px,.9vw,12px);letter-spacing:.09em;color:#c9f0ec}
+#island-game .island-creator-credit strong{font-weight:1000;font-size:clamp(15px,1.9vw,25px);line-height:1.07;letter-spacing:.07em;color:#ffe393;text-shadow:0 2px #64462b}
+#island-game .island-creator-credit small{font-size:clamp(8px,.85vw,11px);font-weight:900;color:#fff8df;letter-spacing:.02em}
+#island-game .island-overlay-credit{position:absolute;right:12px;bottom:7px;z-index:4;pointer-events:none;border-radius:6px;padding:5px 9px;background:#102e48f0;border:1px solid #e6be77;font-weight:1000;font-size:clamp(10px,1vw,13px);color:#ffe8a5;text-shadow:0 1px #573c30;letter-spacing:.03em}
+@media(max-height:520px){
+ #island-game .island-creator-credit{bottom:4px;padding:3px 8px 2px;border-width:1px;border-bottom-width:2px;gap:0;border-radius:6px}
+ #island-game .island-creator-credit>span{font-size:8px}
+ #island-game .island-creator-credit strong{font-size:clamp(13px,1.8vw,18px)}
+ #island-game .island-creator-credit small{font-size:8px}
+ #island-game .island-overlay-credit{bottom:3px;right:5px;font-size:9px;padding:2px 5px}
+}
+
+
+/* Kredit BM3: separuh daripada saiz English Island Quest, kekal jelas tanpa menutupi permainan. */
+#island-game .island-creator-credit{padding:3px 8px 2px;border-width:1px;border-bottom-width:2px;border-radius:7px}
+#island-game .island-creator-credit>span{font-size:clamp(7px,.5vw,8px);letter-spacing:.03em}
+#island-game .island-creator-credit strong{font-size:clamp(10px,.98vw,13px);letter-spacing:.04em}
+#island-game .island-creator-credit small{font-size:clamp(7px,.55vw,8px)}
+#island-game .island-overlay-credit{font-size:clamp(7px,.55vw,9px);padding:2px 4px;border-width:1px}
+@media(max-height:520px){#island-game .island-creator-credit strong{font-size:10px}#island-game .island-creator-credit>span{font-size:7px}}
