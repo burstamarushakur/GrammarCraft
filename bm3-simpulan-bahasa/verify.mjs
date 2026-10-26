@@ -18,5 +18,5 @@ for(const asset of ['app.js','visuals.js','island-game.js','island-art.js','isla
 const client=readFileSync(new URL('./public/app.js',import.meta.url),'utf8');
 if(!client.includes('bm3-simpulan-api')||!client.includes('state.classCode="3S"'))throw Error('Konfigurasi kelas/API tidak tepat.');
 const engine=readFileSync(new URL('./public/island-game.js',import.meta.url),'utf8');
-for(const keyword of ['student/question','student/answer','screen.orientation','pointerdown','ArrowRight','LOMPAT'])if(!engine.includes(keyword))throw Error('Enjin platformer hilang ciri: '+keyword);
+for(const keyword of ['student/question','student/answer','screen.orientation','pointerdown','arrowright','LOMPAT'])if(!engine.includes(keyword))throw Error('Enjin platformer hilang ciri: '+keyword);
 console.log('LULUS: 40 soalan aras tinggi, 8 pulau, 3S, sumber backend, kawalan telefon/PC, sintaks JS.');
